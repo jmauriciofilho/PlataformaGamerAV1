@@ -1,0 +1,45 @@
+Generating report for minidump
+
+Application version 4.20.1.0
+ ... built from changelist 0
+
+OS version Linux 4.15.0-34-generic (network name: R2D2)
+Running 2 x86_64 processors (4 logical cores)
+Exception was "SIGSEGV: invalid attempt to read memory at address 0x00000000109400cc"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libnvidia-glcore.so.384.130!UnknownFunction(0x1267fd3)
+libnvidia-glcore.so.384.130!UnknownFunction(0x126812c)
+libnvidia-glcore.so.384.130!UnknownFunction(0x129d200)
+libnvidia-glcore.so.384.130!UnknownFunction(0x125c6da)
+libnvidia-glcore.so.384.130!UnknownFunction(0xe5fee2)
+libUE4Editor-OpenGLDrv.so!FOpenGLDynamicRHI::RHIDrawIndexedPrimitive(FRHIIndexBuffer*, unsigned int, int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/OpenGLDrv/Public/OpenGL3.h:361]
+libUE4Editor-Renderer.so!FMeshDrawingPolicy::DrawMesh(FRHICommandList&, FSceneView const&, FMeshBatch const&, int, bool) const [/home/mauricio/UnrealEngine/Engine/Source/Runtime/RHI/Public/RHICommandList.h:2134]
+libUE4Editor-Renderer.so!void FDrawBasePassDynamicMeshAction::Process<FUniformLightMapPolicy>(FRHICommandList&, FProcessBasePassMeshParameters const&, FUniformLightMapPolicy const&, FUniformLightMapPolicy::ElementDataType const&) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Renderer/Private/BasePassRendering.cpp:507]
+libUE4Editor-Renderer.so!void ProcessBasePassMesh<FDrawBasePassDynamicMeshAction>(FRHICommandList&, FProcessBasePassMeshParameters const&, FDrawBasePassDynamicMeshAction&&) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Renderer/Private/LightMapRendering.h:0]
+libUE4Editor-Renderer.so!FBasePassOpaqueDrawingPolicyFactory::DrawDynamicMesh(FRHICommandList&, FViewInfo const&, FBasePassOpaqueDrawingPolicyFactory::ContextType, FMeshBatch const&, bool, FDrawingPolicyRenderState const&, FPrimitiveSceneProxy const*, FHitProxyId, bool) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Renderer/Private/BasePassRendering.cpp:540]
+libUE4Editor-Renderer.so!void DrawViewElementsInner<FBasePassOpaqueDrawingPolicyFactory>(FRHICommandList&, FViewInfo const&, FDrawingPolicyRenderState const&, FBasePassOpaqueDrawingPolicyFactory::ContextType const&, unsigned char, bool, int, int) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Renderer/Private/DynamicPrimitiveDrawing.inl:59]
+libUE4Editor-Renderer.so!FRCPassPostProcessCompositeEditorPrimitives::Process(FRenderingCompositePassContext&) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Renderer/Private/DynamicPrimitiveDrawing.inl:181]
+libUE4Editor-Renderer.so!FRenderingCompositionGraph::RecursivelyProcess(FRenderingCompositeOutputRef const&, FRenderingCompositePassContext&) const [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Renderer/Private/PostProcess/RenderingCompositionGraph.cpp:702]
+libUE4Editor-Renderer.so!FRenderingCompositePassContext::Process(TArray<FRenderingCompositePass*, FDefaultAllocator> const&, wchar_t const*) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Renderer/Private/PostProcess/RenderingCompositionGraph.cpp:241]
+libUE4Editor-Renderer.so!FPostProcessing::Process(FRHICommandListImmediate&, FViewInfo const&, TRefCountPtr<IPooledRenderTarget>&) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Renderer/Private/PostProcess/PostProcessing.cpp:2218]
+libUE4Editor-Renderer.so!FDeferredShadingSceneRenderer::Render(FRHICommandListImmediate&) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp:1393]
+libUE4Editor-Renderer.so!RenderViewFamily_RenderThread(FRHICommandListImmediate&, FSceneRenderer*) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Renderer/Private/SceneRendering.cpp:2850]
+libUE4Editor-Renderer.so!TGraphTask<FRendererModule::BeginRenderingViewFamily(FCanvas*, FSceneViewFamily*)::EURCMacro_FDrawSceneCommand>::ExecuteTask(TArray<FBaseGraphTask*, FDefaultAllocator>&, ENamedThreads::Type) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Renderer/Private/SceneRendering.cpp:3078]
+libUE4Editor-Core.so!FNamedTaskThread::ProcessTasksNamedThread(int, bool) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Async/TaskGraphInterfaces.h:498]
+libUE4Editor-Core.so!FNamedTaskThread::ProcessTasksUntilQuit(int) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Private/Async/TaskGraph.cpp:573]
+libUE4Editor-RenderCore.so!RenderingThreadMain(FEvent*) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/RenderCore/Private/RenderingThread.cpp:332]
+libUE4Editor-RenderCore.so!FRenderingThread::Run() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/RenderCore/Private/RenderingThread.cpp:484]
+libUE4Editor-Core.so!FRunnableThreadPThread::Run() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.cpp:25]
+libUE4Editor-Core.so!FRunnableThreadPThread::_ThreadProc(void*) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.h:177]
+libpthread.so.0!UnknownFunction(0x76b9)
+libc.so.6!clone(+0x6c)
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

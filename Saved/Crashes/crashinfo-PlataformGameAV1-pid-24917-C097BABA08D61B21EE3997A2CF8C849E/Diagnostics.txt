@@ -1,0 +1,54 @@
+Generating report for minidump
+
+Application version 4.20.1.0
+ ... built from changelist 0
+
+OS version Linux 4.15.0-34-generic (network name: R2D2)
+Running 2 x86_64 processors (4 logical cores)
+Exception was "SIGSEGV: invalid attempt to write memory at address 0x0000000000000003"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-Core.so!FGenericPlatformMisc::RaiseException(unsigned int) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:391]
+libUE4Editor-ApplicationCore.so!FUnixErrorOutputDevice::Serialize(wchar_t const*, ELogVerbosity::Type, FName const&) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Unix/UnixErrorOutputDevice.cpp:57]
+libUE4Editor-Core.so!FOutputDevice::LogfImpl(wchar_t const*, ...) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/OutputDevice.cpp:70]
+libUE4Editor-Core.so!FDebug::AssertFailed(char const*, char const*, int, wchar_t const*, ...) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Misc/OutputDevice.h:216]
+libUE4Editor-Core.so!FGenericPlatformMemory::BinnedAllocFromOS(unsigned long) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMemory.cpp:293]
+libUE4Editor-Core.so!FUnixPlatformMemory::BinnedAllocFromOS(unsigned long) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformMemory.cpp:438]
+libUE4Editor-Core.so!FCachedOSPageAllocator::AllocateImpl(unsigned long, unsigned int, FCachedOSPageAllocator::FFreePageBlock*, FCachedOSPageAllocator::FFreePageBlock*, unsigned int&, unsigned int&) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Private/HAL/Allocators/CachedOSPageAllocator.cpp:79]
+libUE4Editor-Core.so!FMallocBinned2::MallocExternal(unsigned long, unsigned int) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/HAL/Allocators/CachedOSPageAllocator.h:38]
+libUE4Editor-Core.so!FMallocBinned2::ReallocExternal(void*, unsigned long, unsigned int) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Private/HAL/MallocBinned2.cpp:851]
+libUE4Editor-Core.so!FMemory::Realloc(void*, unsigned long, unsigned int) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Private/HAL/UnrealMemory.cpp:0]
+libUE4Editor-Paper2DEditor.so!TArray<FPaperExtractedSprite, FDefaultAllocator>::ResizeGrow(int) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Containers/ContainerAllocationPolicies.h:373]
+libUE4Editor-Paper2DEditor.so!void* operator new<FPaperExtractedSprite, FDefaultAllocator>(unsigned long, TArray<FPaperExtractedSprite, FDefaultAllocator>&) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Containers/Array.h:1216]
+libUE4Editor-Paper2DEditor.so!SPaperExtractSpritesDialog::PreviewExtractedSprites() [/home/mauricio/UnrealEngine/Engine/Plugins/2D/Paper2D/Source/Paper2DEditor/Private/ExtractSprites/SPaperExtractSpritesDialog.cpp:366]
+libUE4Editor-Paper2DEditor.so!SPaperExtractSpritesDialog::OnFinishedChangingProperties(FPropertyChangedEvent const&) [/home/mauricio/UnrealEngine/Engine/Plugins/2D/Paper2D/Source/Paper2DEditor/Private/ExtractSprites/SPaperExtractSpritesDialog.cpp:401]
+libUE4Editor-Paper2DEditor.so!TBaseSPMethodDelegateInstance<false, SPaperExtractSpritesDialog, (ESPMode)0, TTypeWrapper<void> (FPropertyChangedEvent const&)>::Execute(FPropertyChangedEvent const&) const [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstanceInterface.h:156]
+libUE4Editor-Paper2DEditor.so!TBaseSPMethodDelegateInstance<false, SPaperExtractSpritesDialog, (ESPMode)0, void (FPropertyChangedEvent const&)>::ExecuteIfSafe(FPropertyChangedEvent const&) const [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:345]
+libUE4Editor-UnrealEd.so!TBaseMulticastDelegate<void, FPropertyChangedEvent const&>::Broadcast(FPropertyChangedEvent const&) const [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:937]
+libUE4Editor-PropertyEditor.so!FPropertyValueImpl::ImportText(TArray<FObjectBaseAddress, FDefaultAllocator> const&, TArray<FString, FDefaultAllocator> const&, FPropertyNode*, unsigned int) [/home/mauricio/UnrealEngine/Engine/Source/Editor/PropertyEditor/Private/PropertyHandleImpl.cpp:566]
+libUE4Editor-PropertyEditor.so!FPropertyValueImpl::ImportText(FString const&, FPropertyNode*, unsigned int) [/home/mauricio/UnrealEngine/Engine/Source/Editor/PropertyEditor/Private/PropertyHandleImpl.cpp:333]
+libUE4Editor-PropertyEditor.so!FPropertyValueImpl::ImportText(FString const&, unsigned int) [/home/mauricio/UnrealEngine/Engine/Source/Editor/PropertyEditor/Private/PropertyHandleImpl.cpp:242]
+libUE4Editor-PropertyEditor.so!FPropertyValueImpl::ResetToDefault() [/home/mauricio/UnrealEngine/Engine/Source/Editor/PropertyEditor/Private/PropertyHandleImpl.cpp:995]
+libUE4Editor-PropertyEditor.so!SResetToDefaultPropertyEditor::OnResetClicked() [/home/mauricio/UnrealEngine/Engine/Source/Editor/PropertyEditor/Private/UserInterface/PropertyEditor/SResetToDefaultPropertyEditor.cpp:82]
+libUE4Editor-PropertyEditor.so!TBaseSPMethodDelegateInstance<false, SResetToDefaultPropertyEditor, (ESPMode)0, FReply ()>::Execute() const [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstanceInterface.h:156]
+libUE4Editor-Slate.so!SButton::OnMouseButtonUp(FGeometry const&, FPointerEvent const&) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:537]
+libUE4Editor-Slate.so!FSlateApplication::RoutePointerUpEvent(FWidgetPath&, FPointerEvent&) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5483]
+libUE4Editor-Slate.so!FSlateApplication::ProcessMouseButtonUpEvent(FPointerEvent&) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5979]
+libUE4Editor-Slate.so!FSlateApplication::OnMouseUp(EMouseButtons::Type, FVector2D) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5959]
+libUE4Editor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:356]
+libUE4Editor-ApplicationCore.so!FLinuxApplication::AddPendingEvent(SDL_Event) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:194]
+libUE4Editor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:424]
+UE4Editor!FEngineLoop::Tick() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:3417]
+UE4Editor!GuardedMain(wchar_t const*) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:62]
+libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(wchar_t const*)) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:241]
+libc.so.6!__libc_start_main(+0xef)
+UE4Editor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
