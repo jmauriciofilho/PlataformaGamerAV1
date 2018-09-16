@@ -4242,3 +4242,1506 @@ LogInit: Object subsystem initialized
 [2018.09.16-17.46.35:302][178]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2018.09.16-17.46.35:321][180]LogLinux: Setting swap interval to 'Immediate'
 [2018.09.16-17.46.36:213][218]LogEditorViewport: Clicking on Actor (LMB): FundoBluePrint_C (FundoBluePrint)
+[2018.09.16-17.54.01:270][215]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-17.54.04:845][346]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.04:845][346]LogLinux: Scale at X=555.000000, Y=273.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.04:851][346]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.04:953][346]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.54.17:732][346]LogSlate: Window 'Open File' being destroyed
+[2018.09.16-17.54.17:778][346]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.17:779][346]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.17:781][346]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.17:826][346]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-17.54.17:828][346]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.54.17:862][346]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.17:862][346]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.17:865][346]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.17:942][346]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.54.19:713][346]LogSlate: Window 'Message' being destroyed
+[2018.09.16-17.54.41:327][612]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-17.54.41:407][615]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.41:407][615]LogLinux: Scale at X=555.000000, Y=273.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.41:436][615]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.41:498][615]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.54.44:983][615]LogSlate: Window 'Open File' being destroyed
+[2018.09.16-17.54.45:025][615]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.45:026][615]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.45:028][615]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.45:064][615]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-17.54.45:081][615]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.54.45:097][615]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /home/mauricio/Documentos/ADS/Desenvolvimento de Jogos/fireballs alpha.png)
+[2018.09.16-17.54.45:108][615]LogTexture: Display: Building textures: fireballs_alpha (BGRA8, 434X199)
+[2018.09.16-17.54.45:203][615]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-17.54.49:289][720]LogLinux: Scale at X=1604.000000, Y=482.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.49:350][722]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.54.49:827][731]LogLinux: Scale at X=1800.000000, Y=570.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.49:898][731]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.54.50:807][747]LogLinux: Scale at X=1391.500000, Y=292.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.50:873][747]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.54.53:840][808]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.53:840][808]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.53:845][808]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.53:885][808]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.54.53:926][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Paper2D/Imagens/fireballs_alpha" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/Paper2D/Imagens/fireballs_alpha.uasset" SILENT=true
+[2018.09.16-17.54.53:953][808]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/fireballs_alpha141EF1E208D61BE45CA47456085152E5.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/Paper2D/Imagens/fireballs_alpha.uasset'
+[2018.09.16-17.54.54:675][825]LogLinux: Scale at X=1590.000000, Y=468.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.54:734][827]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.54.55:275][837]LogLinux: Scale at X=1799.000000, Y=626.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.55:317][837]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.54.55:843][851]LogLinux: Scale at X=1802.500000, Y=278.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.55:908][851]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.54.57:011][887]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.57:011][887]LogLinux: Scale at X=455.000000, Y=173.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.57:022][887]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.57:022][887]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.57:026][887]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.57:086][887]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.54.57:160][887]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.54.57:255][887]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.55.02:683][ 86]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.02:683][ 86]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.02:707][ 86]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.02:757][ 86]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.55.03:108][ 86]LogSlate: Window 'Extract sprites' being destroyed
+[2018.09.16-17.55.05:725][146]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.05:725][146]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.05:725][146]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.05:814][147]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.55.07:754][189]LogLinux: Scale at X=196.500000, Y=870.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.07:855][191]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.55.08:814][211]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.08:814][211]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.08:818][211]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.08:859][211]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.55.09:004][211]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.09:004][211]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.09:006][211]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.09:069][211]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.55.09:144][211]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/fireballs_alpha_Sprite_014461C4B08D61BE465B4294C09394A2F.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/Paper2D/Sprites/Ataques/fireballs_alpha_Sprite_0.uasset'
+[2018.09.16-17.55.09:214][211]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/fireballs_alpha_Sprite_11449A3B108D61BE465BEE67A093A5D19.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/Paper2D/Sprites/Ataques/fireballs_alpha_Sprite_1.uasset'
+[2018.09.16-17.55.09:277][211]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/fireballs_alpha_Sprite_2144C8BD908D61BE465C867A4093B5069.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/Paper2D/Sprites/Ataques/fireballs_alpha_Sprite_2.uasset'
+[2018.09.16-17.55.09:340][211]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/fireballs_alpha_Sprite_3144FFE6308D61BE465D22C08093C4A71.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/Paper2D/Sprites/Ataques/fireballs_alpha_Sprite_3.uasset'
+[2018.09.16-17.55.09:410][211]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/fireballs_alpha_Sprite_41452EA9208D61BE465DCC60E093D59D6.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/Paper2D/Sprites/Ataques/fireballs_alpha_Sprite_4.uasset'
+[2018.09.16-17.55.09:486][211]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/fireballs_alpha_Sprite_514554A6C08D61BE465E74FA2093E6797.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/Paper2D/Sprites/Ataques/fireballs_alpha_Sprite_5.uasset'
+[2018.09.16-17.55.09:558][211]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/fireballs_alpha_Sprite_6145834C008D61BE465F33DBC093F9900.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/Paper2D/Sprites/Ataques/fireballs_alpha_Sprite_6.uasset'
+[2018.09.16-17.55.09:630][211]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/fireballs_alpha_Sprite_7145BAAAB08D61BE465FD5C4809409C0C.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/Paper2D/Sprites/Ataques/fireballs_alpha_Sprite_7.uasset'
+[2018.09.16-17.55.09:691][211]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/fireballs_alpha_Sprite_8145EB03F08D61BE46607F4A00941AB46.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/Paper2D/Sprites/Ataques/fireballs_alpha_Sprite_8.uasset'
+[2018.09.16-17.55.09:754][211]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/fireballs_alpha_Sprite_9146124EB08D61BE466114BA409429A5F.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/Paper2D/Sprites/Ataques/fireballs_alpha_Sprite_9.uasset'
+[2018.09.16-17.55.09:806][211]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/fireballs_alpha_Sprite_101464135208D61BE46618F2E609435E4B.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/Paper2D/Sprites/Ataques/fireballs_alpha_Sprite_10.uasset'
+[2018.09.16-17.55.09:860][211]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/fireballs_alpha_Sprite_1114674CC908D61BE46620E87009442A0A.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/Paper2D/Sprites/Ataques/fireballs_alpha_Sprite_11.uasset'
+[2018.09.16-17.55.09:919][211]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/fireballs_alpha_Sprite_12146A8E2808D61BE4662AC7E6094526C9.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/Paper2D/Sprites/Ataques/fireballs_alpha_Sprite_12.uasset'
+[2018.09.16-17.55.09:971][211]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/fireballs_alpha_Sprite_13146D6CB408D61BE46632AFC40945F12A.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/Paper2D/Sprites/Ataques/fireballs_alpha_Sprite_13.uasset'
+[2018.09.16-17.55.10:024][211]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/fireballs_alpha_Sprite_1414701E4D08D61BE4663AAC1A0946BD98.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/Paper2D/Sprites/Ataques/fireballs_alpha_Sprite_14.uasset'
+[2018.09.16-17.55.10:077][211]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/fireballs_alpha_Sprite_151473C9E708D61BE46642524409478168.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/Paper2D/Sprites/Ataques/fireballs_alpha_Sprite_15.uasset'
+[2018.09.16-17.55.10:087][211]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.10:087][211]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.10:089][211]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.10:297][211]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.55.11:492][211]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.11:493][211]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.11:497][211]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.11:532][211]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.55.24:734][733]LogLinux: Scale at X=1062.000000, Y=517.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.24:785][735]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.55.25:258][748]LogLinux: Scale at X=1258.000000, Y=502.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.25:297][748]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.55.25:880][766]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.25:880][766]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.25:890][766]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.25:930][766]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.55.40:536][404]LogLinux: Scale at X=1448.000000, Y=540.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.40:593][406]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.55.44:376][530]LogLinux: Scale at X=1446.000000, Y=527.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.44:435][532]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.55.46:039][582]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.46:039][582]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.46:050][582]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.46:091][582]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.55.49:634][764]LogLinux: Scale at X=997.500000, Y=849.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.49:714][766]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.55.55:063][976]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.55:063][976]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.55:064][976]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.55:159][977]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.55.56:790][ 34]LogLinux: Scale at X=179.500000, Y=907.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.56:903][ 36]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.55.57:889][ 64]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.57:889][ 64]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.57:900][ 64]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.57:943][ 64]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.55.57:987][ 64]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.57:987][ 64]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.57:994][ 64]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.58:033][ 64]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.55.58:099][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Paper2D/Sprites/FlipBook/ataque" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/Paper2D/Sprites/FlipBook/ataque.uasset" SILENT=true
+[2018.09.16-17.55.58:117][ 64]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/ataque14760F2908D61BE482E4C35A0C2488F4.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/Paper2D/Sprites/FlipBook/ataque.uasset'
+[2018.09.16-17.55.58:132][ 64]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.58:132][ 64]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.58:133][ 64]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.58:253][ 64]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.55.58:277][ 64]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.58:277][ 64]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.58:282][ 64]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.58:320][ 64]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.55.59:270][ 90]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.59:271][ 90]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.59:271][ 90]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.55.59:381][ 91]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.56.00:279][123]LogLinux: Scale at X=181.500000, Y=902.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.00:389][125]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.56.01:157][146]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.01:158][146]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.01:165][146]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.01:217][146]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.56.01:258][146]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.01:259][146]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.01:260][146]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.01:298][146]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.56.01:364][146]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/ataque21479E29808D61BE484D5063E0C5628FD.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/Paper2D/Sprites/FlipBook/ataque2.uasset'
+[2018.09.16-17.56.01:376][146]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.01:376][146]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.01:377][146]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.01:489][146]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.56.01:501][146]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.01:501][146]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.01:502][146]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.01:542][146]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.56.11:449][527]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.11:449][527]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.11:451][527]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.11:486][527]LogAssetEditorManager: Opening Asset editor for PaperFlipbook /Game/Assets/Paper2D/Sprites/FlipBook/ataque2.ataque2
+[2018.09.16-17.56.11:486][527]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.56.19:089][173]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.19:090][173]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.19:102][173]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.19:144][173]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.56.19:214][173]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/ataque214858C0508D61BE48F78C94A0D6687EA.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/Paper2D/Sprites/FlipBook/ataque2.uasset'
+[2018.09.16-17.56.30:337][924]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.30:337][924]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.30:340][924]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.30:375][924]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/ProjetilBluePrint.ProjetilBluePrint
+[2018.09.16-17.56.30:376][924]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.56.36:960][552]BlueprintLog: New page: Compile ProjetilBluePrint
+[2018.09.16-17.56.38:276][637]LogLinux: Scale at X=133.000000, Y=158.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.38:327][639]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.56.43:582][182]BlueprintLog: New page: Compile ProjetilBluePrint
+[2018.09.16-17.56.44:393][235]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.44:393][235]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.44:402][235]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.44:442][235]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.56.44:472][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/ProjetilBluePrint" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/ProjetilBluePrint.uasset" SILENT=true
+[2018.09.16-17.56.44:486][235]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/ProjetilBluePrint15273C4508D61BE49E899AA40EE83484.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/ProjetilBluePrint.uasset'
+[2018.09.16-17.56.46:975][448]LogLinux: Scale at X=1766.000000, Y=745.900024: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.47:030][450]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.56.54:326][104]BlueprintLog: New page: Compile ProjetilBluePrint
+[2018.09.16-17.56.55:525][144]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.16-17.56.55:547][144]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-17.56.55:548][144]PIE: New page: PIE session: Level00 (Sep 16, 2018, 11:56:55 AM)
+[2018.09.16-17.56.55:548][144]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-17.56.55:558][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009840s)
+[2018.09.16-17.56.55:558][144]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-17.56.55:559][144]LogPlayLevel: PIE: World Init took: (0.000870s)
+[2018.09.16-17.56.55:559][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.010870s)
+[2018.09.16-17.56.55:594][144]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-17.56.55:594][144]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-17.56.55:594][144]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-17.56.55:594][144]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-17.56.55:594][144]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-17.56.55:594][144]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-17.56.55:594][144]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-17.56.55:595][144]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-17.56.55:595][144]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-17.56.55:655][144]LogInit: FAudioDevice initialized.
+[2018.09.16-17.56.55:655][144]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.55:655][144]LogLinux: Scale at X=315.000000, Y=163.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.55:656][144]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.56.55:690][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-17.56.55:730][144]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-17.56.55:737][144]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-14.56.55
+[2018.09.16-17.56.55:737][144]LogWorld: Bringing up level for play took: 0.006352
+[2018.09.16-17.56.55:738][144]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.16-17.56.55:741][144]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.196
+[2018.09.16-17.56.55:883][145]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.57.27:687][763]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-17.57.27:701][763]LogSlate: Window 'PlataformGameAV1 Game Preview Standalone (64-bit/GLSL_430)' being destroyed
+[2018.09.16-17.57.27:774][763]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-17.57.27:910][764]LogPlayLevel: Display: Destroying online subsystem :Context_81
+[2018.09.16-17.57.34:680][ 29]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.57.34:680][ 29]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.57.34:700][ 29]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.57.34:769][ 29]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.57.34:778][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/ProjetilBluePrint" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/ProjetilBluePrint.uasset" SILENT=true
+[2018.09.16-17.57.34:802][ 29]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/ProjetilBluePrint156110E008D61BE4BC870FC811E7EFA0.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/ProjetilBluePrint.uasset'
+[2018.09.16-17.57.37:482][112]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.57.37:482][112]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.57.37:519][112]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-17.57.37:558][112]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-17.57.37:587][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.16-17.57.37:772][112]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00156391E408D61BE4BE3A163A1213700F.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap'
+[2018.09.16-17.57.37:793][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00_BuiltData" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset" SILENT=true
+[2018.09.16-17.57.37:821][112]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00_BuiltData15651C1108D61BE4BE5207401215D4F3.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset'
+[2018.09.16-17.57.59:091][273]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-17.57.59:189][277]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.16-17.57.59:205][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-17.57.59:206][277]PIE: New page: PIE session: Level00 (Sep 16, 2018, 11:57:59 AM)
+[2018.09.16-17.57.59:206][277]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-17.57.59:216][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010685s)
+[2018.09.16-17.57.59:217][277]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-17.57.59:217][277]LogPlayLevel: PIE: World Init took: (0.000775s)
+[2018.09.16-17.57.59:217][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.011612s)
+[2018.09.16-17.57.59:252][277]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-17.57.59:252][277]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-17.57.59:252][277]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-17.57.59:252][277]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-17.57.59:252][277]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-17.57.59:252][277]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-17.57.59:253][277]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-17.57.59:253][277]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-17.57.59:253][277]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-17.57.59:323][277]LogInit: FAudioDevice initialized.
+[2018.09.16-17.57.59:356][277]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-17.57.59:367][277]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-14.57.59
+[2018.09.16-17.57.59:368][277]LogWorld: Bringing up level for play took: 0.011522
+[2018.09.16-17.57.59:370][277]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.168
+[2018.09.16-17.58.32:961][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-17.58.33:021][625]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-17.58.33:096][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-17.58.33:133][626]LogPlayLevel: Display: Destroying online subsystem :Context_82
+[2018.09.16-17.58.35:329][756]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-17.58.35:423][760]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.16-17.58.35:438][760]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-17.58.35:439][760]PIE: New page: PIE session: Level00 (Sep 16, 2018, 11:58:35 AM)
+[2018.09.16-17.58.35:439][760]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-17.58.35:450][760]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011475s)
+[2018.09.16-17.58.35:451][760]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-17.58.35:451][760]LogPlayLevel: PIE: World Init took: (0.000756s)
+[2018.09.16-17.58.35:451][760]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.012412s)
+[2018.09.16-17.58.35:493][760]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-17.58.35:493][760]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-17.58.35:493][760]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-17.58.35:493][760]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-17.58.35:493][760]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-17.58.35:493][760]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-17.58.35:493][760]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-17.58.35:493][760]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-17.58.35:493][760]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-17.58.35:541][760]LogInit: FAudioDevice initialized.
+[2018.09.16-17.58.35:572][760]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-17.58.35:577][760]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-14.58.35
+[2018.09.16-17.58.35:578][760]LogWorld: Bringing up level for play took: 0.005724
+[2018.09.16-17.58.35:579][760]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.144
+[2018.09.16-18.03.02:113][603]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.03.02:165][603]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-18.03.02:226][603]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.03.02:259][604]LogPlayLevel: Display: Destroying online subsystem :Context_83
+[2018.09.16-18.03.16:086][359]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.03.16:158][362]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.03.16:159][362]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.03.16:192][362]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.03.16:231][362]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.03.16:255][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.16-18.03.16:413][362]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level001573FAF308D61BE5881039B226430007.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap'
+[2018.09.16-18.03.16:435][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00_BuiltData" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset" SILENT=true
+[2018.09.16-18.03.16:464][362]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00_BuiltData1575C2D008D61BE588252EDA2645189A.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset'
+[2018.09.16-18.03.21:393][644]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.16-18.03.22:329][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.16-18.04.44:286][174]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.04.44:286][174]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.04.44:291][174]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.04.44:334][174]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/Inimigo1.Inimigo1
+[2018.09.16-18.04.44:335][174]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.04.52:980][ 19]LogLinux: Scale at X=1244.000000, Y=830.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.04.53:014][ 21]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.05.22:110][900]LogLinux: Scale at X=162.000000, Y=731.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.05.22:143][902]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.05.34:966][359]LogLinux: Scale at X=167.000000, Y=464.400024: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.05.34:996][361]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.05.37:481][562]BlueprintLog: New page: Compile Inimigo1
+[2018.09.16-18.05.50:818][827]BlueprintLog: New page: Compile Inimigo1
+[2018.09.16-18.05.51:325][859]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.05.51:325][859]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.05.51:341][859]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.05.51:379][859]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.05.51:410][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Inimigo1" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/Inimigo1.uasset" SILENT=true
+[2018.09.16-18.05.51:428][859]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Inimigo116ABBE6908D61BE5E48236642F81D389.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/Inimigo1.uasset'
+[2018.09.16-18.06.10:010][ 79]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.06.10:010][ 79]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.06.10:010][ 79]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.06.10:065][ 80]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.06.10:508][122]LogLinux: Scale at X=774.500000, Y=764.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.06.10:595][124]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.06.12:050][259]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.06.12:050][259]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.06.12:050][259]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.06.12:114][260]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.06.17:522][840]LogLinux: Scale at X=433.500000, Y=237.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.06.17:565][842]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.06.19:015][992]BlueprintLog: New page: Compile Inimigo1
+[2018.09.16-18.06.19:503][ 24]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.06.19:503][ 24]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.06.19:517][ 24]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.06.19:557][ 24]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.06.19:585][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Inimigo1" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/Inimigo1.uasset" SILENT=true
+[2018.09.16-18.06.19:604][ 24]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Inimigo116E2FEBA08D61BE5F54CE458312FBAA6.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/Inimigo1.uasset'
+[2018.09.16-18.06.32:470][381]LogLinux: Scale at X=1150.000000, Y=722.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.06.32:506][383]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.06.58:870][433]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.06.58:871][433]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.06.58:871][433]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.06.58:939][434]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.07.02:692][733]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.07.02:692][733]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.07.02:693][733]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.07.02:735][734]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.07.05:463][ 17]BlueprintLog: New page: Compile Inimigo1
+[2018.09.16-18.07.06:171][ 67]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.07.06:171][ 67]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.07.06:184][ 67]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.07.06:225][ 67]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.07.06:257][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Inimigo1" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/Inimigo1.uasset" SILENT=true
+[2018.09.16-18.07.06:277][ 67]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Inimigo11721410808D61BE6111DFE1033F7E4A3.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/Inimigo1.uasset'
+[2018.09.16-18.07.33:297][438]LogLinux: Scale at X=813.000000, Y=509.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.07.33:339][440]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.07.43:400][279]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.07.43:400][279]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.07.43:401][279]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.07.43:465][280]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.07.43:916][320]LogLinux: Scale at X=979.000000, Y=869.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.07.43:974][322]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.07.58:541][253]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.07.58:541][253]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.07.58:542][253]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.07.58:604][254]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.07.59:056][296]LogLinux: Scale at X=1247.000000, Y=848.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.07.59:115][298]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.08.04:811][934]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.08.04:811][934]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.08.04:811][934]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.08.04:881][935]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.08.05:351][979]LogLinux: Scale at X=1212.000000, Y=860.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.08.05:416][981]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.08.23:753][ 68]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.08.23:753][ 68]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.08.23:753][ 68]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.08.23:821][ 69]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.08.24:341][116]LogLinux: Scale at X=1561.000000, Y=747.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.08.24:405][118]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.08.28:883][578]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.08.28:883][578]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.08.28:883][578]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.08.28:952][579]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.08.44:860][183]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.08.44:860][183]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.08.44:860][183]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.08.44:934][184]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.08.45:783][254]LogLinux: Scale at X=1269.500000, Y=410.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.08.45:862][256]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.08.47:777][432]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.08.47:777][432]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.08.47:778][432]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.08.47:851][433]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.08.48:466][490]LogLinux: Scale at X=1262.500000, Y=636.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.08.48:562][492]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.09.06:750][517]LogLinux: Scale at X=1125.000000, Y=482.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.09.06:785][519]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.09.44:991][ 76]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.09.44:991][ 76]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.09.44:991][ 76]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.09.45:060][ 77]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.09.46:848][248]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.09.46:848][248]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.09.46:848][248]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.09.46:913][249]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.09.48:978][451]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.09.48:978][451]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.09.48:978][451]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.09.49:046][452]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.09.50:234][552]LogLinux: Scale at X=1384.000000, Y=740.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.09.50:298][554]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.09.51:721][703]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.09.51:721][703]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.09.51:721][703]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.09.51:785][704]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.09.56:686][ 35]LogLinux: Scale at X=1101.000000, Y=794.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.09.56:727][ 37]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.10.02:754][686]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.10.02:755][686]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.10.02:755][686]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.10.02:871][687]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.10.03:684][767]LogLinux: Scale at X=1028.500000, Y=580.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.10.03:805][769]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.10.23:012][163]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.10.23:012][163]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.10.23:012][163]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.10.23:077][164]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.10.24:092][264]LogLinux: Scale at X=1185.000000, Y=451.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.10.24:167][266]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.10.31:482][988]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.10.31:483][988]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.10.31:483][988]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.10.31:537][989]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.10.32:335][ 60]LogLinux: Scale at X=1310.000000, Y=623.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.10.32:397][ 62]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.10.42:286][857]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.10.42:286][857]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.10.42:287][857]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.10.42:331][858]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.10.43:029][932]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.10.43:029][932]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.10.43:029][932]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.10.43:105][933]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.10.43:666][986]LogLinux: Scale at X=1263.000000, Y=633.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.10.43:736][988]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.10.51:318][821]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.10.51:319][821]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.10.51:319][821]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.10.51:368][822]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.10.52:070][887]LogLinux: Scale at X=1237.000000, Y=623.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.10.52:138][889]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.11.17:565][527]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.11.17:565][527]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.11.17:565][527]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.11.17:625][528]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.11.47:539][258]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.11.47:539][258]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.11.47:539][258]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.11.47:584][259]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.11.48:572][354]LogLinux: Scale at X=1242.000000, Y=776.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.11.48:632][356]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.11.56:747][257]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.11.56:747][257]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.11.56:747][257]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.11.56:812][258]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.12.00:491][655]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.12.00:491][655]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.12.00:491][655]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.12.00:537][656]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.12.10:401][646]BlueprintLog: New page: Compile Inimigo1
+[2018.09.16-18.12.10:925][677]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.12.10:925][677]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.12.10:943][677]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.12.10:980][677]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.12.11:007][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Inimigo1" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/Inimigo1.uasset" SILENT=true
+[2018.09.16-18.12.11:037][677]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Inimigo11974914A08D61BE6C6C0B820462206F4.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/Inimigo1.uasset'
+[2018.09.16-18.12.50:743][  3]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.12.50:743][  3]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.12.50:768][  3]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.12.50:805][  3]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.12.50:827][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.16-18.12.50:983][  3]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level001976CD0308D61BE6DE82CC8C488242A2.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap'
+[2018.09.16-18.12.51:004][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00_BuiltData" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset" SILENT=true
+[2018.09.16-18.12.51:034][  3]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00_BuiltData1978DA4708D61BE6DE977844488453D3.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset'
+[2018.09.16-18.12.53:286][107]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.16-18.12.53:311][107]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-18.12.53:311][107]PIE: New page: PIE session: Level00 (Sep 16, 2018, 12:12:53 PM)
+[2018.09.16-18.12.53:311][107]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-18.12.53:321][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009588s)
+[2018.09.16-18.12.53:322][107]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-18.12.53:322][107]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2018.09.16-18.12.53:322][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.010650s)
+[2018.09.16-18.12.53:355][107]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-18.12.53:355][107]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-18.12.53:355][107]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-18.12.53:355][107]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-18.12.53:355][107]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-18.12.53:355][107]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-18.12.53:355][107]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-18.12.53:356][107]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-18.12.53:356][107]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-18.12.53:416][107]LogInit: FAudioDevice initialized.
+[2018.09.16-18.12.53:457][107]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-18.12.53:468][107]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-15.12.53
+[2018.09.16-18.12.53:469][107]LogWorld: Bringing up level for play took: 0.011302
+[2018.09.16-18.12.53:472][107]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.17
+[2018.09.16-18.13.31:167][752]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.13.31:220][752]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-18.13.31:282][752]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.13.31:314][753]LogPlayLevel: Display: Destroying online subsystem :Context_85
+[2018.09.16-18.13.34:714][958]LogEditorViewport: Clicking on Actor (LMB): PisoBluePrint_C (PisoBluePrint26)
+[2018.09.16-18.13.42:865][424]LogEditorViewport: Clicking on Actor (LMB): FundoBluePrint_C (FundoBluePrint)
+[2018.09.16-18.13.43:872][477]LogEditorViewport: Clicking on Actor (LMB): PisoBluePrint_C (PisoBluePrint26)
+[2018.09.16-18.13.44:796][526]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.13.44:796][526]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.13.46:652][629]LogEditorViewport: Clicking on Actor (LMB): FundoBluePrint_C (FundoBluePrint)
+[2018.09.16-18.13.50:706][849]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.13.50:775][852]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.16-18.13.50:795][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-18.13.50:795][852]PIE: New page: PIE session: Level00 (Sep 16, 2018, 12:13:50 PM)
+[2018.09.16-18.13.50:795][852]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-18.13.50:807][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011975s)
+[2018.09.16-18.13.50:808][852]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-18.13.50:808][852]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2018.09.16-18.13.50:808][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.012911s)
+[2018.09.16-18.13.50:842][852]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-18.13.50:843][852]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-18.13.50:843][852]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-18.13.50:843][852]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-18.13.50:843][852]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-18.13.50:843][852]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-18.13.50:843][852]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-18.13.50:843][852]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-18.13.50:843][852]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-18.13.50:901][852]LogInit: FAudioDevice initialized.
+[2018.09.16-18.13.50:930][852]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-18.13.50:936][852]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-15.13.50
+[2018.09.16-18.13.50:937][852]LogWorld: Bringing up level for play took: 0.007297
+[2018.09.16-18.13.50:939][852]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.145
+[2018.09.16-18.14.08:641][101]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.14.08:697][101]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-18.14.08:774][101]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.14.08:811][102]LogPlayLevel: Display: Destroying online subsystem :Context_86
+[2018.09.16-18.14.10:862][219]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.14.10:943][223]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.16-18.14.10:962][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-18.14.10:962][223]PIE: New page: PIE session: Level00 (Sep 16, 2018, 12:14:10 PM)
+[2018.09.16-18.14.10:963][223]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-18.14.10:974][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011006s)
+[2018.09.16-18.14.10:974][223]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-18.14.10:975][223]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2018.09.16-18.14.10:975][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.011937s)
+[2018.09.16-18.14.11:015][223]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-18.14.11:015][223]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-18.14.11:015][223]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-18.14.11:015][223]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-18.14.11:015][223]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-18.14.11:015][223]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-18.14.11:015][223]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-18.14.11:015][223]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-18.14.11:015][223]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-18.14.11:088][223]LogInit: FAudioDevice initialized.
+[2018.09.16-18.14.11:136][223]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-18.14.11:146][223]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-15.14.11
+[2018.09.16-18.14.11:147][223]LogWorld: Bringing up level for play took: 0.009922
+[2018.09.16-18.14.11:149][223]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.187
+[2018.09.16-18.14.41:767][369]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.14.41:827][369]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-18.14.41:895][369]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.14.41:927][370]LogPlayLevel: Display: Destroying online subsystem :Context_87
+[2018.09.16-18.15.23:583][529]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.15.23:821][539]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.15.23:821][539]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.15.23:824][539]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.15.23:859][539]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/HeroiCaracter.HeroiCaracter
+[2018.09.16-18.15.23:860][539]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.16.10:429][576]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.16.10:429][576]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.16.10:462][576]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.16.10:503][576]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.16.10:528][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.16-18.16.10:679][576]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level001996EDC408D61BE755887C9654695540.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap'
+[2018.09.16-18.16.10:700][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00_BuiltData" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset" SILENT=true
+[2018.09.16-18.16.10:727][576]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00_BuiltData1998BD5708D61BE7559D6EDA546B6D7F.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset'
+[2018.09.16-18.16.12:550][664]LogLinux: Scale at X=761.000000, Y=323.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.16.12:601][666]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.16.16:947][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-18.16.16:947][835]PIE: New page: SIE session: Level00 (Sep 16, 2018, 12:16:16 PM)
+[2018.09.16-18.16.16:947][835]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-18.16.16:958][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010502s)
+[2018.09.16-18.16.16:959][835]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-18.16.16:959][835]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2018.09.16-18.16.16:959][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.011655s)
+[2018.09.16-18.16.17:000][835]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-18.16.17:000][835]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-18.16.17:000][835]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-18.16.17:000][835]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-18.16.17:000][835]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-18.16.17:000][835]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-18.16.17:000][835]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-18.16.17:000][835]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-18.16.17:000][835]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-18.16.17:084][835]LogInit: FAudioDevice initialized.
+[2018.09.16-18.16.17:126][835]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-18.16.17:133][835]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-15.16.17
+[2018.09.16-18.16.17:134][835]LogWorld: Bringing up level for play took: 0.007816
+[2018.09.16-18.16.17:135][835]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.16-18.16.17:136][835]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.19
+[2018.09.16-18.16.49:410][566]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.16.51:199][719]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.16.51:248][719]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-18.16.51:322][719]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.16.51:403][720]LogPlayLevel: Display: Destroying online subsystem :Context_89
+[2018.09.16-18.17.30:437][287]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.17.57:992][128]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.18.38:758][928]BlueprintLog: New page: Compile Inimigo1
+[2018.09.16-18.18.41:285][ 60]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.18.41:285][ 60]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.18.41:312][ 60]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.18.41:345][ 60]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.18.41:368][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Inimigo1" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/Inimigo1.uasset" SILENT=true
+[2018.09.16-18.18.41:398][ 60]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Inimigo11A222C5308D61BE7AF6B222C5D667513.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/Inimigo1.uasset'
+[2018.09.16-18.18.45:565][254]LogLinux: Scale at X=761.000000, Y=323.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.18.45:615][256]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.18.46:934][299]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-18.18.46:935][299]PIE: New page: SIE session: Level00 (Sep 16, 2018, 12:18:46 PM)
+[2018.09.16-18.18.46:935][299]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-18.18.46:945][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010602s)
+[2018.09.16-18.18.46:946][299]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-18.18.46:946][299]LogPlayLevel: PIE: World Init took: (0.000854s)
+[2018.09.16-18.18.46:946][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.011635s)
+[2018.09.16-18.18.46:988][299]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-18.18.46:988][299]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-18.18.46:988][299]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-18.18.46:988][299]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-18.18.46:988][299]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-18.18.46:988][299]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-18.18.46:988][299]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-18.18.46:989][299]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-18.18.46:989][299]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-18.18.47:064][299]LogInit: FAudioDevice initialized.
+[2018.09.16-18.18.47:108][299]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-18.18.47:115][299]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-15.18.47
+[2018.09.16-18.18.47:116][299]LogWorld: Bringing up level for play took: 0.007211
+[2018.09.16-18.18.47:117][299]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.16-18.18.47:117][299]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.188
+[2018.09.16-18.19.57:965][179]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.19.58:036][179]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-18.19.58:125][179]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.19.58:153][180]LogPlayLevel: Display: Destroying online subsystem :Context_90
+[2018.09.16-18.20.00:195][273]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.20.00:293][277]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.20.00:293][277]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.20.00:318][277]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.20.00:353][277]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.20.00:382][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.16-18.20.00:532][277]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level001A2A5A1008D61BE7DE889C24621CA19E.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap'
+[2018.09.16-18.20.00:553][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00_BuiltData" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset" SILENT=true
+[2018.09.16-18.20.00:582][277]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00_BuiltData1A2C5B1408D61BE7DE9D91BA621EBA30.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset'
+[2018.09.16-18.51.40:366][859]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.51.40:464][863]LogTemp: Repeating last play command: Simulate
+[2018.09.16-18.51.40:491][863]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-18.51.40:491][863]PIE: New page: SIE session: Level00 (Sep 16, 2018, 12:51:40 PM)
+[2018.09.16-18.51.40:491][863]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-18.51.40:503][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011128s)
+[2018.09.16-18.51.40:503][863]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-18.51.40:503][863]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2018.09.16-18.51.40:503][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.012148s)
+[2018.09.16-18.51.40:538][863]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-18.51.40:538][863]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-18.51.40:538][863]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-18.51.40:538][863]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-18.51.40:538][863]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-18.51.40:538][863]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-18.51.40:538][863]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-18.51.40:538][863]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-18.51.40:538][863]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-18.51.40:611][863]LogInit: FAudioDevice initialized.
+[2018.09.16-18.51.40:646][863]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-18.51.40:658][863]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-15.51.40
+[2018.09.16-18.51.40:659][863]LogWorld: Bringing up level for play took: 0.011896
+[2018.09.16-18.51.40:660][863]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.16-18.51.40:662][863]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.171
+[2018.09.16-18.51.48:142][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.51.48:193][183]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-18.51.48:257][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.51.48:274][184]LogPlayLevel: Display: Destroying online subsystem :Context_91
+[2018.09.16-18.51.49:328][230]LogLinux: Scale at X=761.000000, Y=323.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.51.49:381][232]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.51.51:563][450]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-18.51.51:563][450]PIE: New page: PIE session: Level00 (Sep 16, 2018, 12:51:51 PM)
+[2018.09.16-18.51.51:563][450]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-18.51.51:574][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010358s)
+[2018.09.16-18.51.51:574][450]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-18.51.51:574][450]LogPlayLevel: PIE: World Init took: (0.000868s)
+[2018.09.16-18.51.51:575][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.011414s)
+[2018.09.16-18.51.51:609][450]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-18.51.51:609][450]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-18.51.51:609][450]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-18.51.51:609][450]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-18.51.51:609][450]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-18.51.51:609][450]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-18.51.51:609][450]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-18.51.51:609][450]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-18.51.51:609][450]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-18.51.51:686][450]LogInit: FAudioDevice initialized.
+[2018.09.16-18.51.51:735][450]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-18.51.51:750][450]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-15.51.51
+[2018.09.16-18.51.51:752][450]LogWorld: Bringing up level for play took: 0.015628
+[2018.09.16-18.51.51:755][450]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.192
+[2018.09.16-18.52.16:657][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.52.16:709][193]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-18.52.16:769][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.52.16:800][194]LogPlayLevel: Display: Destroying online subsystem :Context_92
+[2018.09.16-18.53.59:990][ 21]LogEditorViewport: Clicking on Actor (LMB): FimDoMapaBluePrint_C (FimDoMapaBluePrint)
+[2018.09.16-18.54.01:196][ 85]Cmd: DELETE
+[2018.09.16-18.54.01:196][ 85]Cmd: ACTOR DELETE
+[2018.09.16-18.54.01:203][ 85]LogEditorActor: Deleted Actor: FimDoMapaBluePrint_C
+[2018.09.16-18.54.01:241][ 85]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2018.09.16-18.54.02:736][172]LogEditorViewport: Clicking on Actor (LMB): PisoBluePrint_C (PisoBluePrint8)
+[2018.09.16-18.54.04:532][267]LogEditorViewport: Clicking on Actor (LMB): FundoBluePrint_C (FundoBluePrint)
+[2018.09.16-18.54.05:643][327]LogEditorViewport: Clicking on Actor (LMB): PisoBluePrint_C (PisoBluePrint8)
+[2018.09.16-18.54.07:661][438]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.07:661][438]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.09:812][555]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.09:813][555]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.11:306][634]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.11:306][634]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.13:225][738]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.13:225][738]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.15:053][838]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.15:053][838]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.17:145][952]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.17:145][952]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.22:558][254]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.22:559][254]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.24:626][368]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.24:627][368]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.26:569][476]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.26:570][476]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.29:556][642]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.29:556][642]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.32:934][831]LogEditorViewport: Clicking on Actor (LMB): PisoBluePrint_C (PisoBluePrint11)
+[2018.09.16-18.54.35:002][944]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.35:002][944]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.37:547][ 84]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.37:547][ 84]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.38:918][158]LogEditorViewport: Clicking on Actor (LMB): FundoBluePrint_C (FundoBluePrint)
+[2018.09.16-18.54.41:142][277]LogEditorViewport: Clicking on Actor (LMB): ColetavelBluePrint_C (ColetavelBluePrint)
+[2018.09.16-18.54.44:460][458]LogEditorViewport: Clicking on Actor (LMB): FundoBluePrint_C (FundoBluePrint)
+[2018.09.16-18.54.52:326][886]LogEditorViewport: Clicking on Actor (LMB): ColetavelBluePrint_C (ColetavelBluePrint)
+[2018.09.16-18.54.59:784][281]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.54.59:869][284]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.59:869][284]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.59:894][284]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.54.59:929][284]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.54.59:952][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.16-18.55.00:168][284]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level001A4662C208D61BECC206E24ADF422B68.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap'
+[2018.09.16-18.55.00:191][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00_BuiltData" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset" SILENT=true
+[2018.09.16-18.55.00:232][284]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00_BuiltData1A483A4B08D61BECC2208812DF44BBFA.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset'
+[2018.09.16-18.55.04:387][512]LogEditorViewport: Clicking on Actor (context menu): FundoBluePrint_C (FundoBluePrint)
+[2018.09.16-18.55.04:429][512]LogLinux: Scale at X=973.000000, Y=743.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.55.04:502][512]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-18.55.04:564][514]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.55.05:148][537]LogEditorViewport: Clicking on Actor (LMB): FundoBluePrint_C (FundoBluePrint)
+[2018.09.16-18.55.06:034][576]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.55.06:108][579]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.16-18.55.06:121][579]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-18.55.06:122][579]PIE: New page: PIE session: Level00 (Sep 16, 2018, 12:55:06 PM)
+[2018.09.16-18.55.06:122][579]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-18.55.06:134][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011964s)
+[2018.09.16-18.55.06:135][579]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-18.55.06:135][579]LogPlayLevel: PIE: World Init took: (0.001328s)
+[2018.09.16-18.55.06:135][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.013478s)
+[2018.09.16-18.55.06:177][579]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-18.55.06:177][579]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-18.55.06:177][579]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-18.55.06:177][579]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-18.55.06:177][579]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-18.55.06:177][579]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-18.55.06:177][579]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-18.55.06:178][579]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-18.55.06:178][579]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-18.55.06:252][579]LogInit: FAudioDevice initialized.
+[2018.09.16-18.55.06:297][579]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-18.55.06:309][579]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-15.55.06
+[2018.09.16-18.55.06:310][579]LogWorld: Bringing up level for play took: 0.012444
+[2018.09.16-18.55.06:312][579]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.19
+[2018.09.16-18.55.27:659][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.55.27:717][ 88]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-18.55.27:793][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.55.27:824][ 89]LogPlayLevel: Display: Destroying online subsystem :Context_93
+[2018.09.16-18.55.32:745][364]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.55.32:855][368]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.16-18.55.32:874][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-18.55.32:875][368]PIE: New page: PIE session: Level00 (Sep 16, 2018, 12:55:32 PM)
+[2018.09.16-18.55.32:875][368]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-18.55.32:891][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016393s)
+[2018.09.16-18.55.32:892][368]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-18.55.32:892][368]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2018.09.16-18.55.32:892][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.017324s)
+[2018.09.16-18.55.32:926][368]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-18.55.32:926][368]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-18.55.32:926][368]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-18.55.32:926][368]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-18.55.32:926][368]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-18.55.32:926][368]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-18.55.32:926][368]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-18.55.32:927][368]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-18.55.32:927][368]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-18.55.32:985][368]LogInit: FAudioDevice initialized.
+[2018.09.16-18.55.33:012][368]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-18.55.33:022][368]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-15.55.33
+[2018.09.16-18.55.33:023][368]LogWorld: Bringing up level for play took: 0.010159
+[2018.09.16-18.55.33:025][368]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.15
+[2018.09.16-18.55.56:926][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.55.56:980][ 41]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-18.55.57:062][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.55.57:102][ 42]LogPlayLevel: Display: Destroying online subsystem :Context_94
+[2018.09.16-18.55.59:429][179]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.55.59:530][184]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.55.59:530][184]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.55.59:558][184]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.55.59:616][184]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.55.59:623][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.16-18.55.59:801][184]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level001A56A6F008D61BECE5923BD8E2D01794.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap'
+[2018.09.16-18.55.59:822][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00_BuiltData" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset" SILENT=true
+[2018.09.16-18.55.59:850][184]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00_BuiltData1A58F28708D61BECE5AABC26E2D28ACE.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset'
+[2018.09.16-18.56.01:753][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.56.01:862][291]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.16-18.56.01:875][291]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-18.56.01:876][291]PIE: New page: PIE session: Level00 (Sep 16, 2018, 12:56:01 PM)
+[2018.09.16-18.56.01:876][291]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-18.56.01:889][291]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012994s)
+[2018.09.16-18.56.01:889][291]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-18.56.01:890][291]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2018.09.16-18.56.01:890][291]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.013921s)
+[2018.09.16-18.56.01:924][291]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-18.56.01:924][291]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-18.56.01:924][291]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-18.56.01:924][291]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-18.56.01:924][291]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-18.56.01:924][291]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-18.56.01:924][291]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-18.56.01:924][291]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-18.56.01:924][291]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-18.56.01:979][291]LogInit: FAudioDevice initialized.
+[2018.09.16-18.56.02:021][291]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-18.56.02:039][291]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-15.56.02
+[2018.09.16-18.56.02:041][291]LogWorld: Bringing up level for play took: 0.019172
+[2018.09.16-18.56.02:044][291]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.169
+[2018.09.16-18.56.04:307][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.56.04:349][422]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-18.56.04:427][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.56.04:453][423]LogPlayLevel: Display: Destroying online subsystem :Context_95
+[2018.09.16-18.56.41:186][418]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.56.41:404][429]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.56.41:405][429]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.56.41:407][429]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.56.41:442][429]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/FimDoMapaBluePrint.FimDoMapaBluePrint
+[2018.09.16-18.56.41:443][429]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.56.43:993][647]BlueprintLog: New page: Compile FimDoMapaBluePrint
+[2018.09.16-18.57.00:215][737]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.57.00:282][744]BlueprintLog: New page: Compile FimDoMapaBluePrint
+[2018.09.16-18.57.00:870][770]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.57.00:870][770]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.57.00:874][770]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.57.00:916][770]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.57.00:943][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/FimDoMapaBluePrint" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/FimDoMapaBluePrint.uasset" SILENT=true
+[2018.09.16-18.57.00:957][770]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/FimDoMapaBluePrint1B410B5708D61BED0A195ED2E677319B.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/FimDoMapaBluePrint.uasset'
+[2018.09.16-18.57.05:670][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.57.07:651][162]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.57.07:651][162]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.57.07:651][162]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.57.07:727][163]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.57.12:313][381]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.57.13:178][427]LogEditorViewport: Clicking on Actor (LMB): FundoBluePrint_C (FundoBluePrint)
+[2018.09.16-18.57.14:141][478]LogEditorViewport: Clicking on Actor (LMB): FundoBluePrint_C (FundoBluePrint)
+[2018.09.16-18.57.14:876][516]LogEditorViewport: Clicking on Actor (LMB): FundoBluePrint_C (FundoBluePrint)
+[2018.09.16-18.57.15:528][546]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.57.21:730][835]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-18.57.34:596][442]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.57.34:674][449]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.16-18.57.34:693][449]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-18.57.34:693][449]PIE: New page: PIE session: Level00 (Sep 16, 2018, 12:57:34 PM)
+[2018.09.16-18.57.34:693][449]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-18.57.34:705][449]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012116s)
+[2018.09.16-18.57.34:706][449]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-18.57.34:706][449]LogPlayLevel: PIE: World Init took: (0.001012s)
+[2018.09.16-18.57.34:706][449]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.013302s)
+[2018.09.16-18.57.34:742][449]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-18.57.34:742][449]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-18.57.34:742][449]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-18.57.34:742][449]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-18.57.34:742][449]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-18.57.34:742][449]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-18.57.34:742][449]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-18.57.34:743][449]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-18.57.34:743][449]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-18.57.34:801][449]LogInit: FAudioDevice initialized.
+[2018.09.16-18.57.34:833][449]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-18.57.34:844][449]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-15.57.34
+[2018.09.16-18.57.34:846][449]LogWorld: Bringing up level for play took: 0.012493
+[2018.09.16-18.57.34:848][449]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.16
+[2018.09.16-18.57.35:914][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.57.35:963][510]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-18.57.36:037][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.57.36:059][511]LogPlayLevel: Display: Destroying online subsystem :Context_97
+[2018.09.16-18.57.39:618][702]LogEditorViewport: Clicking on Actor (LMB): FundoBluePrint_C (FundoBluePrint)
+[2018.09.16-18.57.40:535][748]LogEditorViewport: Clicking on Actor (LMB): FundoBluePrint_C (FundoBluePrint)
+[2018.09.16-18.57.41:170][781]LogEditorViewport: Clicking on Actor (LMB): PisoBluePrint_C (PisoBluePrint11)
+[2018.09.16-18.57.42:352][844]LogEditorViewport: Clicking on Actor (LMB): FundoBluePrint_C (FundoBluePrint)
+[2018.09.16-18.57.43:307][883]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.57.44:308][935]LogEditorViewport: Clicking on Actor (LMB): FundoBluePrint_C (FundoBluePrint)
+[2018.09.16-18.57.45:654][991]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.57.50:930][276]Cmd: TRANSACTION UNDO
+[2018.09.16-18.57.50:930][276]LogEditorTransaction: Undo Move Actors
+[2018.09.16-18.57.50:933][276]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.57.50:933][276]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.57.50:933][276]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.57.51:187][284]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.57.54:310][400]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.58.15:270][540]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.58.15:332][545]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.58.15:332][545]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.58.15:340][545]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.58.15:392][545]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.58.15:409][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.16-18.58.15:586][545]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level001B4A60CA08D61BED3681D62AEAE806D5.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap'
+[2018.09.16-18.58.15:608][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00_BuiltData" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset" SILENT=true
+[2018.09.16-18.58.15:636][545]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00_BuiltData1B4C574408D61BED369A3544EAEA76BC.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset'
+[2018.09.16-18.58.16:183][568]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.58.16:290][578]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.16-18.58.16:307][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-18.58.16:308][578]PIE: New page: PIE session: Level00 (Sep 16, 2018, 12:58:16 PM)
+[2018.09.16-18.58.16:308][578]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-18.58.16:320][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011941s)
+[2018.09.16-18.58.16:320][578]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-18.58.16:321][578]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2018.09.16-18.58.16:321][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.012859s)
+[2018.09.16-18.58.16:356][578]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-18.58.16:356][578]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-18.58.16:356][578]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-18.58.16:356][578]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-18.58.16:356][578]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-18.58.16:356][578]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-18.58.16:356][578]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-18.58.16:356][578]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-18.58.16:356][578]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-18.58.16:426][578]LogInit: FAudioDevice initialized.
+[2018.09.16-18.58.16:467][578]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-18.58.16:484][578]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-15.58.16
+[2018.09.16-18.58.16:486][578]LogWorld: Bringing up level for play took: 0.017668
+[2018.09.16-18.58.16:489][578]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.182
+[2018.09.16-18.58.31:262][600]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.58.31:322][600]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-18.58.31:382][600]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.58.31:414][601]LogPlayLevel: Display: Destroying online subsystem :Context_98
+[2018.09.16-18.58.34:721][798]LogEditorViewport: Clicking on Actor (LMB): PisoBluePrint_C (PisoBluePrint45)
+[2018.09.16-18.58.40:302][114]Cmd: DELETE
+[2018.09.16-18.58.40:302][114]Cmd: ACTOR DELETE
+[2018.09.16-18.58.40:308][114]LogEditorActor: Deleted Actor: PisoBluePrint_C
+[2018.09.16-18.58.40:347][114]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2018.09.16-18.58.41:308][172]LogEditorViewport: Clicking on Actor (LMB): PisoBluePrint_C (PisoBluePrint44)
+[2018.09.16-18.58.45:704][420]LogEditorViewport: Clicking on Actor (LMB): PisoBluePrint_C (PisoBluePrint11)
+[2018.09.16-18.58.49:460][635]LogEditorViewport: Clicking on Actor (LMB): FundoBluePrint_C (FundoBluePrint)
+[2018.09.16-18.58.51:849][756]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.58.51:925][759]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.58.51:925][759]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.58.51:956][759]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.58.51:986][759]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.58.52:013][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.16-18.58.52:190][759]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level001B54CC3908D61BED4C53396CED168F1D.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap'
+[2018.09.16-18.58.52:212][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00_BuiltData" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset" SILENT=true
+[2018.09.16-18.58.52:239][759]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00_BuiltData1B565C0208D61BED4C6B9B88ED18FF52.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset'
+[2018.09.16-18.58.52:637][778]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.58.53:171][805]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.16-18.58.53:188][805]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-18.58.53:188][805]PIE: New page: PIE session: Level00 (Sep 16, 2018, 12:58:53 PM)
+[2018.09.16-18.58.53:188][805]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-18.58.53:201][805]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013344s)
+[2018.09.16-18.58.53:202][805]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-18.58.53:202][805]LogPlayLevel: PIE: World Init took: (0.000875s)
+[2018.09.16-18.58.53:202][805]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.014385s)
+[2018.09.16-18.58.53:238][805]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-18.58.53:238][805]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-18.58.53:238][805]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-18.58.53:238][805]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-18.58.53:238][805]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-18.58.53:238][805]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-18.58.53:238][805]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-18.58.53:238][805]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-18.58.53:239][805]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-18.58.53:298][805]LogInit: FAudioDevice initialized.
+[2018.09.16-18.58.53:326][805]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-18.58.53:337][805]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-15.58.53
+[2018.09.16-18.58.53:338][805]LogWorld: Bringing up level for play took: 0.011321
+[2018.09.16-18.58.53:340][805]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.152
+[2018.09.16-18.59.07:867][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.59.07:930][825]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-18.59.08:010][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-18.59.08:045][826]LogPlayLevel: Display: Destroying online subsystem :Context_99
+[2018.09.16-18.59.13:968][153]LogEditorViewport: Clicking on Actor (LMB): ColetavelBluePrint_C (ColetavelBluePrint)
+[2018.09.16-18.59.22:383][553]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.59.23:680][609]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.59.23:680][609]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.59.23:683][609]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.59.23:721][609]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/ColetavelBluePrint.ColetavelBluePrint
+[2018.09.16-18.59.23:722][609]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.59.36:358][478]LogLinux: Scale at X=133.000000, Y=158.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.59.36:432][480]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.59.44:006][890]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.59.44:007][890]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.59.44:007][890]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.59.44:137][891]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.59.47:502][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.59.57:982][759]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-18.59.58:089][765]BlueprintLog: New page: Compile ColetavelBluePrint
+[2018.09.16-18.59.58:843][792]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.59.58:844][792]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.59.58:873][792]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.59.58:905][792]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.59.58:929][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/ColetavelBluePrint" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/ColetavelBluePrint.uasset" SILENT=true
+[2018.09.16-18.59.58:951][792]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/ColetavelBluePrint1C0A679F08D61BED7431383AF11325B9.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/ColetavelBluePrint.uasset'
+[2018.09.16-18.59.59:576][837]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.59.59:576][837]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.59.59:587][837]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-18.59.59:631][837]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-18.59.59:659][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/ColetavelBluePrint" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/ColetavelBluePrint.uasset" SILENT=true
+[2018.09.16-18.59.59:672][837]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/ColetavelBluePrint1C0C7C0D08D61BED749F62BAF11E29F1.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/ColetavelBluePrint.uasset'
+[2018.09.16-19.00.03:105][995]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.00.03:106][995]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.00.03:130][995]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.00.03:165][995]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.00.03:191][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.16-19.00.03:367][995]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level001C0E426408D61BED76C041AEF154A67E.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap'
+[2018.09.16-19.00.03:389][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00_BuiltData" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset" SILENT=true
+[2018.09.16-19.00.03:418][995]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00_BuiltData1C10830808D61BED76D8AE60F15717C1.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset'
+[2018.09.16-19.00.08:109][247]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-19.00.09:587][326]LogEditorViewport: Clicking on Actor (context menu): FundoBluePrint_C (FundoBluePrint)
+[2018.09.16-19.00.09:620][326]LogLinux: Scale at X=1196.000000, Y=665.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.00.09:683][326]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-19.00.09:740][328]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.00.10:525][362]LogEditorViewport: Clicking on Actor (LMB): FundoBluePrint_C (FundoBluePrint)
+[2018.09.16-19.00.11:941][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-19.00.12:020][429]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.16-19.00.12:039][429]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-19.00.12:039][429]PIE: New page: PIE session: Level00 (Sep 16, 2018, 1:00:12 PM)
+[2018.09.16-19.00.12:039][429]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-19.00.12:053][429]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013544s)
+[2018.09.16-19.00.12:053][429]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-19.00.12:054][429]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2018.09.16-19.00.12:054][429]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.014451s)
+[2018.09.16-19.00.12:091][429]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-19.00.12:091][429]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-19.00.12:091][429]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-19.00.12:091][429]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-19.00.12:091][429]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-19.00.12:091][429]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-19.00.12:091][429]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-19.00.12:091][429]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-19.00.12:091][429]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-19.00.12:163][429]LogInit: FAudioDevice initialized.
+[2018.09.16-19.00.12:208][429]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-19.00.12:225][429]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-16.00.12
+[2018.09.16-19.00.12:227][429]LogWorld: Bringing up level for play took: 0.018336
+[2018.09.16-19.00.12:230][429]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.195
+[2018.09.16-19.00.25:700][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-19.00.25:762][368]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-19.00.25:833][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-19.00.25:867][369]LogPlayLevel: Display: Destroying online subsystem :Context_101
+[2018.09.16-19.00.30:099][609]LogEditorViewport: Clicking on Actor (LMB): ColetavelBluePrint_C (ColetavelBluePrint)
+[2018.09.16-19.00.36:685][970]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-19.00.36:760][973]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.16-19.00.36:773][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-19.00.36:773][973]PIE: New page: PIE session: Level00 (Sep 16, 2018, 1:00:36 PM)
+[2018.09.16-19.00.36:773][973]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-19.00.36:786][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012292s)
+[2018.09.16-19.00.36:786][973]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-19.00.36:787][973]LogPlayLevel: PIE: World Init took: (0.000884s)
+[2018.09.16-19.00.36:787][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.013360s)
+[2018.09.16-19.00.36:825][973]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-19.00.36:825][973]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-19.00.36:825][973]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-19.00.36:825][973]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-19.00.36:825][973]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-19.00.36:825][973]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-19.00.36:825][973]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-19.00.36:826][973]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-19.00.36:826][973]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-19.00.36:885][973]LogInit: FAudioDevice initialized.
+[2018.09.16-19.00.36:919][973]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-19.00.36:932][973]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-16.00.36
+[2018.09.16-19.00.36:933][973]LogWorld: Bringing up level for play took: 0.013475
+[2018.09.16-19.00.36:936][973]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.163
+[2018.09.16-19.01.15:823][697]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-19.01.15:885][697]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-19.01.15:963][697]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-19.01.15:997][698]LogPlayLevel: Display: Destroying online subsystem :Context_102
+[2018.09.16-19.01.23:685][110]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-19.01.23:764][113]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.01.23:764][113]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.01.23:788][113]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.01.23:824][113]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.01.23:849][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.16-19.01.24:023][113]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level001C1ECA0A08D61BEDA6D398FAF6235F27.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap'
+[2018.09.16-19.01.24:044][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00_BuiltData" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset" SILENT=true
+[2018.09.16-19.01.24:072][113]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00_BuiltData1C20DF1A08D61BEDA6EBAB8EF625C768.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset'
+[2018.09.16-19.01.25:215][163]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-19.01.28:336][324]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.16-19.01.53:491][950]BlueprintLog: New page: Compile Inimigo1
+[2018.09.16-19.01.57:568][137]LogLinux: Scale at X=761.000000, Y=323.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.01.57:612][139]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.01.59:751][218]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-19.01.59:751][218]PIE: New page: SIE session: Level00 (Sep 16, 2018, 1:01:59 PM)
+[2018.09.16-19.01.59:752][218]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-19.01.59:763][218]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011658s)
+[2018.09.16-19.01.59:764][218]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-19.01.59:764][218]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2018.09.16-19.01.59:764][218]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.012702s)
+[2018.09.16-19.01.59:805][218]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-19.01.59:805][218]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-19.01.59:805][218]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-19.01.59:805][218]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-19.01.59:805][218]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-19.01.59:805][218]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-19.01.59:805][218]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-19.01.59:806][218]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-19.01.59:806][218]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-19.01.59:878][218]LogInit: FAudioDevice initialized.
+[2018.09.16-19.01.59:919][218]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-19.01.59:932][218]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-16.01.59
+[2018.09.16-19.01.59:933][218]LogWorld: Bringing up level for play took: 0.014055
+[2018.09.16-19.01.59:934][218]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.16-19.01.59:935][218]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.188
+[2018.09.16-19.02.07:081][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-19.02.07:138][596]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-19.02.07:207][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-19.02.07:225][597]LogPlayLevel: Display: Destroying online subsystem :Context_103
+[2018.09.16-19.02.09:023][675]LogTemp: Repeating last play command: Simulate
+[2018.09.16-19.02.09:037][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-19.02.09:038][675]PIE: New page: SIE session: Level00 (Sep 16, 2018, 1:02:09 PM)
+[2018.09.16-19.02.09:038][675]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-19.02.09:050][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012014s)
+[2018.09.16-19.02.09:050][675]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-19.02.09:051][675]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2018.09.16-19.02.09:051][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.012921s)
+[2018.09.16-19.02.09:092][675]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-19.02.09:092][675]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-19.02.09:092][675]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-19.02.09:092][675]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-19.02.09:092][675]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-19.02.09:092][675]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-19.02.09:092][675]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-19.02.09:092][675]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-19.02.09:093][675]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-19.02.09:152][675]LogInit: FAudioDevice initialized.
+[2018.09.16-19.02.09:185][675]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-19.02.09:199][675]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-16.02.09
+[2018.09.16-19.02.09:200][675]LogWorld: Bringing up level for play took: 0.014119
+[2018.09.16-19.02.09:201][675]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.16-19.02.09:203][675]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.165
+[2018.09.16-19.02.12:227][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-19.02.12:275][826]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-19.02.12:348][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-19.02.12:367][827]LogPlayLevel: Display: Destroying online subsystem :Context_104
+[2018.09.16-19.02.15:954][980]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.02.15:954][980]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.02.15:959][980]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.02.15:994][980]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.02.16:027][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.16-19.02.16:204][980]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level001CA7264008D61BEDC5ED54D8F93F8987.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap'
+[2018.09.16-19.02.16:226][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00_BuiltData" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset" SILENT=true
+[2018.09.16-19.02.16:254][980]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00_BuiltData1CA904F608D61BEDC605FF38F94200F5.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset'
+[2018.09.16-19.02.17:581][ 47]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.02.17:581][ 47]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.02.17:592][ 47]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.02.17:635][ 47]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.02.17:665][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Inimigo1" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/Inimigo1.uasset" SILENT=true
+[2018.09.16-19.02.17:695][ 47]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Inimigo11CABEA0708D61BEDC6E1E00CF957FDC9.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/Inimigo1.uasset'
+[2018.09.16-19.02.34:085][270]BlueprintLog: New page: Compile Inimigo1
+[2018.09.16-19.02.34:830][302]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.02.34:830][302]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.02.34:833][302]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.02.34:876][302]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.02.34:900][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Inimigo1" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/Inimigo1.uasset" SILENT=true
+[2018.09.16-19.02.34:932][302]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Inimigo11D249ECB08D61BEDD127C298FA5EFA31.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/Inimigo1.uasset'
+[2018.09.16-19.02.40:062][575]LogTemp: Repeating last play command: Simulate
+[2018.09.16-19.02.40:082][575]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-19.02.40:082][575]PIE: New page: SIE session: Level00 (Sep 16, 2018, 1:02:40 PM)
+[2018.09.16-19.02.40:082][575]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-19.02.40:094][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011708s)
+[2018.09.16-19.02.40:094][575]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-19.02.40:095][575]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2018.09.16-19.02.40:095][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.012615s)
+[2018.09.16-19.02.40:128][575]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-19.02.40:128][575]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-19.02.40:128][575]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-19.02.40:128][575]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-19.02.40:128][575]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-19.02.40:128][575]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-19.02.40:128][575]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-19.02.40:129][575]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-19.02.40:129][575]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-19.02.40:198][575]LogInit: FAudioDevice initialized.
+[2018.09.16-19.02.40:232][575]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-19.02.40:244][575]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-16.02.40
+[2018.09.16-19.02.40:246][575]LogWorld: Bringing up level for play took: 0.013227
+[2018.09.16-19.02.40:247][575]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.16-19.02.40:248][575]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.172
+[2018.09.16-19.03.04:261][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.16-19.03.04:434][690]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level001D2BCC2108D61BEDE2ACFF06FC1F7F25.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap'
+[2018.09.16-19.03.04:455][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00_BuiltData" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset" SILENT=true
+[2018.09.16-19.03.04:482][690]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00_BuiltData1D2D295D08D61BEDE2C52EC8FC21EA51.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset'
+[2018.09.16-19.03.23:181][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-19.03.23:227][715]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-19.03.23:298][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-19.03.23:367][716]LogPlayLevel: Display: Destroying online subsystem :Context_105
+[2018.09.16-19.03.43:224][961]BlueprintLog: New page: Compile Inimigo1
+[2018.09.16-19.03.44:117][  0]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.03.44:117][  0]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.03.44:119][  0]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.03.44:184][  0]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.03.44:196][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Inimigo1" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/Inimigo1.uasset" SILENT=true
+[2018.09.16-19.03.44:252][  0]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Inimigo11DA7A3D908D61BEDFA770AFAFE807EE4.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/Inimigo1.uasset'
+[2018.09.16-19.03.48:223][250]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.03.48:223][250]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.03.48:233][250]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.03.48:273][250]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.03.48:304][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.16-19.03.48:481][250]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level001DA9804408D61BEDFCEDE678FEBF94B0.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap'
+[2018.09.16-19.03.48:504][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00_BuiltData" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset" SILENT=true
+[2018.09.16-19.03.48:532][250]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00_BuiltData1DAB63BD08D61BEDFD06A302FEC20DF0.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset'
+[2018.09.16-19.04.35:100][845]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-19.04.35:295][851]LogLinux: Scale at X=998.000000, Y=635.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.04.35:322][853]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.04.35:595][882]LogLinux: Scale at X=1176.500000, Y=991.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.04.35:628][884]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.04.36:521][961]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.04.36:521][961]LogLinux: Scale at X=955.000000, Y=373.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.04.36:534][961]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.04.36:626][961]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.04.37:902][961]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.09.16-19.04.46:065][203]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.04.46:065][203]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.04.46:069][203]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.04.46:109][203]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.04.46:138][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Inimigo2" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/Inimigo2.uasset" SILENT=true
+[2018.09.16-19.04.46:149][203]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Inimigo21DD1A5EF08D61BEE1F60327E0231670D.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/Inimigo2.uasset'
+[2018.09.16-19.04.46:991][231]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.04.46:992][231]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.04.47:024][231]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.04.47:057][231]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/Inimigo2.Inimigo2
+[2018.09.16-19.04.47:058][231]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.04.47:090][231]LogLinux: Scale at X=217.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.04.47:090][231]LogLinux: Scale at X=1177.000000, Y=555.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.04.47:896][233]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.04.49:406][277]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.04.49:407][277]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.04.49:407][277]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.04.49:880][312]LogLinux: Scale at X=217.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.04.50:541][373]LogSlate: Window 'Inimigo2' being destroyed
+[2018.09.16-19.04.54:096][493]LogLinux: Scale at X=133.000000, Y=158.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.04.54:165][495]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.04.59:126][799]LogLinux: Scale at X=1766.000000, Y=745.900024: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.04.59:193][801]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.05.14:169][898]BlueprintLog: New page: Compile Inimigo2
+[2018.09.16-19.05.21:919][317]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.05.21:919][317]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.05.21:919][317]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.05.21:981][318]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.05.37:784][167]Cmd: DELETE
+[2018.09.16-19.05.37:784][167]Cmd: ACTOR DELETE
+[2018.09.16-19.05.37:789][167]LogEditorActor: Deleted Actor: Inimigo2_C
+[2018.09.16-19.05.37:832][167]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2018.09.16-19.06.13:645][ 84]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.06.13:645][ 84]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.06.13:658][ 84]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.06.13:698][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-19.06.13:703][ 84]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.06.13:729][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.16-19.06.13:905][ 84]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level001E252BC108D61BEE539C834E076A9F5B.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap'
+[2018.09.16-19.06.13:927][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00_BuiltData" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset" SILENT=true
+[2018.09.16-19.06.13:956][ 84]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00_BuiltData1E27120F08D61BEE53B4CAB2076D0CE4.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset'
+[2018.09.16-19.10.36:897][218]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-19.10.54:809][  5]BlueprintLog: New page: Compile Inimigo2
+[2018.09.16-19.10.54:860][  5]LogBlueprint: Warning: [Compiler Inimigo2] Could not find a variable named "Movimento" in 'Inimigo2_C'.
+Make sure 'Inimigo2_C' has been compiled for  Get Movimento
+[2018.09.16-19.10.54:860][  5]LogBlueprint: Warning: [Compiler Inimigo2] Could not find a variable named "Movimento" in 'Inimigo2_C'.
+Make sure 'Inimigo2_C' has been compiled for  Set Movimento
+[2018.09.16-19.10.54:860][  5]LogBlueprint: Warning: [Compiler Inimigo2] Could not find a variable named "Movimento" in 'Inimigo2_C'.
+Make sure 'Inimigo2_C' has been compiled for  Set Movimento
+[2018.09.16-19.10.54:861][  5]LogBlueprint: Warning: [Compiler Inimigo2] Could not find a variable named "Movimento" in 'Inimigo2_C'.
+Make sure 'Inimigo2_C' has been compiled for  Get Movimento
+[2018.09.16-19.10.54:863][  5]LogBlueprint: Error: [Compiler Inimigo2] The property associated with  Movimento  could not be found in '/Game/BluePrints/Inimigo2.Inimigo2_C'
+[2018.09.16-19.10.54:863][  5]LogBlueprint: Error: [Compiler Inimigo2] The property associated with  Movimento  could not be found in '/Game/BluePrints/Inimigo2.Inimigo2_C'
+[2018.09.16-19.10.54:863][  5]LogBlueprint: Error: [Compiler Inimigo2] The property associated with  Movimento  could not be found in '/Game/BluePrints/Inimigo2.Inimigo2_C'
+[2018.09.16-19.10.54:863][  5]LogBlueprint: Error: [Compiler Inimigo2] The property associated with  Movimento  could not be found in '/Game/BluePrints/Inimigo2.Inimigo2_C'
+[2018.09.16-19.10.55:016][  5]LogBlueprint: Warning: [Compiler Inimigo2] [3177.02] Compile of Inimigo2 failed. 4 Fatal Issue(s) 4 Warning(s) [in 206 ms] (/Game/BluePrints/Inimigo2.Inimigo2)
+[2018.09.16-19.10.55:564][ 50]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.10.55:564][ 50]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.10.55:586][ 50]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.10.55:617][ 50]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.10.55:646][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Inimigo2" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/Inimigo2.uasset" SILENT=true
+[2018.09.16-19.10.55:676][ 50]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Inimigo21F6E1F4808D61BEEFB9C1B4A1837C075.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/Inimigo2.uasset'
+[2018.09.16-19.11.07:619][403]LogLinux: Scale at X=167.000000, Y=464.400024: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.11.07:657][405]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.11.09:251][531]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.11.09:251][531]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.11.09:256][531]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.11.09:343][531]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.11.10:986][531]LogSlate: Window 'Change Variable Type' being destroyed
+[2018.09.16-19.11.11:102][531]LogLinux: Scale at X=455.000000, Y=235.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.11.11:102][531]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.11.11:300][532]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.11.21:466][439]LogLinux: Scale at X=455.000000, Y=235.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.11.21:466][439]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.09.16-19.11.21:469][439]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.09.16-19.11.23:981][676]BlueprintLog: New page: Compile Inimigo2
+[2018.09.16-19.11.30:556][335]BlueprintLog: New page: Compile Inimigo2
+[2018.09.16-19.11.31:185][375]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.11.31:185][375]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.11.31:187][375]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.11.31:223][375]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.11.31:246][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Inimigo2" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/Inimigo2.uasset" SILENT=true
+[2018.09.16-19.11.31:275][375]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Inimigo2217CE96308D61BEF10D385A21A56F0F3.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/Inimigo2.uasset'
+[2018.09.16-19.11.59:577][ 53]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-19.21.44:618][ 57]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-19.21.45:349][ 89]LogLinux: Scale at X=180.000000, Y=541.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.21.45:388][ 91]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.21.46:436][158]LogLinux: Scale at X=356.000000, Y=624.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.21.46:459][158]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.21.53:690][383]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.16-19.22.18:080][212]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-19.22.18:938][255]LogLinux: Scale at X=585.000000, Y=571.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.22.18:967][257]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.22.19:263][286]LogLinux: Scale at X=748.500000, Y=927.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.22.19:297][288]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.22.19:787][333]LogLinux: Scale at X=773.500000, Y=806.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.22.19:822][335]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.22.20:487][399]LogLinux: Scale at X=748.500000, Y=927.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.22.20:531][401]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.22.39:217][450]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.22.39:217][450]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.22.39:221][450]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.22.39:269][450]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.22.39:296][450]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/VidaWidget" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/UMG/VidaWidget.uasset" SILENT=true
+[2018.09.16-19.22.39:306][450]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/VidaWidget219F1CAC08D61BF09EFD6DE242287D1C.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/UMG/VidaWidget.uasset'
+[2018.09.16-19.22.45:387][546]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.22.45:388][546]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.22.45:390][546]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.22.45:433][546]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UMG/VidaWidget.VidaWidget
+[2018.09.16-19.22.45:436][546]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.22.50:393][979]LogLinux: Scale at X=331.000000, Y=194.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.22.50:394][979]LogLinux: Scale at X=960.000000, Y=540.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.22.51:035][980]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.22.59:542][725]LogLinux: Scale at X=1024.500000, Y=667.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.22.59:601][727]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.23.01:463][891]LogLinux: Scale at X=1112.000000, Y=718.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.23.01:485][891]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.16-19.23.01:544][893]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.25.24:273][ 14]LogLinux: Scale at X=331.000000, Y=194.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.25.24:273][ 14]LogSlate: Window 'Project Settings' being destroyed
+[2018.09.16-19.25.24:287][ 14]LogSlate: Window 'Project Settings' being destroyed
+[2018.09.16-19.25.30:781][544]LogLinux: Scale at X=761.000000, Y=323.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.25.30:838][546]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.25.36:599][ 38]LogLinux: Scale at X=836.500000, Y=256.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.25.36:644][ 40]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.25.38:353][216]LogLinux: Scale at X=761.000000, Y=323.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.25.38:404][218]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.25.54:736][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-19.25.54:752][902]PIE: New page: PIE session: Level00 (Sep 16, 2018, 1:25:54 PM)
+[2018.09.16-19.25.54:755][902]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-19.25.54:814][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059549s)
+[2018.09.16-19.25.54:820][902]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-19.25.54:827][902]LogPlayLevel: PIE: World Init took: (0.012199s)
+[2018.09.16-19.25.54:827][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.072965s)
+[2018.09.16-19.25.54:930][902]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-19.25.54:931][902]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-19.25.54:931][902]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-19.25.54:931][902]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-19.25.54:931][902]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-19.25.54:931][902]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-19.25.54:931][902]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-19.25.54:934][902]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-19.25.54:935][902]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-19.25.55:007][902]LogInit: FAudioDevice initialized.
+[2018.09.16-19.25.55:011][902]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.25.55:012][902]LogLinux: Scale at X=315.000000, Y=163.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.25.55:013][902]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.25.55:072][902]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-19.25.55:119][902]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-19.25.55:136][902]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-16.25.55
+[2018.09.16-19.25.55:150][902]LogWorld: Bringing up level for play took: 0.029352
+[2018.09.16-19.25.55:193][902]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.475
+[2018.09.16-19.25.55:341][903]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.26.15:284][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-19.26.15:299][938]LogSlate: Window 'PlataformGameAV1 Game Preview Standalone (64-bit/GLSL_430)' being destroyed
+[2018.09.16-19.26.15:375][938]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-19.26.15:503][939]LogPlayLevel: Display: Destroying online subsystem :Context_109
+[2018.09.16-19.26.18:965][112]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-19.26.19:048][119]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.16-19.26.19:072][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-19.26.19:072][119]PIE: New page: PIE session: Level00 (Sep 16, 2018, 1:26:19 PM)
+[2018.09.16-19.26.19:072][119]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-19.26.19:084][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012214s)
+[2018.09.16-19.26.19:085][119]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-19.26.19:085][119]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2018.09.16-19.26.19:085][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.013185s)
+[2018.09.16-19.26.19:123][119]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-19.26.19:123][119]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-19.26.19:123][119]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-19.26.19:123][119]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-19.26.19:123][119]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-19.26.19:123][119]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-19.26.19:123][119]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-19.26.19:123][119]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-19.26.19:123][119]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-19.26.19:192][119]LogInit: FAudioDevice initialized.
+[2018.09.16-19.26.19:192][119]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.26.19:192][119]LogLinux: Scale at X=315.000000, Y=163.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.26.19:193][119]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.26.19:225][119]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-19.26.19:268][119]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-19.26.19:276][119]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-16.26.19
+[2018.09.16-19.26.19:277][119]LogWorld: Bringing up level for play took: 0.008496
+[2018.09.16-19.26.19:281][119]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.214
+[2018.09.16-19.26.19:392][120]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.26.24:020][328]LogRenderer: Reallocating scene render targets to support 1920x1056 Format 10 NumSamples 1 (Frame:212).
+[2018.09.16-19.26.26:658][422]LogEditorViewport: Clicking on Actor (LMB): Plataforma2BluePrint_C (Plataforma2BluePrint)
+[2018.09.16-19.26.27:517][448]LogEditorViewport: Clicking on Actor (LMB): FundoBluePrint_C (FundoBluePrint)
+[2018.09.16-19.26.28:697][484]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-19.26.28:759][485]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-19.26.28:773][485]LogSlate: Window 'PlataformGameAV1 Game Preview Standalone (64-bit/GLSL_430)' being destroyed
+[2018.09.16-19.26.28:826][485]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-19.26.28:923][486]LogPlayLevel: Display: Destroying online subsystem :Context_110
+[2018.09.16-19.26.31:295][594]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.16-19.26.31:315][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-19.26.31:315][594]PIE: New page: PIE session: Level00 (Sep 16, 2018, 1:26:31 PM)
+[2018.09.16-19.26.31:315][594]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-19.26.31:328][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012167s)
+[2018.09.16-19.26.31:328][594]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-19.26.31:329][594]LogPlayLevel: PIE: World Init took: (0.000786s)
+[2018.09.16-19.26.31:329][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.013115s)
+[2018.09.16-19.26.31:365][594]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-19.26.31:366][594]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-19.26.31:366][594]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-19.26.31:366][594]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-19.26.31:366][594]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-19.26.31:366][594]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-19.26.31:366][594]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-19.26.31:366][594]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-19.26.31:366][594]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-19.26.31:452][594]LogInit: FAudioDevice initialized.
+[2018.09.16-19.26.31:453][594]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.26.31:453][594]LogLinux: Scale at X=315.000000, Y=163.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.26.31:454][594]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.26.31:517][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-19.26.31:576][594]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-19.26.31:598][594]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-16.26.31
+[2018.09.16-19.26.31:600][594]LogWorld: Bringing up level for play took: 0.021434
+[2018.09.16-19.26.31:606][594]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.296
+[2018.09.16-19.26.31:703][595]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.26.35:798][800]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-19.26.35:815][800]LogSlate: Window 'PlataformGameAV1 Game Preview Standalone (64-bit/GLSL_430)' being destroyed
+[2018.09.16-19.26.35:869][800]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-19.26.35:955][801]LogPlayLevel: Display: Destroying online subsystem :Context_111
+[2018.09.16-19.54.34:664][658]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.16-19.54.35:501][658]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-19.54.35:525][658]PIE: New page: PIE session: Level00 (Sep 16, 2018, 1:54:35 PM)
+[2018.09.16-19.54.35:536][658]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.16-19.54.35:755][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.216861s)
+[2018.09.16-19.54.35:796][658]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-19.54.35:817][658]LogPlayLevel: PIE: World Init took: (0.062111s)
+[2018.09.16-19.54.35:817][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.280966s)
+[2018.09.16-19.54.35:993][658]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-19.54.35:994][658]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-19.54.35:994][658]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-19.54.35:994][658]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-19.54.35:994][658]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-19.54.35:994][658]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-19.54.35:994][658]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-19.54.36:000][658]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-19.54.36:000][658]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-19.54.36:083][658]LogInit: FAudioDevice initialized.
+[2018.09.16-19.54.36:094][658]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.54.36:095][658]LogLinux: Scale at X=315.000000, Y=163.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.54.36:105][658]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-19.54.36:262][658]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-19.54.36:361][658]LogLoad: Game class is 'GameModeBase'
+[2018.09.16-19.54.36:409][658]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.16-16.54.36
+[2018.09.16-19.54.36:427][658]LogWorld: Bringing up level for play took: 0.064482
+[2018.09.16-19.54.36:480][658]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 1.675
+[2018.09.16-19.54.36:666][659]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-19.55.18:072][747]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-19.55.18:090][747]LogSlate: Window 'PlataformGameAV1 Game Preview Standalone (64-bit/GLSL_430)' being destroyed
+[2018.09.16-19.55.18:219][747]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-19.55.18:336][748]LogPlayLevel: Display: Destroying online subsystem :Context_112
