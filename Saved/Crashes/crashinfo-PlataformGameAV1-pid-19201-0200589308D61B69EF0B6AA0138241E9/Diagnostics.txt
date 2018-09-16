@@ -1,0 +1,25 @@
+Generating report for minidump
+
+Application version 4.20.1.0
+ ... built from changelist 0
+
+OS version Linux 4.15.0-34-generic (network name: R2D2)
+Running 2 x86_64 processors (4 logical cores)
+Exception was "SIGABRT: abort() called"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libc.so.6!gsignal(+0x38)
+libc.so.6!abort(+0x169)
+libc.so.6!UnknownFunction(0x777e9)
+libc.so.6!UnknownFunction(0x80c70)
+libc.so.6!cfree(+0x4b)
+libGL.so.1!UnknownFunction(0xb68a0)
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

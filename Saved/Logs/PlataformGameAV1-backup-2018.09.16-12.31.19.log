@@ -1,0 +1,1434 @@
+﻿Log file open, 09/16/18 12:19:28
+LogInit: Display: Running engine for game: PlataformGameAV1
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.084802
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin DatasmithContent
+LogStreaming: Display: Took  0.509s to configure plugins.
+LogInit: Using libcurl 7.48.0-DEV
+LogInit:  - built for x86_64-unknown-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  Libcurl: checking if '/etc/pki/tls/certs/ca-bundle.crt' exists
+LogInit:  Libcurl: checking if '/etc/ssl/certs/ca-certificates.crt' exists
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = /etc/ssl/certs/ca-certificates.crt  - Libcurl will set CURLOPT_CAINFO to it
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: Build: ++UE4+Release-4.20-CL-0
+LogInit: Engine Version: 4.20.1-0+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-0+++UE4+Release-4.20
+LogInit: Net CL: 0
+LogInit: OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz, GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Aug 19 2018 16:14:30
+LogInit: Compiled with Clang: 5.0.0 (tags/RELEASE_500/final)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: /home/mauricio/UnrealEngine/Engine/Binaries/Linux/
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.16-15.19.29:781][  0]LogInit: Initializing SDL.
+[2018.09.16-15.19.30:021][  0]LogInit: Initialized SDL 2.0.5 revision: 11184 (hg-11184:04063928c4a8 with EpicExtensions) (compiled against 2.0.5)
+[2018.09.16-15.19.30:021][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2018.09.16-15.19.30:021][  0]LogInit: Using SDL video driver 'x11'
+[2018.09.16-15.19.30:021][  0]LogInit: Display metrics:
+[2018.09.16-15.19.30:021][  0]LogInit:   PrimaryDisplayWidth: 1920
+[2018.09.16-15.19.30:021][  0]LogInit:   PrimaryDisplayHeight: 1080
+[2018.09.16-15.19.30:021][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2018.09.16-15.19.30:021][  0]LogInit:     Left=0, Top=30, Right=1920, Bottom=1080
+[2018.09.16-15.19.30:021][  0]LogInit:   VirtualDisplayRect:
+[2018.09.16-15.19.30:021][  0]LogInit:     Left=0, Top=0, Right=3840, Bottom=1080
+[2018.09.16-15.19.30:021][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2018.09.16-15.19.30:021][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2018.09.16-15.19.30:021][  0]LogInit:   Number of monitors: 2
+[2018.09.16-15.19.30:021][  0]LogInit:     Monitor 0
+[2018.09.16-15.19.30:021][  0]LogInit:       Name: Acer V246HL 24"
+[2018.09.16-15.19.30:021][  0]LogInit:       ID: display0
+[2018.09.16-15.19.30:021][  0]LogInit:       NativeWidth: 1920
+[2018.09.16-15.19.30:021][  0]LogInit:       NativeHeight: 1080
+[2018.09.16-15.19.30:021][  0]LogInit:       bIsPrimary: true
+[2018.09.16-15.19.30:021][  0]LogInit:     Monitor 1
+[2018.09.16-15.19.30:021][  0]LogInit:       Name: 1
+[2018.09.16-15.19.30:021][  0]LogInit:       ID: display1
+[2018.09.16-15.19.30:021][  0]LogInit:       NativeWidth: 1920
+[2018.09.16-15.19.30:021][  0]LogInit:       NativeHeight: 1080
+[2018.09.16-15.19.30:021][  0]LogInit:       bIsPrimary: false
+[2018.09.16-15.19.30:022][  0]LogLinux: Selected Device Profile: [Linux]
+[2018.09.16-15.19.30:022][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Linux]
+[2018.09.16-15.19.30:032][  0]LogHAL: Display: Platform has ~ 4 GB [8137621504 / 4294967296 / 8], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.16-15.19.30:032][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.16-15.19.30:033][  0]LogInit: Using custom *.sym to symbolicate
+[2018.09.16-15.19.30:033][  0]LogInit: Unix hardware info:
+[2018.09.16-15.19.30:033][  0]LogInit:  - we are not the first instance of this executable
+[2018.09.16-15.19.30:033][  0]LogInit:  - this process' id (pid) is 12235, parent process' id (ppid) is 11911
+[2018.09.16-15.19.30:033][  0]LogInit:  - we are not running under debugger
+[2018.09.16-15.19.30:033][  0]LogInit:  - machine network name is 'R2D2'
+[2018.09.16-15.19.30:033][  0]LogInit:  - user name is 'mauricio' (mauricio)
+[2018.09.16-15.19.30:033][  0]LogInit:  - we're logged in locally
+[2018.09.16-15.19.30:033][  0]LogInit:  - we're running with rendering
+[2018.09.16-15.19.30:033][  0]LogInit:  - CPU: GenuineIntel 'Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz' (signature: 0x806E9)
+[2018.09.16-15.19.30:033][  0]LogInit:  - Number of physical cores available for the process: 2
+[2018.09.16-15.19.30:033][  0]LogInit:  - Number of logical cores available for the process: 4
+[2018.09.16-15.19.30:033][  0]LogInit:  - Cache line size: 64
+[2018.09.16-15.19.30:033][  0]LogInit:  - Memory allocator used: binned2
+[2018.09.16-15.19.30:033][  0]LogCore: Benchmarking clocks:
+[2018.09.16-15.19.30:033][  0]LogCore:  - CLOCK_REALTIME (id=0) can sustain 39927086 (39927K, 40M) calls per second without zero deltas.
+[2018.09.16-15.19.30:033][  0]LogCore:  - CLOCK_MONOTONIC (id=1) can sustain 40559655 (40560K, 41M) calls per second without zero deltas.
+[2018.09.16-15.19.30:033][  0]LogCore:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 2826948 (2827K, 3M) calls per second without zero deltas.
+[2018.09.16-15.19.30:033][  0]LogCore:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 133013946 (133014K, 133M) calls per second with 99.999805% zero deltas.
+[2018.09.16-15.19.30:033][  0]LogCore: Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+[2018.09.16-15.19.30:033][  0]LogInit: Unix-specific commandline switches:
+[2018.09.16-15.19.30:033][  0]LogInit:  -nodwarf (currently OFF): suppress parsing of DWARF debug info (callstacks will be generated faster, but won't have line numbers)
+[2018.09.16-15.19.30:033][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2018.09.16-15.19.30:033][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2018.09.16-15.19.30:033][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2018.09.16-15.19.30:033][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2018.09.16-15.19.30:033][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2018.09.16-15.19.30:033][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2018.09.16-15.19.30:033][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2018.09.16-15.19.30:033][  0]LogInit:  - Physical RAM available (not considering process quota): 8 GB (7760 MB, 7946896 KB, 8137621504 bytes)
+[2018.09.16-15.19.30:206][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.09.16-15.19.30:206][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.09.16-15.19.30:701][  0]LogStreaming: Display: Took  0.495s to InitEngineTextLocalization.
+[2018.09.16-15.19.30:769][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.16-15.19.30:769][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.16-15.19.32:047][  0]LogRHI: Initializing OpenGL RHI
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_VENDOR: NVIDIA Corporation
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_RENDERER: GeForce 940MX/PCIe/SSE2
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_VERSION: 4.3.0 NVIDIA 384.130
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_SHADING_LANGUAGE_VERSION: 4.30 NVIDIA via Cg compiler
+[2018.09.16-15.19.32:047][  0]LogRHI: OpenGL Extensions:
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_AMD_multi_draw_indirect
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_AMD_seamless_cubemap_per_texture
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_arrays_of_arrays
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_base_instance
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_bindless_texture
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_blend_func_extended
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_buffer_storage
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_clear_buffer_object
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_clear_texture
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_clip_control
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_color_buffer_float
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_compressed_texture_pixel_storage
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_conservative_depth
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_compute_shader
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_compute_variable_group_size
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_conditional_render_inverted
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_copy_buffer
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_copy_image
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_cull_distance
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_debug_output
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_depth_buffer_float
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_depth_clamp
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_depth_texture
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_derivative_control
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_direct_state_access
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_draw_buffers
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_draw_buffers_blend
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_draw_indirect
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_draw_elements_base_vertex
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_draw_instanced
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_enhanced_layouts
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_ES2_compatibility
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_ES3_compatibility
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_ES3_1_compatibility
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_ES3_2_compatibility
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_explicit_attrib_location
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_explicit_uniform_location
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_fragment_coord_conventions
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_fragment_layer_viewport
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_fragment_program
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_fragment_program_shadow
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_fragment_shader
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_framebuffer_no_attachments
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_framebuffer_object
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_framebuffer_sRGB
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_geometry_shader4
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_get_program_binary
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_get_texture_sub_image
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_gl_spirv
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_gpu_shader5
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_gpu_shader_fp64
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_gpu_shader_int64
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_half_float_pixel
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_half_float_vertex
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_imaging
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_indirect_parameters
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_instanced_arrays
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_internalformat_query
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_internalformat_query2
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_invalidate_subdata
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_map_buffer_alignment
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_map_buffer_range
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_multi_bind
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_multi_draw_indirect
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_multisample
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_multitexture
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_occlusion_query
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_occlusion_query2
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_parallel_shader_compile
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_pipeline_statistics_query
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_pixel_buffer_object
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_point_parameters
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_point_sprite
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_program_interface_query
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_provoking_vertex
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_query_buffer_object
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_robust_buffer_access_behavior
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_robustness
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_sample_shading
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_sampler_objects
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_seamless_cube_map
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_seamless_cubemap_per_texture
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_separate_shader_objects
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_shader_atomic_counter_ops
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_shader_atomic_counters
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_shader_ballot
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_shader_bit_encoding
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_shader_clock
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_shader_draw_parameters
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_shader_group_vote
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_shader_image_load_store
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_shader_image_size
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_shader_objects
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_shader_precision
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_shader_storage_buffer_object
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_shader_subroutine
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_shader_texture_image_samples
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_shader_texture_lod
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_shading_language_100
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_shading_language_420pack
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_shading_language_include
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_shading_language_packing
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_shadow
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_sparse_buffer
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_sparse_texture
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_stencil_texturing
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_sync
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_tessellation_shader
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_texture_barrier
+[2018.09.16-15.19.32:047][  0]LogRHI:   GL_ARB_texture_border_clamp
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_buffer_object
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_buffer_object_rgb32
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_buffer_range
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_compression
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_compression_bptc
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_compression_rgtc
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_cube_map
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_cube_map_array
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_env_add
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_env_combine
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_env_crossbar
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_env_dot3
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_float
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_gather
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_mirror_clamp_to_edge
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_mirrored_repeat
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_multisample
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_non_power_of_two
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_query_levels
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_query_lod
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_rectangle
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_rg
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_rgb10_a2ui
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_stencil8
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_storage
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_storage_multisample
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_swizzle
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_texture_view
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_timer_query
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_transform_feedback2
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_transform_feedback3
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_transform_feedback_instanced
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_transform_feedback_overflow_query
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_transpose_matrix
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_uniform_buffer_object
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_vertex_array_bgra
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_vertex_array_object
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_vertex_attrib_64bit
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_vertex_attrib_binding
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_vertex_buffer_object
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_vertex_program
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_vertex_shader
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_vertex_type_10f_11f_11f_rev
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_vertex_type_2_10_10_10_rev
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_viewport_array
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ARB_window_pos
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ATI_draw_buffers
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ATI_texture_float
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_ATI_texture_mirror_once
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_S3_s3tc
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_texture_env_add
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_abgr
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_bgra
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_bindable_uniform
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_blend_color
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_blend_equation_separate
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_blend_func_separate
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_blend_minmax
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_blend_subtract
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_compiled_vertex_array
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_Cg_shader
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_depth_bounds_test
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_direct_state_access
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_draw_buffers2
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_draw_instanced
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_draw_range_elements
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_fog_coord
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_framebuffer_blit
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_framebuffer_multisample
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXTX_framebuffer_mixed_formats
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_framebuffer_multisample_blit_scaled
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_framebuffer_object
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_framebuffer_sRGB
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_geometry_shader4
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_gpu_program_parameters
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_gpu_shader4
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_multi_draw_arrays
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_packed_depth_stencil
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_packed_float
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_packed_pixels
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_pixel_buffer_object
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_point_parameters
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_polygon_offset_clamp
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_provoking_vertex
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_rescale_normal
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_secondary_color
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_separate_shader_objects
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_separate_specular_color
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_shader_image_load_formatted
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_shader_image_load_store
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_shader_integer_mix
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_shadow_funcs
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_stencil_two_side
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_stencil_wrap
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_texture3D
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_texture_array
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_texture_buffer_object
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_texture_compression_dxt1
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_texture_compression_latc
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_texture_compression_rgtc
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_texture_compression_s3tc
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_texture_cube_map
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_texture_edge_clamp
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_texture_env_combine
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_texture_env_dot3
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_texture_filter_anisotropic
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_texture_integer
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_texture_lod
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_texture_lod_bias
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_texture_mirror_clamp
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_texture_object
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_texture_shared_exponent
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_texture_sRGB
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_texture_sRGB_decode
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_texture_storage
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_texture_swizzle
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_timer_query
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_transform_feedback2
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_vertex_array
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_vertex_array_bgra
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_vertex_attrib_64bit
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_window_rectangles
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_x11_sync_object
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_import_sync_object
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_NV_robustness_video_memory_purge
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_IBM_rasterpos_clip
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_IBM_texture_mirrored_repeat
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_KHR_context_flush_control
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_KHR_debug
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_memory_object
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_memory_object_fd
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_KHR_no_error
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_KHR_robust_buffer_access_behavior
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_KHR_robustness
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_semaphore
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_EXT_semaphore_fd
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_KTX_buffer_region
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_NV_alpha_to_coverage_dither_control
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect_count
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_NV_bindless_texture
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_NV_blend_equation_advanced
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_NV_blend_equation_advanced_coherent
+[2018.09.16-15.19.32:048][  0]LogRHI:   GL_NV_blend_square
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_command_list
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_compute_program5
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_conditional_render
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_copy_depth_to_color
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_copy_image
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_depth_buffer_float
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_depth_clamp
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_draw_texture
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_draw_vulkan_image
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_ES1_1_compatibility
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_ES3_1_compatibility
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_explicit_multisample
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_fence
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_float_buffer
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_fog_distance
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_fragment_program
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_fragment_program_option
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_fragment_program2
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_framebuffer_multisample_coverage
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_geometry_shader4
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_gpu_program4
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_internalformat_sample_query
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_gpu_program4_1
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_gpu_program5
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_gpu_program5_mem_extended
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_gpu_program_fp64
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_gpu_shader5
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_half_float
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_light_max_exponent
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_multisample_coverage
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_multisample_filter_hint
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_occlusion_query
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_packed_depth_stencil
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_parameter_buffer_object
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_parameter_buffer_object2
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_path_rendering
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_pixel_data_range
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_point_sprite
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_primitive_restart
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_register_combiners
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_register_combiners2
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_shader_atomic_counters
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_shader_atomic_float
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_shader_atomic_int64
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_shader_buffer_load
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_shader_storage_buffer_object
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_texgen_reflection
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_texture_barrier
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_texture_compression_vtc
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_texture_env_combine4
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_texture_multisample
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_texture_rectangle
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_texture_shader
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_texture_shader2
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_texture_shader3
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_transform_feedback
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_transform_feedback2
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_uniform_buffer_unified_memory
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_vdpau_interop
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_vertex_array_range
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_vertex_array_range2
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_vertex_attrib_integer_64bit
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_vertex_buffer_unified_memory
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_vertex_program
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_vertex_program1_1
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_vertex_program2
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_vertex_program2_option
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_vertex_program3
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NVX_conditional_render
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NVX_gpu_memory_info
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NVX_nvenc_interop
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_shader_thread_group
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_NV_shader_thread_shuffle
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_KHR_blend_equation_advanced
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_KHR_blend_equation_advanced_coherent
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_SGIS_generate_mipmap
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_SGIS_texture_lod
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_SGIX_depth_texture
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_SGIX_shadow
+[2018.09.16-15.19.32:049][  0]LogRHI:   GL_SUN_slice_accum
+[2018.09.16-15.19.32:050][  0]LogRHI:   GL_MAX_TEXTURE_SIZE: 16384
+[2018.09.16-15.19.32:050][  0]LogRHI:   GL_MAX_CUBE_MAP_TEXTURE_SIZE: 16384
+[2018.09.16-15.19.32:050][  0]LogRHI:   GL_MAX_ARRAY_TEXTURE_LAYERS: 2048
+[2018.09.16-15.19.32:050][  0]LogRHI:   GL_MAX_3D_TEXTURE_SIZE: 2048
+[2018.09.16-15.19.32:050][  0]LogRHI:   GL_MAX_RENDERBUFFER_SIZE: 16384
+[2018.09.16-15.19.32:050][  0]LogRHI:   GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[2018.09.16-15.19.32:050][  0]LogRHI:   GL_MAX_DRAW_BUFFERS: 8
+[2018.09.16-15.19.32:050][  0]LogRHI:   GL_MAX_COLOR_ATTACHMENTS: 8
+[2018.09.16-15.19.32:050][  0]LogRHI:   GL_MAX_SAMPLES: 32
+[2018.09.16-15.19.32:050][  0]LogRHI:   GL_MAX_COLOR_TEXTURE_SAMPLES: 32
+[2018.09.16-15.19.32:050][  0]LogRHI:   GL_MAX_DEPTH_TEXTURE_SAMPLES: 32
+[2018.09.16-15.19.32:050][  0]LogRHI:   GL_MAX_INTEGER_SAMPLES: 32
+[2018.09.16-15.19.32:050][  0]LogRHI:   GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 192
+[2018.09.16-15.19.32:050][  0]LogRHI:   GL_MAX_VERTEX_ATTRIBS: 16
+[2018.09.16-15.19.32:050][  0]LogRHI:   GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT: 16
+[2018.09.16-15.19.32:050][  0]LogRHI: OpenGL MajorVersion = 4, MinorVersion = 3, ShaderPlatform = GLSL_430, FeatureLevel = SM5
+[2018.09.16-15.19.32:059][  0]LogRHI: Texture pool is 1433 MB (70% of 2048 MB)
+[2018.09.16-15.19.32:059][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../Documentos/Unreal Projects/PlataformGameAV1/Intermediate/Shaders/WorkingDirectory/12235/).
+[2018.09.16-15.19.32:059][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../Documentos/Unreal Projects/PlataformGameAV1/Intermediate/Shaders/tmp/00041EB508D61BCEA850E71A45C69E40/'.
+[2018.09.16-15.19.32:059][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.16-15.19.33:874][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.16-15.19.34:027][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.16-15.19.34:191][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.16-15.19.34:346][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.16-15.19.34:504][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.16-15.19.34:710][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-15.19.34:710][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-15.19.34:710][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-15.19.34:710][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-15.19.34:710][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-15.19.34:710][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-15.19.34:710][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-15.19.34:710][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-15.19.34:710][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-15.19.34:710][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-15.19.34:710][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-15.19.34:710][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-15.19.34:710][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-15.19.34:710][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-15.19.34:710][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-15.19.34:710][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-15.19.34:710][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-15.19.34:710][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-15.19.34:864][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.16-15.19.34:864][  0]LogTargetPlatformManager: Display: Building Assets For Linux
+[2018.09.16-15.19.35:375][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.16-15.19.35:444][  0]LogDerivedDataCache: Loaded boot cache 0.07s 84MB ../../../../Documentos/Unreal Projects/PlataformGameAV1/DerivedDataCache/Boot.ddc.
+[2018.09.16-15.19.35:444][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../Documentos/Unreal Projects/PlataformGameAV1/DerivedDataCache/Boot.ddc
+[2018.09.16-15.19.35:444][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Documentos/Unreal Projects/PlataformGameAV1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.16-15.19.35:444][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.16-15.19.35:444][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.16-15.19.35:444][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2018.09.16-15.19.35:453][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2018.09.16-15.19.35:453][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.16-15.19.35:453][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.16-15.19.35:479][  0]LogMaterial: Verifying Global Shaders for GLSL_430
+[2018.09.16-15.19.35:490][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.16-15.19.35:492][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2018.09.16-15.19.35:597][  0]LogAssetRegistry: FAssetRegistry took 0.0039 seconds to start up
+[2018.09.16-15.19.35:954][  0]LogLinux: Selected Device Profile: [Linux]
+[2018.09.16-15.19.36:488][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.16-15.19.36:488][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.16-15.19.36:488][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.09.16-15.19.36:488][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2018.09.16-15.19.36:488][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.09.16-15.19.36:488][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2018.09.16-15.19.36:514][  0]LogNetVersion: PlataformGameAV1 1.0.0, NetCL: 0, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2795854797)
+[2018.09.16-15.19.37:351][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.026622 seconds
+[2018.09.16-15.19.37:358][  0]LogUObjectArray: 37547 objects as part of root set at end of initial load.
+[2018.09.16-15.19.37:359][  0]LogUObjectAllocator: 6509480 out of 0 bytes used by permanent object pool.
+[2018.09.16-15.19.37:359][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.16-15.19.37:595][  0]LogHAL: Linux SourceCodeAccessSettings: NullSourceCodeAccessor
+[2018.09.16-15.19.38:596][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.09.16-15.19.38:596][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.09.16-15.19.38:596][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.16-15.19.38:596][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.16-15.19.38:596][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.16-15.19.38:596][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.16-15.19.38:597][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.09.16-15.19.38:597][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.09.16-15.19.38:597][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.16-15.19.38:597][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.16-15.19.38:597][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.16-15.19.38:597][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.16-15.19.38:598][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.09.16-15.19.38:598][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.09.16-15.19.38:598][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.16-15.19.38:598][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.16-15.19.38:598][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.16-15.19.38:598][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.16-15.19.38:598][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.09.16-15.19.38:598][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.09.16-15.19.38:599][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.16-15.19.38:599][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.16-15.19.38:599][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.16-15.19.38:599][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.16-15.19.38:603][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.09.16-15.19.38:603][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.09.16-15.19.38:603][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:603][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:603][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:603][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:604][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.09.16-15.19.38:604][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.09.16-15.19.38:604][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:604][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:604][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:604][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:605][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2018.09.16-15.19.38:605][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2018.09.16-15.19.38:605][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:605][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:605][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:605][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:606][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2018.09.16-15.19.38:606][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2018.09.16-15.19.38:606][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:606][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:606][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:606][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:606][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.09.16-15.19.38:607][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.09.16-15.19.38:607][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:607][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:607][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:607][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:607][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.09.16-15.19.38:607][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.09.16-15.19.38:608][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:608][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:608][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:608][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:608][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2018.09.16-15.19.38:608][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2018.09.16-15.19.38:609][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:609][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:609][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:609][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:609][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2018.09.16-15.19.38:609][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2018.09.16-15.19.38:610][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:610][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:610][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:610][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:610][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2018.09.16-15.19.38:610][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2018.09.16-15.19.38:610][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:610][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:611][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:611][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:611][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.09.16-15.19.38:611][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.09.16-15.19.38:611][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:611][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:612][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:612][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:612][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.09.16-15.19.38:612][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.09.16-15.19.38:612][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:612][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:613][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:613][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:613][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2018.09.16-15.19.38:613][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2018.09.16-15.19.38:613][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:613][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:613][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:613][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:614][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2018.09.16-15.19.38:614][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2018.09.16-15.19.38:614][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:614][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:614][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:614][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:615][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.09.16-15.19.38:615][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.09.16-15.19.38:615][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:615][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:615][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:615][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:616][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.09.16-15.19.38:616][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.09.16-15.19.38:616][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:616][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:616][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:616][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:616][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2018.09.16-15.19.38:616][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2018.09.16-15.19.38:617][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:617][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:617][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:617][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:617][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2018.09.16-15.19.38:617][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2018.09.16-15.19.38:618][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:618][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:618][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:618][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:618][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2018.09.16-15.19.38:618][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2018.09.16-15.19.38:619][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:619][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.38:619][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.16-15.19.38:619][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.16-15.19.41:034][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.16-15.19.41:038][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.16-15.19.46:826][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.16-15.19.48:048][  0]SourceControl: Source control is disabled
+[2018.09.16-15.19.48:048][  0]SourceControl: Source control is disabled
+[2018.09.16-15.19.48:199][  0]SourceControl: Source control is disabled
+[2018.09.16-15.19.48:888][  0]SourceControl: Source control is disabled
+[2018.09.16-15.19.51:210][  0]LogEngine: Initializing Engine...
+[2018.09.16-15.19.51:211][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.16-15.19.51:213][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.16-15.19.51:213][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.16-15.19.51:213][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.16-15.19.51:213][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.16-15.19.51:530][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.16-15.19.52:047][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.16-15.19.52:057][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.16-15.19.52:057][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.16-15.19.52:057][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.16-15.19.52:057][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.16-15.19.52:057][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.16-15.19.52:057][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.16-15.19.52:057][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.16-15.19.52:058][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.16-15.19.52:066][  0]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.16-15.19.52:139][  0]LogInit: FAudioDevice initialized.
+[2018.09.16-15.19.52:140][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.16-15.19.52:210][  0]LogDerivedDataCache: Saved boot cache 0.07s 84MB ../../../../Documentos/Unreal Projects/PlataformGameAV1/DerivedDataCache/Boot.ddc.
+[2018.09.16-15.19.52:707][  0]LogInit: Texture streaming: Enabled
+[2018.09.16-15.19.52:746][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.16-15.19.53:227][  0]LogInit: Transaction tracking system initialized
+[2018.09.16-15.19.54:162][  0]BlueprintLog: New page: Editor Load
+[2018.09.16-15.19.56:781][  0]LocalizationService: Localization service is disabled
+[2018.09.16-15.19.58:536][  0]LogFileCache: Scanning file cache for directory '/home/mauricio/Documentos/Unreal Projects/PlataformGameAV1/Content/' took 0.00s
+[2018.09.16-15.19.58:536][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.16-15.19.58:536][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.16-15.19.58:536][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.16-15.19.58:536][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.16-15.19.58:536][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.16-15.19.58:536][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.16-15.19.58:536][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.16-15.20.01:873][  0]SourceControl: Source control is disabled
+[2018.09.16-15.20.01:873][  0]Cmd: MAP LOAD FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.16-15.20.01:883][  0]LightingResults: New page: Lighting Build
+[2018.09.16-15.20.01:984][  0]MapCheck: New page: Map Check
+[2018.09.16-15.20.01:984][  0]LightingResults: New page: Lighting Build
+[2018.09.16-15.20.02:443][  0]LogAIModule: Creating AISystem for world Level00
+[2018.09.16-15.20.02:459][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.16-15.20.02:492][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.16-15.20.02:516][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 23.854ms to complete.
+[2018.09.16-15.20.02:516][  0]LogFileHelpers: Loading map 'Level00' took 0.643
+[2018.09.16-15.20.02:537][  0]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.20.02:538][  0]LogLinux: Scale at X=960.000000, Y=555.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.20.02:554][  0]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.20.02:586][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-15.20.02:595][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-15.20.02:604][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-15.20.02:614][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-15.20.02:624][  0]LogCollectionManager: Loaded 0 collections in 0.002928 seconds
+[2018.09.16-15.20.02:638][  0]LogFileCache: Scanning file cache for directory '/home/mauricio/Documentos/Unreal Projects/PlataformGameAV1/Saved/Collections/' took 0.00s
+[2018.09.16-15.20.02:638][  0]LogFileCache: Scanning file cache for directory '/home/mauricio/Documentos/Unreal Projects/PlataformGameAV1/Content/Developers/mauricio/Collections/' took 0.00s
+[2018.09.16-15.20.02:638][  0]LogFileCache: Scanning file cache for directory '/home/mauricio/Documentos/Unreal Projects/PlataformGameAV1/Content/Collections/' took 0.00s
+[2018.09.16-15.20.02:638][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2545 classes and 566 folders.
+[2018.09.16-15.20.02:641][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.09.16-15.20.02:945][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.16-15.20.03:023][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.16-15.20.03:156][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.09.16-15.20.03:378][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.16-15.20.03:378][  0]LogLoad: (Engine Initialization) Total time: 36.25 seconds
+[2018.09.16-15.20.03:378][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.16-15.20.03:389][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.16-15.20.03:397][  0]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.16-15.20.03:404][  0]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.16-15.20.03:610][  0]LogInit: Adding external input plugin.
+[2018.09.16-15.20.03:635][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.09.16-15.20.03:711][  0]LogRenderer: Reallocating scene render targets to support 1528x508 Format 10 NumSamples 1 (Frame:1).
+[2018.09.16-15.20.03:846][  0]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-15.20.03:904][  0]LogSlate: Took 0.000083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.16-15.20.03:921][  1]LogAssetRegistry: Asset discovery search completed in 28.3247 seconds
+[2018.09.16-15.20.03:923][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.16-15.20.03:923][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000096 seconds (updated 0 objects)
+[2018.09.16-15.20.04:416][ 30]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.20.04:416][ 30]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.20.04:416][ 30]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.20.04:459][ 30]LogSlate: Took 0.000074 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.16-15.20.04:660][ 40]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-15.20.08:138][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-15.20.08:255][224]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.20.08:255][224]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.20.08:257][224]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.20.08:294][224]LogAssetEditorManager: Opening Asset editor for PaperFlipbook /Game/Assets/Paper2D/Sprites/FlipBook/ProjetilFlipBook.ProjetilFlipBook
+[2018.09.16-15.20.08:301][224]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-15.20.08:344][224]LogLinux: Scale at X=217.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.20.08:344][224]LogLinux: Scale at X=1177.000000, Y=555.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.20.08:428][224]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.20.08:428][224]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.20.08:429][224]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.20.08:466][224]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-15.20.08:467][224]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-15.20.08:484][224]LogAssetEditorManager: Opening Asset editor for Material /Engine/MaterialTemplates/Gradients/Gradient_Radial.Gradient_Radial
+[2018.09.16-15.20.08:489][224]LogMaterial: Display: Missing cached shader map for material Gradient_Radial, compiling. 
+[2018.09.16-15.20.08:874][224]LogMaterial: Display: Missing cached shader map for material Gradient_Radial, compiling. 
+[2018.09.16-15.20.08:900][224]LogMaterial: Display: Missing cached shader map for material Gradient_Radial, compiling. 
+[2018.09.16-15.20.08:965][224]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.16-15.20.08:965][224]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.16-15.20.08:965][224]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.16-15.20.09:020][224]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.20.09:021][224]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.20.09:022][224]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.20.09:069][224]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-15.20.09:081][224]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/ProjetilBluePrint.ProjetilBluePrint
+[2018.09.16-15.20.09:090][224]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-15.20.10:710][224]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.16-15.20.10:710][224]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.16-15.20.10:710][224]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.16-15.20.11:137][224]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 116 classes and 0 folders.
+[2018.09.16-15.20.13:707][224]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.09.16-15.20.13:707][224]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.16-15.20.13:707][224]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.16-15.20.13:707][224]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.09.16-15.20.13:707][224]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.09.16-15.20.13:707][224]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.09.16-15.20.13:844][224]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.09.16-15.20.13:935][224]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.16-15.20.13:936][224]LogSlate: Took 0.000084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.16-15.20.14:635][226]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-15.20.14:659][226]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.20.14:828][228]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-15.20.15:294][245]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.16-15.20.15:319][246]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.16-15.20.16:140][269]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.16-15.20.16:704][282]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.16-15.20.16:868][286]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.16-15.20.17:810][304]LogRenderer: Reallocating scene render targets to support 1528x780 Format 10 NumSamples 1 (Frame:1).
+[2018.09.16-15.20.19:333][366]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.20.19:333][366]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.20.19:334][366]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.20.19:439][372]LogLinux: Scale at X=217.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.20.19:540][373]LogRenderer: Reallocating scene render targets to support 1528x784 Format 10 NumSamples 1 (Frame:61).
+[2018.09.16-15.20.19:594][374]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-15.20.20:029][398]LogRenderer: Reallocating scene render targets to support 1528x800 Format 10 NumSamples 1 (Frame:67).
+[2018.09.16-15.20.20:413][440]LogSlate: Window 'ProjetilFlipBook' being destroyed
+[2018.09.16-15.22.26:234][713]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2018.09.16-15.22.26:254][714]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.16-15.22.27:556][756]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2018.09.16-15.22.27:565][756]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.16-15.22.27:972][766]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
+[2018.09.16-15.22.27:978][766]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.16-15.22.28:822][790]LogMaterial: Display: Missing cached shader map for material Material_3, compiling. 
+[2018.09.16-15.22.28:831][790]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.16-15.22.28:912][792]LogMaterial: Display: Missing cached shader map for material Material_4, compiling. 
+[2018.09.16-15.22.29:304][801]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.16-15.23.20:664][866]LogLinux: Scale at X=228.000000, Y=607.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.23.20:728][868]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-15.27.34:112][ 92]LogLinux: Scale at X=186.000000, Y=654.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.27.34:174][ 94]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-15.27.35:457][186]LogLinux: Scale at X=233.000000, Y=710.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.16-15.27.35:496][188]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.16-15.27.37:966][375]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.16-15.27.37:986][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave WhiteNoise...
+[2018.09.16-15.27.37:986][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.27.38:041][375]LogTexture: Display: Building textures: T_Emissive (AutoDXT, 32X32)
+[2018.09.16-15.27.38:041][375]LogTexture: Display: Building textures: T_Reflection (DXT1, 32X32)
+[2018.09.16-15.27.38:041][375]LogTexture: Display: Building textures: T_Normal (BC5, 32X32)
+[2018.09.16-15.27.38:041][375]LogMaterial: Display: Missing cached shader map for material VertexPaint_2Tex_Color, compiling. 
+[2018.09.16-15.27.38:167][375]LogTexture: Display: Building textures: MaterialError (AutoDXT, 8X8)
+[2018.09.16-15.27.38:167][375]LogShaderCompilers: Display: Shaders left to compile 94
+[2018.09.16-15.27.38:167][375]LogShaderCompilers: Display: Shaders left to compile 84
+[2018.09.16-15.27.38:167][375]LogShaderCompilers: Display: Shaders left to compile 74
+[2018.09.16-15.27.38:167][375]LogMaterial: Display: Missing cached shader map for material MaterialError_Mat, compiling. Is special engine material.
+[2018.09.16-15.27.39:120][375]LogMaterial: Display: Missing cached shader map for material VertexPaint_4Tex, compiling. 
+[2018.09.16-15.27.39:536][375]LogTexture: Display: Building textures: TangentColorMap (AutoDXT, 256X256)
+[2018.09.16-15.27.39:536][375]LogMaterial: Display: Missing cached shader map for material TangentColorMaterial, compiling. 
+[2018.09.16-15.27.39:614][375]LogMaterial: Display: Missing cached shader map for material TexturePaint_2Tex_Color, compiling. 
+[2018.09.16-15.27.39:730][375]LogMaterial: Display: Missing cached shader map for material LightmapResolutionMaterial, compiling. Is special engine material.
+[2018.09.16-15.27.40:511][375]LogTexture: Display: Building textures: T_1x1_Grid (AutoDXT, 128X128)
+[2018.09.16-15.27.40:511][375]LogMaterial: Display: Missing cached shader map for material HeatmapMaterial, compiling. 
+[2018.09.16-15.27.40:549][375]LogMaterial: Display: Missing cached shader map for material BlackUnlitMaterial, compiling. 
+[2018.09.16-15.27.40:581][375]LogMaterial: Display: Missing cached shader map for material TerrainCollisionMaterial, compiling. Is special engine material.
+[2018.09.16-15.27.40:834][375]LogMaterial: Display: Missing cached shader map for material M_TextureDefinedSpecularReflecti, compiling. 
+[2018.09.16-15.27.40:902][375]LogTexture: Display: Building textures: Complex_IES (RGBA16F, 256X1)
+[2018.09.16-15.27.40:902][375]LogTexture: Display: Building textures: 90Degree_IES (RGBA16F, 256X1)
+[2018.09.16-15.27.40:902][375]LogTexture: Display: Building textures: NarrowComplex_IES (RGBA16F, 256X1)
+[2018.09.16-15.27.40:902][375]LogTexture: Display: Building textures: Narrow10000 (RGBA16F, 256X1)
+[2018.09.16-15.27.40:902][375]LogTexture: Display: Building textures: 180Degree_IES (RGBA16F, 256X1)
+[2018.09.16-15.27.40:902][375]LogTexture: Display: Building textures: Narrow1000_IES (RGBA16F, 256X1)
+[2018.09.16-15.27.40:902][375]LogMaterial: Display: Missing cached shader map for material LandscapeLightingMaterial, compiling. 
+[2018.09.16-15.27.40:957][375]LogMaterial: Display: Missing cached shader map for material FlattenHeightMat, compiling. 
+[2018.09.16-15.27.40:983][375]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.09.16-15.27.41:000][375]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.09.16-15.27.41:252][375]LogTexture: Display: Building textures: GizmoTexture (AutoDXT, 256X256)
+[2018.09.16-15.27.41:252][375]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.09.16-15.27.41:268][375]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.09.16-15.27.41:293][375]LogTexture: Display: Building textures: WhiteSquareTexture (AutoDXT, 32X32)
+[2018.09.16-15.27.41:293][375]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.09.16-15.27.41:313][375]LogMaterial: Display: Missing cached shader map for material DebugLayerColorMat, compiling. 
+[2018.09.16-15.27.41:361][375]LogMaterial: Display: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2018.09.16-15.27.41:417][375]LogMaterial: Display: Missing cached shader map for material FoliageBrushSphereMaterial, compiling. 
+[2018.09.16-15.27.41:446][375]LogMaterial: Display: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2018.09.16-15.27.41:465][375]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.09.16-15.27.41:485][375]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.09.16-15.27.41:505][375]LogStaticMesh: Building static mesh FlattenPlaneMesh...
+[2018.09.16-15.27.41:698][375]LogStaticMesh: Built static mesh [0.19s] /Engine/EditorLandscapeResources/FlattenPlaneMesh.FlattenPlaneMesh
+[2018.09.16-15.27.41:712][375]LogTexture: Display: Building textures: LandscapeThumbnailWeightmap (BGRA8, 1X1)
+[2018.09.16-15.27.41:713][375]LogMaterial: Display: Missing cached shader map for material MirrorPlaneMaterial, compiling. 
+[2018.09.16-15.27.41:739][375]LogTexture: Display: Building textures: LandscapeGizmoHeightLookup (BGRA8, 256X1)
+[2018.09.16-15.27.41:739][375]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.09.16-15.27.41:818][375]LogTexture: Display: Building textures: DebugNumberStrip (AutoDXT, 128X1024)
+[2018.09.16-15.27.41:818][375]LogMaterial: Display: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2018.09.16-15.27.41:845][375]LogTexture: Display: Building textures: LandscapeThumbnailHeightmap (BGRA8, 1X1)
+[2018.09.16-15.27.41:845][375]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.09.16-15.27.41:864][375]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.09.16-15.27.41:891][375]LogMaterial: Display: Missing cached shader map for material LandscapeGizmoHeight_UnderMat, compiling. 
+[2018.09.16-15.27.41:911][375]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.09.16-15.27.41:948][375]LogTexture: Display: Building textures: TreeArrow_Expanded (BGRA8, 12X12)
+[2018.09.16-15.27.41:948][375]LogTexture: Display: Building textures: GreyCheck (AutoDXT, 32X32)
+[2018.09.16-15.27.41:948][375]LogMaterial: Display: Missing cached shader map for material HelpFlatColour, compiling. 
+[2018.09.16-15.27.42:095][375]LogTexture: Display: Building textures: CASC_ModuleEnab_2 (DXT1, 16X16)
+[2018.09.16-15.27.42:095][375]LogTexture: Display: Building textures: TargetIconSpawn (AutoDXT, 256X256)
+[2018.09.16-15.27.42:095][375]LogTexture: Display: Building textures: TreeArrow_ExpandedRealtimePreview (BGRA8, 12X12)
+[2018.09.16-15.27.42:095][375]LogMaterial: Display: Missing cached shader map for material ThumbnailSolid, compiling. 
+[2018.09.16-15.27.42:140][375]LogTexture: Display: Building textures: MaterialBackdrop (AutoDXT, 128X128)
+[2018.09.16-15.27.42:140][375]LogMaterial: Display: Missing cached shader map for material ThumbnailBack, compiling. 
+[2018.09.16-15.27.42:172][375]LogMaterial: Display: Missing cached shader map for material PersonaSky, compiling. 
+[2018.09.16-15.27.42:226][375]LogMaterial: Display: Missing cached shader map for material LevelTransformMaterial, compiling. 
+[2018.09.16-15.27.42:417][375]LogTexture: Display: Building textures: TreeArrow_Collapsed (BGRA8, 12X12)
+[2018.09.16-15.27.42:417][375]LogTexture: Display: Building textures: MatineeGreyGrad (AutoDXT, 64X64)
+[2018.09.16-15.27.42:417][375]LogMaterial: Display: Missing cached shader map for material Frac_ElementMaterial, compiling. 
+[2018.09.16-15.27.43:251][375]LogTexture: Display: Building textures: UnrealEdIcons (AutoDXT, 1024X1024)
+[2018.09.16-15.27.43:263][375]LogTexture: Display: Building textures: Anchor (AutoDXT, 32X32)
+[2018.09.16-15.27.43:263][375]LogMaterial: Display: Missing cached shader map for material CheckMaterial, compiling. 
+[2018.09.16-15.27.43:301][375]LogTexture: Display: Building textures: CASC_Curve_2 (DXT1, 16X16)
+[2018.09.16-15.27.43:301][375]LogTexture: Display: Building textures: MAT_Groups_ParticleReplay (AutoDXT, 16X16)
+[2018.09.16-15.27.43:301][375]LogTexture: Display: Building textures: CASC_ModuleEnable (AutoDXT, 16X16)
+[2018.09.16-15.27.43:301][375]LogMaterial: Display: Missing cached shader map for material MAT_EnableTrack_Mat, compiling. 
+[2018.09.16-15.27.43:344][375]LogTexture: Display: Building textures: CASC_DisabledModule (AutoDXT, 64X32)
+[2018.09.16-15.27.43:344][375]LogMaterial: Display: Missing cached shader map for material CASC_BackgroundCube_MAT, compiling. 
+[2018.09.16-15.27.43:372][375]LogTexture: Display: Building textures: CASC_Solo_Off (AutoDXT, 16X16)
+[2018.09.16-15.27.43:372][375]LogTexture: Display: Building textures: CASC_CurveEd (AutoDXT, 16X16)
+[2018.09.16-15.27.43:372][375]LogTexture: Display: Building textures: CASC_Lights (BC5, 16X16)
+[2018.09.16-15.27.43:372][375]LogMaterial: Display: Missing cached shader map for material CASC_CurveEd_MAT, compiling. 
+[2018.09.16-15.27.43:407][375]LogMaterial: Display: Missing cached shader map for material CASC_RenderLights_MAT, compiling. 
+[2018.09.16-15.27.43:460][375]LogMaterial: Display: Missing cached shader map for material CASC_RenderNone_MAT, compiling. 
+[2018.09.16-15.27.43:530][375]LogTexture: Display: Building textures: CASC_Solo_On (AutoDXT, 16X16)
+[2018.09.16-15.27.43:530][375]LogMaterial: Display: Missing cached shader map for material CASC_RenderCross_MAT, compiling. 
+[2018.09.16-15.27.43:616][375]LogTexture: Display: Building textures: CASC_Point (AutoDXT, 16X16)
+[2018.09.16-15.27.43:616][375]LogMaterial: Display: Missing cached shader map for material CASC_RenderPoint_MAT, compiling. 
+[2018.09.16-15.27.43:669][375]LogTexture: Display: Building textures: CASC_ModuleDisable (AutoDXT, 16X16)
+[2018.09.16-15.27.43:669][375]LogMaterial: Display: Missing cached shader map for material CASC_ModuleEnable_MAT, compiling. 
+[2018.09.16-15.27.43:718][375]LogMaterial: Display: Missing cached shader map for material CASC_ModuleDisable_MAT, compiling. 
+[2018.09.16-15.27.43:784][375]LogTexture: Display: Building textures: CASC_Normal (BC5, 16X16)
+[2018.09.16-15.27.43:784][375]LogMaterial: Display: Missing cached shader map for material CASC_RenderNormal_MAT, compiling. 
+[2018.09.16-15.27.43:853][375]LogMaterial: Display: Missing cached shader map for material ImageReflectionPreview, compiling. 
+[2018.09.16-15.27.43:883][375]LogMaterial: Display: Missing cached shader map for material LinearColorPicker_MAT, compiling. 
+[2018.09.16-15.27.43:948][375]LogMaterial: Display: Missing cached shader map for material MAT_Groups_Director_Mat, compiling. 
+[2018.09.16-15.27.44:004][375]LogMaterial: Display: Missing cached shader map for material MAT_Groups_Vector_Mat, compiling. 
+[2018.09.16-15.27.44:062][375]LogTexture: Display: Building textures: MAT_Groups_Left_On (AutoDXT, 8X8)
+[2018.09.16-15.27.44:062][375]LogMaterial: Display: Missing cached shader map for material MAT_Groups_Toggle_Mat, compiling. 
+[2018.09.16-15.27.44:125][375]LogTexture: Display: Building textures: MAT_Groups_View_Off (AutoDXT, 16X16)
+[2018.09.16-15.27.44:125][375]LogMaterial: Display: Missing cached shader map for material MAT_Groups_Visibility_Mat, compiling. 
+[2018.09.16-15.27.44:187][375]LogTexture: Display: Building textures: MAT_Groups_Right_Off (AutoDXT, 8X8)
+[2018.09.16-15.27.44:187][375]LogTexture: Display: Building textures: MAT_Groups_Left_Off (AutoDXT, 8X8)
+[2018.09.16-15.27.44:187][375]LogMaterial: Display: Missing cached shader map for material MAT_Groups_Left_Off_Mat, compiling. 
+[2018.09.16-15.27.44:272][375]LogMaterial: Display: Missing cached shader map for material MAT_Groups_Fade_Mat, compiling. 
+[2018.09.16-15.27.44:329][375]LogTexture: Display: Building textures: MAT_Groups_Right_On (AutoDXT, 8X8)
+[2018.09.16-15.27.44:329][375]LogMaterial: Display: Missing cached shader map for material MAT_Groups_Right_On_Mat, compiling. 
+[2018.09.16-15.27.44:384][375]LogMaterial: Display: Missing cached shader map for material MAT_Groups_Right_Off_Mat, compiling. 
+[2018.09.16-15.27.44:456][375]LogTexture: Display: Building textures: MAT_Groups_View_On (AutoDXT, 16X16)
+[2018.09.16-15.27.44:456][375]LogMaterial: Display: Missing cached shader map for material MAT_Groups_View_On_Mat, compiling. 
+[2018.09.16-15.27.44:542][375]LogMaterial: Display: Missing cached shader map for material MAT_Groups_Left_On_Mat, compiling. 
+[2018.09.16-15.27.44:618][375]LogTexture: Display: Building textures: MAT_Groups_Graph_Off (AutoDXT, 8X8)
+[2018.09.16-15.27.44:618][375]LogMaterial: Display: Missing cached shader map for material MAT_Groups_Slomo_Mat, compiling. 
+[2018.09.16-15.27.44:697][375]LogMaterial: Display: Missing cached shader map for material MAT_Groups_ParticleReplay_Mat, compiling. 
+[2018.09.16-15.27.44:761][375]LogMaterial: Display: Missing cached shader map for material MAT_Groups_Move_Mat, compiling. 
+[2018.09.16-15.27.44:826][375]LogTexture: Display: Building textures: MAT_Groups_Graph_On (AutoDXT, 8X8)
+[2018.09.16-15.27.44:826][375]LogMaterial: Display: Missing cached shader map for material MAT_Groups_Trajectory_On_Mat, compiling. 
+[2018.09.16-15.27.44:895][375]LogMaterial: Display: Missing cached shader map for material MAT_Groups_Graph_Off_Mat, compiling. 
+[2018.09.16-15.27.44:955][375]LogMaterial: Display: Missing cached shader map for material MAT_Groups_Float_Mat, compiling. 
+[2018.09.16-15.27.45:013][375]LogMaterial: Display: Missing cached shader map for material MAT_Groups_Trajectory_Off_Mat, compiling. 
+[2018.09.16-15.27.45:052][375]LogMaterial: Display: Missing cached shader map for material MAT_ColorTrack_Mat, compiling. 
+[2018.09.16-15.27.45:073][375]LogMaterial: Display: Missing cached shader map for material MAT_Groups_Sound_Mat, compiling. 
+[2018.09.16-15.27.45:133][375]LogMaterial: Display: Missing cached shader map for material MAT_Groups_Anim_Mat, compiling. 
+[2018.09.16-15.27.45:209][375]LogMaterial: Display: Missing cached shader map for material MAT_Groups_Graph_On_Mat, compiling. 
+[2018.09.16-15.27.45:248][375]LogMaterial: Display: Missing cached shader map for material MAT_Groups_View_Off_Mat, compiling. 
+[2018.09.16-15.27.45:307][375]LogMaterial: Display: Missing cached shader map for material MAT_Groups_Event_Mat, compiling. 
+[2018.09.16-15.27.45:365][375]LogShaderCompilers: Display: Shaders left to compile 3546
+[2018.09.16-15.27.45:365][375]LogMaterial: Display: Missing cached shader map for material MAT_Groups_AudioMaster_Mat, compiling. 
+[2018.09.16-15.27.46:411][375]LogTexture: Display: Building textures: S_Pickup (BGRA8, 128X128)
+[2018.09.16-15.27.46:411][375]LogTexture: Display: Building textures: S_FluidSurfOsc (AutoDXT, 32X32)
+[2018.09.16-15.27.46:411][375]LogTexture: Display: Building textures: S_PolyMarker (AutoDXT, 32X32)
+[2018.09.16-15.27.46:411][375]LogTexture: Display: Building textures: S_Route (AutoDXT, 32X32)
+[2018.09.16-15.27.46:411][375]LogTexture: Display: Building textures: BadHighlight (AutoDXT, 128X128)
+[2018.09.16-15.27.46:411][375]LogTexture: Display: Building textures: S_Pawn (AutoDXT, 64X64)
+[2018.09.16-15.27.46:411][375]LogTexture: Display: Building textures: SimplygonLogo (AutoDXT, 128X128)
+[2018.09.16-15.27.46:411][375]LogTexture: Display: Building textures: BadPylon (BGRA8, 128X128)
+[2018.09.16-15.27.46:411][375]LogTexture: Display: Building textures: Console (AutoDXT, 64X256)
+[2018.09.16-15.27.46:411][375]LogTexture: Display: Building textures: BadBlueprintSprite (BGRA8, 128X128)
+[2018.09.16-15.27.46:411][375]LogTexture: Display: Building textures: S_FluidRaindrops (AutoDXT, 32X32)
+[2018.09.16-15.27.46:411][375]LogTexture: Display: Building textures: S_AutoAlignToTerrain (AutoDXT, 16X16)
+[2018.09.16-15.27.46:411][375]LogTexture: Display: Building textures: RGBTable16x1_AssetViewer (BGRA8, 256X16)
+[2018.09.16-15.27.46:411][375]LogTexture: Display: Building textures: Spawn_Point (AutoDXT, 256X256)
+[2018.09.16-15.27.46:411][375]LogTexture: Display: Building textures: S_FluidSphere (AutoDXT, 32X32)
+[2018.09.16-15.27.46:411][375]LogTexture: Display: Building textures: Waypoint (AutoDXT, 256X256)
+[2018.09.16-15.27.46:411][375]LogTexture: Display: Building textures: S_BezierHandle (AutoDXT, 16X16)
+[2018.09.16-15.27.46:412][375]LogTexture: Display: Building textures: UnrealEdIcon_PhysAsset (AutoDXT, 128X128)
+[2018.09.16-15.27.46:412][375]LogTexture: Display: Building textures: Goal_Waypoint (AutoDXT, 256X256)
+[2018.09.16-15.27.46:412][375]LogTexture: Display: Building textures: S_SceneCaptureIcon (AutoDXT, 256X256)
+[2018.09.16-15.27.46:412][375]LogTexture: Display: Building textures: S_ForceFeedbackComponent_AutoActivate (AutoDXT, 256X256)
+[2018.09.16-15.27.46:412][375]LogTexture: Display: Building textures: PathNode (AutoDXT, 32X32)
+[2018.09.16-15.27.46:412][375]LogTexture: Display: Building textures: Ai_Spawnpoint (AutoDXT, 256X256)
+[2018.09.16-15.27.46:412][375]LogTexture: Display: Building textures: S_Teleport (AutoDXT, 32X32)
+[2018.09.16-15.27.46:412][375]LogTexture: Display: Building textures: S_ForceFeedbackComponent (AutoDXT, 256X256)
+[2018.09.16-15.27.46:970][375]LogTexture: Display: Building textures: S_FluidSurf (AutoDXT, 32X32)
+[2018.09.16-15.27.46:970][375]LogTexture: Display: Building textures: S_SkyLight (BGRA8, 128X128)
+[2018.09.16-15.27.46:970][375]LogTexture: Display: Building textures: S_FluidFlow (AutoDXT, 32X32)
+[2018.09.16-15.27.46:970][375]LogTexture: Display: Building textures: T_Crowd_Spline (AutoDXT, 128X128)
+[2018.09.16-15.27.46:970][375]LogTexture: Display: Building textures: T_Loft_Spline_Surf (AutoDXT, 128X128)
+[2018.09.16-15.27.46:970][375]LogTexture: Display: Building textures: Light_Point_Stationary_Statics (BGRA8, 256X256)
+[2018.09.16-15.27.46:970][375]LogTexture: Display: Building textures: S_Ambient_Sound_Toggleable (AutoDXT, 256X256)
+[2018.09.16-15.27.46:970][375]LogTexture: Display: Building textures: S_AudioComponent (BGRA8, 256X256)
+[2018.09.16-15.27.46:970][375]LogTexture: Display: Building textures: S_Ambient_Sound_Simple (AutoDXT, 256X256)
+[2018.09.16-15.27.46:970][375]LogTexture: Display: Building textures: S_Ambient_Sound_Moveable (AutoDXT, 256X256)
+[2018.09.16-15.27.46:970][375]LogTexture: Display: Building textures: S_AudioComponent_AutoActivate (BGRA8, 256X256)
+[2018.09.16-15.27.46:970][375]LogTexture: Display: Building textures: S_Ambient_Sound_Non_Loop (AutoDXT, 256X256)
+[2018.09.16-15.27.46:970][375]LogStaticMesh: Building static mesh S_EV_FogVolume_Cube_01...
+[2018.09.16-15.27.46:971][375]LogStaticMesh: Built static mesh [0.00s] /Engine/EngineVolumetrics/FogEnvironment/Mesh/S_EV_FogVolume_Cube_01.S_EV_FogVolume_Cube_01
+[2018.09.16-15.27.46:985][375]LogMaterial: Display: Missing cached shader map for material M_EV_FogEnvironment_Master_01, compiling. 
+[2018.09.16-15.27.47:011][375]LogStaticMesh: Building static mesh S_EV_FogEnvironment_01_Mesh...
+[2018.09.16-15.27.47:022][375]LogStaticMesh: Built static mesh [0.01s] /Engine/EngineVolumetrics/FogEnvironment/Mesh/S_EV_FogEnvironment_01_Mesh.S_EV_FogEnvironment_01_Mesh
+[2018.09.16-15.27.47:035][375]LogStaticMesh: Building static mesh S_EV_FogVolume_Cylinder_01...
+[2018.09.16-15.27.47:038][375]LogStaticMesh: Built static mesh [0.01s] /Engine/EngineVolumetrics/FogEnvironment/Mesh/S_EV_FogVolume_Cylinder_01.S_EV_FogVolume_Cylinder_01
+[2018.09.16-15.27.47:218][375]LogStaticMesh: Building static mesh S_EV_FogVolume_Sphere_01...
+[2018.09.16-15.27.47:388][375]LogStaticMesh: Built static mesh [0.17s] /Engine/EngineVolumetrics/FogEnvironment/Mesh/S_EV_FogVolume_Sphere_01.S_EV_FogVolume_Sphere_01
+[2018.09.16-15.27.51:093][375]LogTexture: Display: Building textures: T_EV_Fogsheet_FlareColors_01 (AutoDXT, 512X512)
+[2018.09.16-15.27.51:093][375]LogShaderCompilers: Display: Shaders left to compile 3588
+[2018.09.16-15.27.51:093][375]LogTexture: Display: Building textures: T_EV_FogSheet_Falloff_01 (AutoDXT, 256X256)
+[2018.09.16-15.27.51:093][375]LogTexture: Display: Building textures: T_EV_FogSheet_CloudTex_02 (AutoDXT, 1024X1024)
+[2018.09.16-15.27.51:093][375]LogShaderCompilers: Display: Shaders left to compile 3578
+[2018.09.16-15.27.51:100][375]LogMaterial: Display: Missing cached shader map for material M_EV_FogSheet_Master_01, compiling. 
+[2018.09.16-15.27.51:167][375]LogMaterial: Display: Missing cached shader map for material M_EV_FogSheet_Master_01, compiling. 
+[2018.09.16-15.27.51:205][375]LogStaticMesh: Building static mesh S_EV_FogSheet_01...
+[2018.09.16-15.27.51:206][375]LogStaticMesh: Built static mesh [0.00s] /Engine/EngineVolumetrics/Fogsheet/Mesh/S_EV_FogSheet_01.S_EV_FogSheet_01
+[2018.09.16-15.27.51:237][375]LogMaterial: Display: Missing cached shader map for material M_EV_FogSheet_1sided_Master_01, compiling. 
+[2018.09.16-15.27.52:316][375]LogTexture: Display: Building textures: T_EV_FogSheet_Falloff_03 (AutoDXT, 256X256)
+[2018.09.16-15.27.52:316][375]LogTexture: Display: Building textures: T_EV_FogSheet_CloudTex_01 (DXT1, 512X512)
+[2018.09.16-15.27.52:338][375]LogMaterial: Display: Missing cached shader map for material M_EV_FogSheet_2sided_Master_Addi, compiling. 
+[2018.09.16-15.27.52:386][375]LogMaterial: Display: Missing cached shader map for material M_EV_FogSheet_1sided_Master_Ad_2, compiling. 
+[2018.09.16-15.27.52:618][375]LogTexture: Display: Building textures: T_EV_FogSheet_Falloff_02 (AutoDXT, 256X256)
+[2018.09.16-15.27.52:618][375]LogTexture: Display: Building textures: T_EV_BlankWhite_01 (AutoDXT, 4X4)
+[2018.09.16-15.27.52:618][375]LogMaterial: Display: Missing cached shader map for material M_EV_FogSheet_1sided_Master_01_N, compiling. 
+[2018.09.16-15.27.52:648][375]LogMaterial: Display: Missing cached shader map for material M_EV_FogSheet_1sided_Master_Addi, compiling. 
+[2018.09.16-15.27.52:675][375]LogMaterial: Display: Missing cached shader map for material M_EV_FalloffSphere_Master_01, compiling. 
+[2018.09.16-15.27.52:697][375]LogStaticMesh: Building static mesh S_EV_FalloffSphere_Mesh_01...
+[2018.09.16-15.27.52:706][375]LogStaticMesh: Built static mesh [0.01s] /Engine/EngineVolumetrics/FalloffSphere/Mesh/S_EV_FalloffSphere_Mesh_01.S_EV_FalloffSphere_Mesh_01
+[2018.09.16-15.27.52:920][375]LogTexture: Display: Building textures: T_EV_LightBeam_Falloff_02 (G8, 64X64)
+[2018.09.16-15.27.52:920][375]LogTexture: Display: Building textures: T_EV_LightBeam_Falloff_01 (AutoDXT, 128X128)
+[2018.09.16-15.27.52:920][375]LogTexture: Display: Building textures: T_EV_DustPanner_01 (AutoDXT, 256X256)
+[2018.09.16-15.27.52:920][375]LogMaterial: Display: Missing cached shader map for material M_EV_Lightbeam_Master_01, compiling. 
+[2018.09.16-15.27.52:956][375]LogStaticMesh: Building static mesh S_EV_SimpleLightBeam_03...
+[2018.09.16-15.27.52:972][375]LogStaticMesh: Built static mesh [0.02s] /Engine/EngineVolumetrics/LightBeam/Mesh/S_EV_SimpleLightBeam_03.S_EV_SimpleLightBeam_03
+[2018.09.16-15.27.52:988][375]LogStaticMesh: Building static mesh S_EV_SimpleLightBeam_02...
+[2018.09.16-15.27.52:995][375]LogStaticMesh: Built static mesh [0.01s] /Engine/EngineVolumetrics/LightBeam/Mesh/S_EV_SimpleLightBeam_02.S_EV_SimpleLightBeam_02
+[2018.09.16-15.27.53:022][375]LogStaticMesh: Building static mesh S_EV_SimpleLightBeam_01...
+[2018.09.16-15.27.53:034][375]LogStaticMesh: Built static mesh [0.01s] /Engine/EngineVolumetrics/LightBeam/Mesh/S_EV_SimpleLightBeam_01.S_EV_SimpleLightBeam_01
+[2018.09.16-15.27.53:049][375]LogStaticMesh: Building static mesh S_EV_SimpleLightBeam_03_cross...
+[2018.09.16-15.27.53:050][375]LogStaticMesh: Built static mesh [0.00s] /Engine/EngineVolumetrics/LightBeam/Mesh/S_EV_SimpleLightBeam_03_cross.S_EV_SimpleLightBeam_03_cross
+[2018.09.16-15.27.53:066][375]LogMaterial: Display: Missing cached shader map for material M_EV_Lightbeam_Master_1sided_01, compiling. 
+[2018.09.16-15.27.53:090][375]LogMaterial: Display: Missing cached shader map for material M_EV_Lightbeam_Master_01, compiling. 
+[2018.09.16-15.28.15:558][375]LogTexture: Display: Building textures: T_EV_LightBeam_Falloff_01_Skyflo (AutoDXT, 128X128)
+[2018.09.16-15.28.15:558][375]LogTexture: Display: Building textures: T_EV_LightBeam_Falloff_03 (AutoDXT, 128X128)
+[2018.09.16-15.28.15:558][375]LogTexture: Display: Building textures: T_EV_LightBeam_Falloff_01_Graysc (G8, 128X128)
+[2018.09.16-15.28.15:558][375]LogShaderCompilers: Display: Shaders left to compile 3706
+[2018.09.16-15.28.15:558][375]LogTexture: Display: Building textures: T_ground_Moss_D (AutoDXT, 2048X2048)
+[2018.09.16-15.28.15:559][375]LogShaderCompilers: Display: Shaders left to compile 3696
+[2018.09.16-15.28.15:559][375]LogShaderCompilers: Display: Shaders left to compile 3686
+[2018.09.16-15.28.15:559][375]LogShaderCompilers: Display: Shaders left to compile 3676
+[2018.09.16-15.28.15:559][375]LogShaderCompilers: Display: Shaders left to compile 3666
+[2018.09.16-15.28.15:559][375]LogShaderCompilers: Display: Shaders left to compile 3656
+[2018.09.16-15.28.15:559][375]LogShaderCompilers: Display: Shaders left to compile 3646
+[2018.09.16-15.28.15:559][375]LogShaderCompilers: Display: Shaders left to compile 3636
+[2018.09.16-15.28.15:559][375]LogShaderCompilers: Display: Shaders left to compile 3626
+[2018.09.16-15.28.15:784][375]LogTexture: Display: Building textures: T_ShapeDiffuse (AutoDXT, 256X256)
+[2018.09.16-15.28.15:784][375]LogTexture: Display: Building textures: T_ShapeNormal (BC5, 256X256)
+[2018.09.16-15.28.15:784][375]LogMaterial: Display: Missing cached shader map for material M_ShapeMaster, compiling. 
+[2018.09.16-15.28.16:312][375]LogTexture: Display: Building textures: GradientTexture0 (BGRA8, 32X32)
+[2018.09.16-15.28.16:312][375]LogTexture: Display: Building textures: AICON-Green (AutoDXT, 64X64)
+[2018.09.16-15.28.16:312][375]LogTexture: Display: Building textures: AICON-Green (AutoDXT, 64X64)
+[2018.09.16-15.28.16:312][375]LogTexture: Display: Building textures: Gray (AutoDXT, 8X8)
+[2018.09.16-15.28.16:312][375]LogTexture: Display: Building textures: WireframeTexture (AutoDXT, 256X256)
+[2018.09.16-15.28.16:312][375]LogTexture: Display: Building textures: DefaultTexture (DXT1, 128X128)
+[2018.09.16-15.28.16:312][375]LogTexture: Display: Building textures: AICON-Red (AutoDXT, 64X64)
+[2018.09.16-15.28.16:312][375]LogTexture: Display: Building textures: Black (AutoDXT, 32X32)
+[2018.09.16-15.28.16:312][375]LogTexture: Display: Building textures: AICON-Red (AutoDXT, 64X64)
+[2018.09.16-15.28.16:312][375]LogTexture: Display: Building textures: DefaultTextureCube (DXT1, 128X128)
+[2018.09.16-15.28.16:312][375]LogTexture: Display: Building textures: Bad (AutoDXT, 64X64)
+[2018.09.16-15.28.16:312][375]LogTexture: Display: Building textures: Arrow (AutoDXT, 32X32)
+[2018.09.16-15.28.16:312][375]LogTexture: Display: Building textures: SplitterHorz (AutoDXT, 32X32)
+[2018.09.16-15.28.16:312][375]LogTexture: Display: Building textures: SplitterVert (AutoDXT, 32X32)
+[2018.09.16-15.28.16:312][375]LogTexture: Display: Building textures: BlueprintFunctionLibrary_64x (BGRA8, 64X64)
+[2018.09.16-15.28.16:312][375]LogMaterial: Display: Missing cached shader map for material Landscape_Material, compiling. 
+[2018.09.16-15.28.16:884][375]LogTexture: Display: Building textures: T_soft_smoke (AutoDXT, 512X512)
+[2018.09.16-15.28.16:884][375]LogTexture: Display: Building textures: T_SmokeSubUV_8X8 (AutoDXT, 1024X1024)
+[2018.09.16-15.28.18:693][375]LogMaterial: Display: Missing cached shader map for material M_smoke_subUV_blackbody, compiling. 
+[2018.09.16-15.28.19:610][375]LogMaterial: Display: Missing cached shader map for material TutorialMaterial, compiling. 
+[2018.09.16-15.28.19:899][375]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2018.09.16-15.28.19:906][375]LogShaderCompilers: Display: Shaders left to compile 3715
+[2018.09.16-15.28.19:907][375]LogAnimationCompression: Building Anim DDC data for AnimSequence /Engine/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Idle.Tutorial_Idle
+[2018.09.16-15.28.19:907][375]LogAnimationCompression: Recompressing (AnimSequence /Engine/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Idle.Tutorial_Idle) using current/default (AnimCompress_PerTrackCompression_22) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.09.16-15.28.19:985][375]LogAnimationCompression: Building Anim DDC data for AnimSequence /Engine/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Walk_Fwd.Tutorial_Walk_Fwd
+[2018.09.16-15.28.19:985][375]LogAnimationCompression: Recompressing (AnimSequence /Engine/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Walk_Fwd.Tutorial_Walk_Fwd) using current/default (AnimCompress_PerTrackCompression_50) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.09.16-15.28.20:048][375]LogSkeletalMesh: Building Skeletal Mesh TutorialTPP...
+[2018.09.16-15.28.20:064][375]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP.TutorialTPP
+[2018.09.16-15.28.20:070][375]LogMaterial: Display: Missing cached shader map for material TutorialTPP_Mat, compiling. 
+[2018.09.16-15.28.20:213][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave InterestingStuff...
+[2018.09.16-15.28.20:214][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.20:973][375]LogAIModule: Creating AISystem for world Entry
+[2018.09.16-15.28.22:507][375]LogTexture: Display: Building textures: T_CleanFloorGrunge_01_D (AutoDXT, 1024X1024)
+[2018.09.16-15.28.22:507][375]LogShaderCompilers: Display: Shaders left to compile 3762
+[2018.09.16-15.28.22:507][375]LogStaticMesh: Building static mesh SM_Room_01...
+[2018.09.16-15.28.24:815][375]LogStaticMesh: Built static mesh [2.31s] /Engine/VREditor/BasicMeshes/SM_Room_01.SM_Room_01
+[2018.09.16-15.28.25:141][375]LogShaderCompilers: Display: Shaders left to compile 3752
+[2018.09.16-15.28.25:141][375]LogMaterial: Display: Missing cached shader map for material M_Floor_01, compiling. 
+[2018.09.16-15.28.25:190][375]LogStaticMesh: Building static mesh SM_Pyramid_01...
+[2018.09.16-15.28.25:214][375]LogStaticMesh: Built static mesh [0.02s] /Engine/VREditor/BasicMeshes/SM_Pyramid_01.SM_Pyramid_01
+[2018.09.16-15.28.25:232][375]LogStaticMesh: Building static mesh SM_Cube_03...
+[2018.09.16-15.28.25:270][375]LogStaticMesh: Built static mesh [0.04s] /Engine/VREditor/BasicMeshes/SM_Cube_03.SM_Cube_03
+[2018.09.16-15.28.25:307][375]LogStaticMesh: Building static mesh SM_Cube_02...
+[2018.09.16-15.28.25:340][375]LogStaticMesh: Built static mesh [0.03s] /Engine/VREditor/BasicMeshes/SM_Cube_02.SM_Cube_02
+[2018.09.16-15.28.25:373][375]LogStaticMesh: Building static mesh SM_Cube_01...
+[2018.09.16-15.28.25:408][375]LogStaticMesh: Built static mesh [0.03s] /Engine/VREditor/BasicMeshes/SM_Cube_01.SM_Cube_01
+[2018.09.16-15.28.25:496][375]LogStaticMesh: Building static mesh SM_Ball_01...
+[2018.09.16-15.28.25:768][375]LogStaticMesh: Built static mesh [0.27s] /Engine/VREditor/BasicMeshes/SM_Ball_01.SM_Ball_01
+[2018.09.16-15.28.25:845][375]LogAIModule: Creating AISystem for world VR-Basic
+[2018.09.16-15.28.25:890][375]LogAIModule: Creating AISystem for world Template_Default
+[2018.09.16-15.28.26:096][375]LogTexture: Display: Building textures: T_multiMask (AutoDXT, 256X256)
+[2018.09.16-15.28.26:096][375]LogTexture: Display: Building textures: T_Noise01 (AutoDXT, 256X256)
+[2018.09.16-15.28.26:096][375]LogMaterial: Display: Missing cached shader map for material Gradient_Linear, compiling. 
+[2018.09.16-15.28.26:164][375]LogMaterial: Display: Missing cached shader map for material Gradient_Star, compiling. 
+[2018.09.16-15.28.26:199][375]LogMaterial: Display: Missing cached shader map for material M_SpecularUsingDiffuse, compiling. 
+[2018.09.16-15.28.26:234][375]LogMaterial: Display: Missing cached shader map for material VertexColorBlend, compiling. 
+[2018.09.16-15.28.26:273][375]LogMaterial: Display: Missing cached shader map for material MultiChannelMask, compiling. 
+[2018.09.16-15.28.26:308][375]LogMaterial: Display: Missing cached shader map for material VertexColorModulateTransition, compiling. 
+[2018.09.16-15.28.26:342][375]LogMaterial: Display: Missing cached shader map for material M_ContrastUsingLerp, compiling. 
+[2018.09.16-15.28.26:377][375]LogMaterial: Display: Missing cached shader map for material Spherical2dReflection, compiling. 
+[2018.09.16-15.28.26:528][375]LogTexture: Display: Building textures: T_DefaultMaskTexture (AutoDXT, 8X8)
+[2018.09.16-15.28.26:528][375]LogMaterial: Display: Missing cached shader map for material AdvancedFlag, compiling. 
+[2018.09.16-15.28.26:654][375]LogMaterial: Display: Missing cached shader map for material SimpleRotation, compiling. 
+[2018.09.16-15.28.26:740][375]LogMaterial: Display: Missing cached shader map for material SimpleWave, compiling. 
+[2018.09.16-15.28.26:826][375]LogMaterial: Display: Missing cached shader map for material SimpleWind, compiling. 
+[2018.09.16-15.28.26:937][375]LogMaterial: Display: Missing cached shader map for material SimpleBuldge, compiling. 
+[2018.09.16-15.28.27:421][375]LogTexture: Display: Building textures: T_MobileControls_texture (AutoDXT, 512X512)
+[2018.09.16-15.28.27:421][375]LogTexture: Display: Building textures: T_MobileMenu2 (AutoDXT, 512X512)
+[2018.09.16-15.28.27:421][375]LogTexture: Display: Building textures: MobileHUDButton2_on (AutoDXT, 128X32)
+[2018.09.16-15.28.27:421][375]LogTexture: Display: Building textures: T_Castle_ThumbstickInner (BGRA8, 64X64)
+[2018.09.16-15.28.27:421][375]LogTexture: Display: Building textures: AnalogHat (AutoDXT, 32X32)
+[2018.09.16-15.28.27:421][375]LogTexture: Display: Building textures: VirtualJoystick_Background (BGRA8, 256X256)
+[2018.09.16-15.28.27:421][375]LogTexture: Display: Building textures: VirtualJoystick_Thumb (BGRA8, 64X64)
+[2018.09.16-15.28.27:421][375]LogTexture: Display: Building textures: MobileHUDButton3 (AutoDXT, 32X32)
+[2018.09.16-15.28.27:421][375]LogTexture: Display: Building textures: MobileHUDDirectionPad2 (AutoDXT, 256X128)
+[2018.09.16-15.28.27:421][375]LogTexture: Display: Building textures: MobileHUDButton2_off (AutoDXT, 128X32)
+[2018.09.16-15.28.27:421][375]LogTexture: Display: Building textures: MobileHUDDirectionPad3 (AutoDXT, 256X128)
+[2018.09.16-15.28.27:421][375]LogTexture: Display: Building textures: MobileHUDDirectionStick (AutoDXT, 64X64)
+[2018.09.16-15.28.27:421][375]LogTexture: Display: Building textures: MobileHUDButton1_off (AutoDXT, 64X32)
+[2018.09.16-15.28.27:421][375]LogTexture: Display: Building textures: MobileHUDDirectionPad (AutoDXT, 128X128)
+[2018.09.16-15.28.27:421][375]LogTexture: Display: Building textures: MobileHUDButtonFire (AutoDXT, 64X64)
+[2018.09.16-15.28.27:421][375]LogTexture: Display: Building textures: MobileHUDButton1_on (AutoDXT, 64X32)
+[2018.09.16-15.28.27:421][375]LogTexture: Display: Building textures: T_Castle_ThumbstickOutter (BGRA8, 128X128)
+[2018.09.16-15.28.27:421][375]LogMaterial: Display: Missing cached shader map for material BackgroundMaterial, compiling. 
+[2018.09.16-15.28.27:476][375]LogStaticMesh: Building static mesh BackgroundCube...
+[2018.09.16-15.28.27:485][375]LogStaticMesh: Built static mesh [0.01s] /Engine/EngineMeshes/BackgroundCube.BackgroundCube
+[2018.09.16-15.28.29:671][375]LogTexture: Display: Building textures: T_Mat_UnrealTech_01_D (G8, 2048X2048)
+[2018.09.16-15.28.29:671][375]LogShaderCompilers: Display: Shaders left to compile 4166
+[2018.09.16-15.28.29:676][375]LogMaterial: Display: Missing cached shader map for material M_Mat_UnrealTech, compiling. 
+[2018.09.16-15.28.31:004][375]LogShaderCompilers: Display: Shaders left to compile 4184
+[2018.09.16-15.28.31:004][375]LogStaticMesh: Building static mesh SM_MatPreviewMesh_01...
+[2018.09.16-15.28.33:100][375]LogShaderCompilers: Display: Shaders left to compile 4174
+[2018.09.16-15.28.33:100][375]LogStaticMesh: Built static mesh [2.10s] /Engine/EngineMeshes/SM_MatPreviewMesh_01.SM_MatPreviewMesh_01
+[2018.09.16-15.28.33:447][375]LogMaterial: Display: Missing cached shader map for material EmissiveTexturedMaterial, compiling. 
+[2018.09.16-15.28.33:460][375]LogStaticMesh: Building static mesh ParticleCube...
+[2018.09.16-15.28.33:461][375]LogStaticMesh: Built static mesh [0.00s] /Engine/EngineMeshes/ParticleCube.ParticleCube
+[2018.09.16-15.28.33:466][375]LogSkeletalMesh: Building Skeletal Mesh SkeletalCube...
+[2018.09.16-15.28.33:467][375]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Engine/EngineMeshes/SkeletalCube.SkeletalCube
+[2018.09.16-15.28.33:471][375]LogStaticMesh: Building static mesh Cube...
+[2018.09.16-15.28.33:472][375]LogStaticMesh: Built static mesh [0.00s] /Engine/EngineMeshes/Cube.Cube
+[2018.09.16-15.28.33:485][375]LogStaticMesh: Building static mesh MaterialSphere...
+[2018.09.16-15.28.33:507][375]LogStaticMesh: Built static mesh [0.02s] /Engine/EngineMeshes/MaterialSphere.MaterialSphere
+[2018.09.16-15.28.33:760][375]LogTexture: Display: Building textures: UE4_Logo (AutoDXT, 1024X1024)
+[2018.09.16-15.28.33:760][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Dockable_Window_Close...
+[2018.09.16-15.28.33:760][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.33:847][375]LogMaterial: Display: Missing cached shader map for material ArrowMaterial, compiling. 
+[2018.09.16-15.28.33:907][375]LogStaticMesh: Building static mesh SM_Radial_Pointer...
+[2018.09.16-15.28.33:974][375]LogStaticMesh: Built static mesh [0.07s] /Engine/VREditor/UI/SM_Radial_Pointer.SM_Radial_Pointer
+[2018.09.16-15.28.33:986][375]LogMaterial: Display: Missing cached shader map for material KeyDiskMaterial, compiling. 
+[2018.09.16-15.28.34:054][375]LogStaticMesh: Building static mesh SM_Radial_Disk...
+[2018.09.16-15.28.34:134][375]LogStaticMesh: Built static mesh [0.08s] /Engine/VREditor/UI/SM_Radial_Disk.SM_Radial_Disk
+[2018.09.16-15.28.34:157][375]LogMaterial: Display: Missing cached shader map for material M_ContentWindow, compiling. 
+[2018.09.16-15.28.34:251][375]LogTexture: Display: Building textures: VivePreControllerSpec (AutoDXT, 2048X2048)
+[2018.09.16-15.28.34:252][375]LogStaticMesh: Building static mesh SM_ContentWindow_01...
+[2018.09.16-15.28.34:276][375]LogStaticMesh: Built static mesh [0.03s] /Engine/VREditor/UI/SM_ContentWindow_01.SM_ContentWindow_01
+[2018.09.16-15.28.34:288][375]LogStaticMesh: Building static mesh SM_Dialog_Move...
+[2018.09.16-15.28.34:299][375]LogStaticMesh: Built static mesh [0.01s] /Engine/VREditor/TransformGizmo/SM_Dialog_Move.SM_Dialog_Move
+[2018.09.16-15.28.34:313][375]LogStaticMesh: Building static mesh SM_Dialog_Close...
+[2018.09.16-15.28.34:371][375]LogStaticMesh: Built static mesh [0.06s] /Engine/VREditor/TransformGizmo/SM_Dialog_Close.SM_Dialog_Close
+[2018.09.16-15.28.34:383][375]LogStaticMesh: Building static mesh TeleportDirectionMesh...
+[2018.09.16-15.28.34:397][375]LogStaticMesh: Built static mesh [0.01s] /Engine/VREditor/Teleport/TeleportDirectionMesh.TeleportDirectionMesh
+[2018.09.16-15.28.34:404][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave VR_teleport...
+[2018.09.16-15.28.34:405][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.34:530][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Teleport_Mode_Entered...
+[2018.09.16-15.28.34:530][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.34:623][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Radial_Menu_FadeOut...
+[2018.09.16-15.28.34:624][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.34:682][375]LogTexture: Display: Building textures: VivePreControllerDiffuse (AutoDXT, 2048X2048)
+[2018.09.16-15.28.34:682][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Floating_UI_Open-001...
+[2018.09.16-15.28.34:682][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.34:747][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Drop_Item_From_ContentBrowser...
+[2018.09.16-15.28.34:748][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.34:823][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Dockable_Window_Pick_Up...
+[2018.09.16-15.28.34:823][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.34:872][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Dockable_Window_Open...
+[2018.09.16-15.28.34:873][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.34:917][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Dockable_Window_Drop...
+[2018.09.16-15.28.34:919][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.34:982][375]LogStaticMesh: Building static mesh LaserPointerMesh_Start...
+[2018.09.16-15.28.35:066][375]LogStaticMesh: Built static mesh [0.08s] /Engine/VREditor/LaserPointer/LaserPointerMesh_Start.LaserPointerMesh_Start
+[2018.09.16-15.28.35:098][375]LogStaticMesh: Building static mesh LaserPointerMesh_End...
+[2018.09.16-15.28.35:147][375]LogStaticMesh: Built static mesh [0.05s] /Engine/VREditor/LaserPointer/LaserPointerMesh_End.LaserPointerMesh_End
+[2018.09.16-15.28.35:166][375]LogStaticMesh: Building static mesh LaserPointerMesh...
+[2018.09.16-15.28.35:206][375]LogStaticMesh: Built static mesh [0.04s] /Engine/VREditor/LaserPointer/LaserPointerMesh.LaserPointerMesh
+[2018.09.16-15.28.35:219][375]LogStaticMesh: Building static mesh HoverMesh...
+[2018.09.16-15.28.35:253][375]LogStaticMesh: Built static mesh [0.03s] /Engine/VREditor/LaserPointer/HoverMesh.HoverMesh
+[2018.09.16-15.28.35:272][375]LogStaticMesh: Building static mesh CursorPointer...
+[2018.09.16-15.28.35:295][375]LogStaticMesh: Built static mesh [0.02s] /Engine/VREditor/LaserPointer/CursorPointer.CursorPointer
+[2018.09.16-15.28.35:309][375]LogStaticMesh: Building static mesh LineSegmentCylinder...
+[2018.09.16-15.28.35:310][375]LogStaticMesh: Built static mesh [0.01s] /Engine/VREditor/FloatingText/LineSegmentCylinder.LineSegmentCylinder
+[2018.09.16-15.28.35:323][375]LogStaticMesh: Building static mesh JointSphere...
+[2018.09.16-15.28.35:334][375]LogStaticMesh: Built static mesh [0.01s] /Engine/VREditor/FloatingText/JointSphere.JointSphere
+[2018.09.16-15.28.35:853][375]LogStaticMesh: Building static mesh VivePreControllerMesh...
+[2018.09.16-15.28.36:510][375]LogStaticMesh: Built static mesh [0.66s] /Engine/VREditor/Devices/Vive/VivePreControllerMesh.VivePreControllerMesh
+[2018.09.16-15.28.36:710][375]LogStaticMesh: Building static mesh OculusControllerMesh...
+[2018.09.16-15.28.36:919][375]LogMeshUtilities: Finished distance field build in 0.2s - 8x8x8 distance field, 17326 triangles, Range [-0.1, 0.6], VivePreControllerMesh
+[2018.09.16-15.28.36:919][375]LogStaticMesh: Built static mesh [0.21s] /Engine/VREditor/Devices/Oculus/OculusControllerMesh.OculusControllerMesh
+[2018.09.16-15.28.36:972][375]LogMaterial: Display: Missing cached shader map for material GenericHMDMaterial, compiling. 
+[2018.09.16-15.28.37:152][375]LogStaticMesh: Building static mesh GenericHMD...
+[2018.09.16-15.28.37:388][375]LogStaticMesh: Built static mesh [0.24s] /Engine/VREditor/Devices/Generic/GenericHMD.GenericHMD
+[2018.09.16-15.28.37:514][375]LogTexture: Display: Building textures: VivePreController_MasksA (AutoDXT, 1024X1024)
+[2018.09.16-15.28.37:514][375]LogMaterial: Display: Missing cached shader map for material TeleportDirectionMaterial, compiling. 
+[2018.09.16-15.28.37:652][375]LogMaterial: Display: Missing cached shader map for material LaserPointerMaterial, compiling. 
+[2018.09.16-15.28.38:165][375]LogTexture: Display: Building textures: T_VivePreController_EM (AutoDXT, 2048X2048)
+[2018.09.16-15.28.38:165][375]LogTexture: Display: Building textures: GizmoText_RobotoDistanceField_PageA (G8, 1024X256)
+[2018.09.16-15.28.38:257][375]LogTexture: Display: Building textures: VivePreController_MasksB (AutoDXT, 512X512)
+[2018.09.16-15.28.38:257][375]LogShaderCompilers: Display: Shaders left to compile 4307
+[2018.09.16-15.28.38:257][375]LogMaterial: Display: Missing cached shader map for material VRTextMaterial, compiling. 
+[2018.09.16-15.28.38:337][375]LogMaterial: Display: Missing cached shader map for material VRTextMaterial, compiling. 
+[2018.09.16-15.28.39:377][375]LogTexture: Display: Building textures: SimpleGrid (AutoDXT, 512X512)
+[2018.09.16-15.28.39:389][375]LogMaterial: Display: Missing cached shader map for material VivePreControllerMaterial, compiling. 
+[2018.09.16-15.28.39:432][375]LogMaterial: Display: Missing cached shader map for material OculusControllerMaterial, compiling. 
+[2018.09.16-15.28.39:488][375]LogMaterial: Display: Missing cached shader map for material GridPostProcess, compiling. 
+[2018.09.16-15.28.39:522][375]LogMaterial: Display: Missing cached shader map for material GridMaterial, compiling. 
+[2018.09.16-15.28.39:547][375]LogMaterial: Display: Missing cached shader map for material LineMaterial, compiling. 
+[2018.09.16-15.28.39:564][375]LogMaterial: Display: Missing cached shader map for material LaserPointerMaterial, compiling. 
+[2018.09.16-15.28.39:618][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Click_on_Button...
+[2018.09.16-15.28.39:618][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.39:777][375]LogStaticMesh: Building static mesh UniformScaleHandle...
+[2018.09.16-15.28.39:790][375]LogStaticMesh: Built static mesh [0.01s] /Engine/VREditor/TransformGizmo/UniformScaleHandle.UniformScaleHandle
+[2018.09.16-15.28.39:795][375]LogStaticMesh: Building static mesh TranslateArrowHandle...
+[2018.09.16-15.28.39:825][375]LogStaticMesh: Built static mesh [0.03s] /Engine/VREditor/TransformGizmo/TranslateArrowHandle.TranslateArrowHandle
+[2018.09.16-15.28.40:310][375]LogStaticMesh: Building static mesh TransformGizmoFreeRotation...
+[2018.09.16-15.28.42:073][375]LogShaderCompilers: Display: Shaders left to compile 4405
+[2018.09.16-15.28.42:073][375]LogStaticMesh: Built static mesh [1.76s] /Engine/VREditor/TransformGizmo/TransformGizmoFreeRotation.TransformGizmoFreeRotation
+[2018.09.16-15.28.42:103][375]LogStaticMesh: Building static mesh StartRotationHandleIndicator...
+[2018.09.16-15.28.42:135][375]LogStaticMesh: Built static mesh [0.03s] /Engine/VREditor/TransformGizmo/StartRotationHandleIndicator.StartRotationHandleIndicator
+[2018.09.16-15.28.42:162][375]LogStaticMesh: Building static mesh RotationHandleQuarter...
+[2018.09.16-15.28.42:206][375]LogStaticMesh: Built static mesh [0.05s] /Engine/VREditor/TransformGizmo/RotationHandleQuarter.RotationHandleQuarter
+[2018.09.16-15.28.42:236][375]LogStaticMesh: Building static mesh RotationHandleIndicator...
+[2018.09.16-15.28.42:247][375]LogStaticMesh: Built static mesh [0.01s] /Engine/VREditor/TransformGizmo/RotationHandleIndicator.RotationHandleIndicator
+[2018.09.16-15.28.42:317][375]LogStaticMesh: Building static mesh RotationHandleFull...
+[2018.09.16-15.28.42:432][375]LogStaticMesh: Built static mesh [0.12s] /Engine/VREditor/TransformGizmo/RotationHandleFull.RotationHandleFull
+[2018.09.16-15.28.42:434][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Selection_Changes...
+[2018.09.16-15.28.42:434][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.42:475][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Scaling_Up...
+[2018.09.16-15.28.42:475][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.42:511][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Scaling_Down...
+[2018.09.16-15.28.42:511][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.42:549][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Object_Snaps_To_Grid...
+[2018.09.16-15.28.42:549][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.42:597][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Object_Snaps_To_Another_Actor...
+[2018.09.16-15.28.42:597][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.42:645][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Object_PickUp...
+[2018.09.16-15.28.42:646][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.42:687][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gizmo_Handle_Clicked...
+[2018.09.16-15.28.42:687][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.42:738][375]LogMaterial: Display: Missing cached shader map for material SnapGridMaterial, compiling. 
+[2018.09.16-15.28.42:777][375]LogShaderCompilers: Display: Shaders left to compile 4395
+[2018.09.16-15.28.42:777][375]LogStaticMesh: Building static mesh TranslationHandle...
+[2018.09.16-15.28.42:782][375]LogStaticMesh: Built static mesh [0.00s] /Engine/VREditor/TransformGizmo/TranslationHandle.TranslationHandle
+[2018.09.16-15.28.42:794][375]LogStaticMesh: Building static mesh SM_Dialog_Main...
+[2018.09.16-15.28.42:806][375]LogStaticMesh: Built static mesh [0.01s] /Engine/VREditor/TransformGizmo/SM_Dialog_Main.SM_Dialog_Main
+[2018.09.16-15.28.42:816][375]LogStaticMesh: Building static mesh StretchingHandle...
+[2018.09.16-15.28.42:821][375]LogStaticMesh: Built static mesh [0.00s] /Engine/VREditor/TransformGizmo/StretchingHandle.StretchingHandle
+[2018.09.16-15.28.42:855][375]LogStaticMesh: Building static mesh TranslateHandleLong...
+[2018.09.16-15.28.42:904][375]LogStaticMesh: Built static mesh [0.05s] /Engine/VREditor/TransformGizmo/TranslateHandleLong.TranslateHandleLong
+[2018.09.16-15.28.42:919][375]LogStaticMesh: Building static mesh RotationHandle...
+[2018.09.16-15.28.42:930][375]LogStaticMesh: Built static mesh [0.01s] /Engine/VREditor/TransformGizmo/RotationHandle.RotationHandle
+[2018.09.16-15.28.42:940][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave VR_shep_scale_up_02...
+[2018.09.16-15.28.42:941][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.43:017][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave VR_shep_scale_up_01...
+[2018.09.16-15.28.43:017][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.43:123][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave VR_WorldMoveLoop_02...
+[2018.09.16-15.28.43:125][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.43:338][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave VR_close...
+[2018.09.16-15.28.43:339][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.43:417][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave VR_object_grabbed_loop...
+[2018.09.16-15.28.43:421][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.43:727][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave VR_click3...
+[2018.09.16-15.28.43:728][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.43:777][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave VR_click1...
+[2018.09.16-15.28.43:777][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.43:827][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave VR_WorldMoveLoop_01...
+[2018.09.16-15.28.43:829][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.44:037][375]LogShaderCompilers: Display: Shaders left to compile 4405
+[2018.09.16-15.28.44:037][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave VR_shep_scale_up_03...
+[2018.09.16-15.28.44:037][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.44:177][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave VR_objectRotateLoop_02...
+[2018.09.16-15.28.44:179][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.44:387][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave VR_ungrab...
+[2018.09.16-15.28.44:388][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.44:451][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave VR_shep_scale_down_01...
+[2018.09.16-15.28.44:452][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.44:583][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave VR_grab...
+[2018.09.16-15.28.44:584][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.44:670][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave VR_shep_scale_down_03...
+[2018.09.16-15.28.44:672][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.44:782][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave VR_negative...
+[2018.09.16-15.28.44:783][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.44:872][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave VR_shep_scale_down_02...
+[2018.09.16-15.28.44:872][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.44:961][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave VR_confirm...
+[2018.09.16-15.28.44:962][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.45:062][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave VR_objectRotateLoop_01...
+[2018.09.16-15.28.45:063][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.45:191][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave VR_shep_scale_up_04...
+[2018.09.16-15.28.45:191][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.45:284][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave VR_click2...
+[2018.09.16-15.28.45:284][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.45:326][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave VR_open...
+[2018.09.16-15.28.45:326][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.45:399][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave VR_shep_scale_down_04...
+[2018.09.16-15.28.45:400][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.45:512][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Enter_Play...
+[2018.09.16-15.28.45:514][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.45:645][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Laser_Push...
+[2018.09.16-15.28.45:645][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.45:694][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Laser_Pull...
+[2018.09.16-15.28.45:696][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.45:758][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Floating_UI_Close-001...
+[2018.09.16-15.28.45:759][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.45:849][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Enter_Simulate...
+[2018.09.16-15.28.45:851][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.45:982][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Leave_Simulate...
+[2018.09.16-15.28.45:983][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.46:132][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Foliage_Placed...
+[2018.09.16-15.28.46:133][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.46:187][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Flashlight_Switch...
+[2018.09.16-15.28.46:187][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.46:244][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Invalid_Action...
+[2018.09.16-15.28.46:245][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.46:326][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Floating_UI_Close-002...
+[2018.09.16-15.28.46:327][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.46:397][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Teleport_Committed...
+[2018.09.16-15.28.46:398][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.46:475][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Floating_UI_Open...
+[2018.09.16-15.28.46:476][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.46:540][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Camera_Shutter...
+[2018.09.16-15.28.46:540][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.46:605][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Floating_UI_Close...
+[2018.09.16-15.28.46:605][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.46:670][375]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Floating_UI_Open-002...
+[2018.09.16-15.28.46:671][375]LogTemp: Couldn't find amount to resample to.
+[2018.09.16-15.28.46:744][375]LogMaterial: Display: Missing cached shader map for material KeyMaterial, compiling. 
+[2018.09.16-15.28.46:770][375]LogMaterial: Display: Missing cached shader map for material M_EngineLogo, compiling. 
+[2018.09.16-15.28.46:828][375]LogMaterial: Display: Missing cached shader map for material M_ViveControllerTrim, compiling. 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
