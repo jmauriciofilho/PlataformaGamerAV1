@@ -1,0 +1,43 @@
+Generating report for minidump
+
+Application version 4.20.1.0
+ ... built from changelist 0
+
+OS version Linux 4.15.0-34-generic (network name: R2D2)
+Running 2 x86_64 processors (4 logical cores)
+Exception was "SIGSEGV: invalid attempt to write memory at address 0x0000000000000003"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-Core.so!FGenericPlatformMisc::RaiseException(unsigned int) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:391]
+libUE4Editor-ApplicationCore.so!FUnixErrorOutputDevice::Serialize(wchar_t const*, ELogVerbosity::Type, FName const&) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Unix/UnixErrorOutputDevice.cpp:57]
+libUE4Editor-Core.so!FOutputDevice::LogfImpl(wchar_t const*, ...) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/OutputDevice.cpp:70]
+libUE4Editor-Core.so!FDebug::AssertFailed(char const*, char const*, int, wchar_t const*, ...) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Misc/OutputDevice.h:216]
+libUE4Editor-CoreUObject.so!UObject::LoadConfig(UClass*, wchar_t const*, unsigned int, UProperty*) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/CoreUObject/Private/UObject/Obj.cpp:1890]
+libUE4Editor-CoreUObject.so!FObjectInitializer::PostConstructInit() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp:2812]
+libUE4Editor-CoreUObject.so!FObjectInitializer::~FObjectInitializer() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp:2695]
+libUE4Editor-CoreUObject.so!UClass::CreateDefaultObject() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/CoreUObject/Private/UObject/Class.cpp:2902]
+libUE4Editor-CoreUObject.so!UClass::CreateDefaultObject() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject/Class.h:2371]
+libUE4Editor-CoreUObject.so!FObjectInitializer::~FObjectInitializer() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject/Class.h:2371]
+libUE4Editor-CoreUObject.so!StaticConstructObject_Internal(UClass*, UObject*, FName, EObjectFlags, EInternalObjectFlags, UObject*, bool, FObjectInstancingGraph*, bool) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp:3156]
+libUE4Editor-Engine.so!UDeviceProfileManager::CreateProfile(FString const&, FString const&, FString const&, wchar_t const*) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectGlobals.h:1174]
+libUE4Editor-Engine.so!UDeviceProfileManager::LoadProfiles() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Engine/Private/DeviceProfiles/DeviceProfileManager.cpp:420]
+libUE4Editor-Engine.so!UDeviceProfileManager::Get(bool) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Engine/Private/DeviceProfiles/DeviceProfileManager.cpp:50]
+libUE4Editor-Engine.so!FStreamingManagerTexture::FStreamingManagerTexture() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Engine/Private/Streaming/StreamingManagerTexture.cpp:101]
+libUE4Editor-Engine.so!FStreamingManagerCollection::AddOrRemoveTextureStreamingManagerIfNeeded(bool) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Engine/Private/ContentStreaming.cpp:1066]
+libUE4Editor-Engine.so!FStreamingManagerCollection::FStreamingManagerCollection() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Engine/Private/ContentStreaming.cpp:672]
+libUE4Editor-Engine.so!FlushResourceStreaming() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Engine/Private/ContentStreaming.cpp:296]
+libUE4Editor-Engine.so!UTexture2D::CancelPendingTextureStreaming() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Engine/Private/Texture2D.cpp:444]
+UE4Editor!FEngineLoop::Exit() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:2964]
+UE4Editor!GuardedMain(wchar_t const*) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:73]
+libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(wchar_t const*)) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:241]
+libc.so.6!__libc_start_main(+0xef)
+UE4Editor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

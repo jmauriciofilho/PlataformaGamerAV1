@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<CrashGUID>UE4CC-Linux-0002BE0508D61D026DDB421C802007AE_0001</CrashGUID>
+<ProcessId>11586</ProcessId>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>true</IsSourceDistribution>
+<IsEnsure>false</IsEnsure>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<SecondsSinceStart>0</SecondsSinceStart>
+<GameName>UE4-PlataformGameAV1</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Linux</PlatformName>
+<PlatformNameIni>Linux</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.20.1-0+++UE4+Release-4.20</EngineVersion>
+<CommandLine> &quot;../../../../Documentos/Unreal Projects/PlataformGameAV1/PlataformGameAV1.uproject&quot; /Game/Maps/Level00 -game -PIEVIACONSOLE -ResX=1280 -ResY=720 -Multiprocess -messaging -SessionName=&quot;Play in Standalone Game&quot; -windowed</CommandLine>
+<LanguageLCID>1046</LanguageLCID>
+<AppDefaultLocale>pt_BR</AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.20-CL-0</BuildVersion>
+<IsUE4Release>false</IsUE4Release>
+<UserName></UserName>
+<BaseDir>/home/mauricio/UnrealEngine/Engine/Binaries/Linux/</BaseDir>
+<RootDir>/home/mauricio/UnrealEngine/</RootDir>
+<MachineId>0002F07E2F081610002A0303AD44BFAB</MachineId>
+<LoginId>0002f07e2f081610002a0303ad44bfab</LoginId>
+<EpicAccountId></EpicAccountId>
+<CallStack></CallStack>
+<PCallStack>
+libUE4Editor-Core               0x0000000049b09000 + 4e5a0f  
+libUE4Editor-Core               0x0000000049b09000 + 467a75  
+libUE4Editor-CoreUObject        0x0000000049238000 + 396c79  
+libUE4Editor-CoreUObject        0x0000000049238000 + 4d901e  
+libUE4Editor-CoreUObject        0x0000000049238000 + 4d8934  
+libUE4Editor-CoreUObject        0x0000000049238000 + 26774a  
+libUE4Editor-CoreUObject        0x0000000049238000 + 26748f  
+libUE4Editor-CoreUObject        0x0000000049238000 + 4d887b  
+libUE4Editor-CoreUObject        0x0000000049238000 + 4d2253  
+libUE4Editor-Engine             0x0000000044b6d000 + 1fa440c 
+libUE4Editor-Engine             0x0000000044b6d000 + 1fa18c1 
+libUE4Editor-Engine             0x0000000044b6d000 + 1fa0cd3 
+libUE4Editor-Engine             0x0000000044b6d000 + 2aae8f7 
+libUE4Editor-Engine             0x0000000044b6d000 + 1ebfceb 
+libUE4Editor-Engine             0x0000000044b6d000 + 1ebf0fe 
+libUE4Editor-Engine             0x0000000044b6d000 + 1ebd825 
+libUE4Editor-Engine             0x0000000044b6d000 + 2b2becb 
+UE4Editor                       0x0000000000200000 + 43809   
+UE4Editor                       0x0000000000200000 + 43ef4   
+libUE4Editor-UnixCommonStartup  0x00000000ffffffff + ffffffff
+libc.so                         0x000000003e845000 + 20830   
+UE4Editor                       0x0000000000200000 + 30029   
+</PCallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<ErrorMessage>Assertion failed: ConfigClass-&gt;PropertyLink != nullptr || (ConfigClass-&gt;GetSuperStruct() &amp;&amp; ConfigClass-&gt;PropertiesSize == ConfigClass-&gt;GetSuperStruct()-&gt;PropertiesSize) || ConfigClass-&gt;PropertiesSize == 0 [File:/home/mauricio/UnrealEngine/Engine/Source/Runtime/CoreUObject/Private/UObject/Obj.cpp] [Line: 1893] 
+class TextureLODSettings has uninitialized properties. Accessed too early?
+0x00007f5349f8175c libUE4Editor-Core.so!FDebug::LogAssertFailedMessageImpl(char const*, char const*, int, wchar_t const*, ...) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:233]
+0x00007f53495cebf8 libUE4Editor-CoreUObject.so!UObject::LoadConfig(UClass*, wchar_t const*, unsigned int, UProperty*) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Misc/AssertionMacros.h:54]
+0x00007f534971101e libUE4Editor-CoreUObject.so!FObjectInitializer::PostConstructInit() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp:2812]
+0x00007f5349710934 libUE4Editor-CoreUObject.so!FObjectInitializer::~FObjectInitializer() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp:2695]
+0x00007f534949f74a libUE4Editor-CoreUObject.so!UClass::CreateDefaultObject() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/CoreUObject/Private/UObject/Class.cpp:2902]
+0x00007f534949f48f libUE4Editor-CoreUObject.so!UClass::CreateDefaultObject() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject/Class.h:2371]
+0x00007f534971087b libUE4Editor-CoreUObject.so!FObjectInitializer::~FObjectInitializer() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject/Class.h:2371]
+0x00007f534970a253 libUE4Editor-CoreUObject.so!StaticConstructObject_Internal(UClass*, UObject*, FName, EObjectFlags, EInternalObjectFlags, UObject*, bool, FObjectInstancingGraph*, bool) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp:3156]
+0x00007f5346b1140c libUE4Editor-Engine.so!UDeviceProfileManager::CreateProfile(FString const&amp;, FString const&amp;, FString const&amp;, wchar_t const*) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectGlobals.h:1174]
+0x00007f5346b0e8c1 libUE4Editor-Engine.so!UDeviceProfileManager::LoadProfiles() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Engine/Private/DeviceProfiles/DeviceProfileManager.cpp:420]
+0x00007f5346b0dcd3 libUE4Editor-Engine.so!UDeviceProfileManager::Get(bool) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Engine/Private/DeviceProfiles/DeviceProfileManager.cpp:50]
+0x00007f534761b8f7 libUE4Editor-Engine.so!FStreamingManagerTexture::FStreamingManagerTexture() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Engine/Private/Streaming/StreamingManagerTexture.cpp:101]
+0x00007f5346a2cceb libUE4Editor-Engine.so!FStreamingManagerCollection::AddOrRemoveTextureStreamingManagerIfNeeded(bool) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Engine/Private/ContentStreaming.cpp:1066]
+0x00007f5346a2c0fe libUE4Editor-Engine.so!FStreamingManagerCollection::FStreamingManagerCollection() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Engine/Private/ContentStreaming.cpp:672]
+0x00007f5346a2a825 libUE4Editor-Engine.so!FlushResourceStreaming() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Engine/Private/ContentStreaming.cpp:296]
+0x00007f5347698ecb libUE4Editor-Engine.so!UTexture2D::CancelPendingTextureStreaming() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Engine/Private/Texture2D.cpp:444]
+0x0000000000243809 UE4Editor!FEngineLoop::Exit() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:2964]
+0x0000000000243ef4 UE4Editor!GuardedMain(wchar_t const*) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:73]
+0x00007f533ee19fca libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(wchar_t const*)) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:241]
+0x00007f533e865830 libc.s</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>2</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>GenericGPUBrand</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>GenericOSVersionLabel</Misc.OSVersionMajor>
+<Misc.OSVersionMinor>GenericOSSubVersionLabel</Misc.OSVersionMinor>
+<GameStateName></GameStateName>
+<MemoryStats.TotalPhysical>8137621504</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>8358195200</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>3065954304</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>8358195200</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>558292992</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>566296576</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>3119214592</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>3144294400</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+</PlatformProperties>
+</FGenericCrashContext>
