@@ -4449,3 +4449,1415 @@ LogInit: Object subsystem initialized
 [2018.09.20-04.15.11:765][541]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00702B166E08D61E9683491BE8D31177EC.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap'
 [2018.09.20-04.15.11:809][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00_BuiltData" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset" SILENT=true
 [2018.09.20-04.15.11:843][541]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00_BuiltData702DE9FB08D61E9683739620D315B755.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset'
+[2018.09.20-04.16.49:020][560]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.20-04.16.50:806][651]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.20-04.18.32:464][515]LogLinux: Scale at X=455.000000, Y=235.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.18.32:464][515]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.18.32:858][517]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.20.20:735][ 66]LogLinux: Scale at X=455.000000, Y=235.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.20.20:735][ 66]LogSlate: Window 'Tutorials' being destroyed
+[2018.09.20-04.20.20:766][ 66]LogSlate: Window 'Tutorials' being destroyed
+[2018.09.20-04.20.30:797][187]LogEditorViewport: Clicking on Actor (LMB): FundoBluePrint_C (FundoBluePrint)
+[2018.09.20-04.20.32:190][229]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.20-04.20.32:252][233]LogTemp: Repeating last play command: Simulate
+[2018.09.20-04.20.32:286][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.20-04.20.32:286][233]PIE: New page: SIE session: Level00 (Sep 19, 2018, 10:20:32 PM)
+[2018.09.20-04.20.32:286][233]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.20-04.20.32:303][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016747s)
+[2018.09.20-04.20.32:303][233]LogAIModule: Creating AISystem for world Level00
+[2018.09.20-04.20.32:304][233]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2018.09.20-04.20.32:304][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.017658s)
+[2018.09.20-04.20.32:353][233]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.20-04.20.32:353][233]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.20-04.20.32:353][233]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.20-04.20.32:353][233]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.20-04.20.32:353][233]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.20-04.20.32:353][233]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.20-04.20.32:353][233]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.20-04.20.32:354][233]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.20-04.20.32:354][233]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.20-04.20.32:421][233]LogInit: FAudioDevice initialized.
+[2018.09.20-04.20.32:483][233]LogLoad: Game class is 'GameModeBase'
+[2018.09.20-04.20.32:493][233]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.20-01.20.32
+[2018.09.20-04.20.32:495][233]LogWorld: Bringing up level for play took: 0.011860
+[2018.09.20-04.20.32:496][233]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.20-04.20.32:497][233]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.212
+[2018.09.20-04.20.32:527][234]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.274499 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.20.34:596][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.20.34:679][313]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.20-04.20.34:757][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.20.34:786][314]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.09.20-04.20.36:692][385]LogLinux: Scale at X=761.000000, Y=323.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.20.36:780][387]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.20.38:757][470]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.20-04.20.38:757][470]PIE: New page: PIE session: Level00 (Sep 19, 2018, 10:20:38 PM)
+[2018.09.20-04.20.38:757][470]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.20-04.20.38:776][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018235s)
+[2018.09.20-04.20.38:776][470]LogAIModule: Creating AISystem for world Level00
+[2018.09.20-04.20.38:776][470]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2018.09.20-04.20.38:777][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.019237s)
+[2018.09.20-04.20.38:815][470]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.20-04.20.38:815][470]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.20-04.20.38:815][470]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.20-04.20.38:815][470]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.20-04.20.38:815][470]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.20-04.20.38:815][470]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.20-04.20.38:815][470]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.20-04.20.38:816][470]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.20-04.20.38:816][470]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.20-04.20.38:892][470]LogInit: FAudioDevice initialized.
+[2018.09.20-04.20.38:894][470]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.20.38:894][470]LogLinux: Scale at X=315.000000, Y=163.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.20.38:895][470]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.20.38:984][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.20.39:036][470]LogLoad: Game class is 'GameModeBase'
+[2018.09.20-04.20.39:047][470]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.20-01.20.39
+[2018.09.20-04.20.39:049][470]LogWorld: Bringing up level for play took: 0.012936
+[2018.09.20-04.20.39:054][470]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.298
+[2018.09.20-04.20.39:166][471]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.20.39:184][471]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.400000 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.20.51:120][840]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.20.51:153][841]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.20.51:186][842]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.21.45:118][554]LogBlueprintUserMessages: [Inimigo2_2] Dano
+[2018.09.20-04.21.52:392][783]LogBlueprintUserMessages: [Inimigo2_2] Dano
+[2018.09.20-04.21.52:619][790]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.52:652][791]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.52:686][792]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.52:718][793]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.52:752][794]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.52:790][795]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.52:818][796]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.52:851][797]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.52:872][798]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.52:891][799]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.52:923][800]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.52:949][801]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.52:971][802]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.52:990][803]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:021][804]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:056][805]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:088][806]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:120][807]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:154][808]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:187][809]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:222][810]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:255][811]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:288][812]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:321][813]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:354][814]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:387][815]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:420][816]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:453][817]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:486][818]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:519][819]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:552][820]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:586][821]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:618][822]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:651][823]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:683][824]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:702][825]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:724][826]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:758][827]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:784][828]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:819][829]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:854][830]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:888][831]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:919][832]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:953][833]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.53:985][834]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.54:018][835]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.54:053][836]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.54:085][837]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.54:119][838]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.54:153][839]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.54:190][840]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.54:220][841]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.54:255][842]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.54:288][843]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.54:318][844]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.54:353][845]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.54:386][846]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.54:421][847]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.54:454][848]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.54:487][849]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.54:520][850]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.21.54:521][850]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.21.54:548][850]LogSlate: Window 'PlataformGameAV1 Game Preview Standalone (64-bit/GLSL_430)' being destroyed
+[2018.09.20-04.21.54:645][850]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.20-04.21.54:821][851]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.09.20-04.23.26:130][706]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.20-04.23.26:159][706]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.20-04.23.26:159][706]PIE: New page: PIE session: Level00 (Sep 19, 2018, 10:23:26 PM)
+[2018.09.20-04.23.26:160][706]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.20-04.23.26:178][706]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018287s)
+[2018.09.20-04.23.26:179][706]LogAIModule: Creating AISystem for world Level00
+[2018.09.20-04.23.26:179][706]LogPlayLevel: PIE: World Init took: (0.001118s)
+[2018.09.20-04.23.26:179][706]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.019636s)
+[2018.09.20-04.23.26:221][706]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.20-04.23.26:221][706]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.20-04.23.26:222][706]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.20-04.23.26:222][706]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.20-04.23.26:222][706]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.20-04.23.26:222][706]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.20-04.23.26:222][706]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.20-04.23.26:222][706]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.20-04.23.26:222][706]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.20-04.23.26:289][706]LogInit: FAudioDevice initialized.
+[2018.09.20-04.23.26:290][706]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.23.26:290][706]LogLinux: Scale at X=315.000000, Y=163.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.23.26:290][706]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.23.26:339][706]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.23.26:403][706]LogLoad: Game class is 'GameModeBase'
+[2018.09.20-04.23.26:415][706]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.20-01.23.26
+[2018.09.20-04.23.26:417][706]LogWorld: Bringing up level for play took: 0.013305
+[2018.09.20-04.23.26:421][706]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.262
+[2018.09.20-04.23.26:532][707]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.23.26:557][707]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.400000 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.23.37:814][ 61]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.23.42:012][192]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:044][193]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:078][194]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:099][195]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:117][196]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:144][197]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:179][198]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:213][199]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:246][200]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:279][201]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:312][202]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:346][203]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:380][204]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:412][205]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:446][206]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:477][207]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:512][208]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:546][209]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:579][210]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:612][211]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:643][212]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:679][213]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:711][214]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:743][215]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:776][216]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:797][217]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:817][218]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:848][219]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:883][220]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:912][221]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:931][222]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:951][223]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.42:978][224]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.43:017][225]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.43:049][226]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.43:079][227]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.43:115][228]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.43:134][229]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.43:151][230]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.43:181][231]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.43:214][232]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.43:247][233]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.43:279][234]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.43:312][235]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.43:345][236]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.43:381][237]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.43:413][238]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.43:446][239]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.43:479][240]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.43:512][241]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.43:548][242]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.43:579][243]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.43:612][244]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.23.43:614][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.23.43:639][244]LogSlate: Window 'PlataformGameAV1 Game Preview Standalone (64-bit/GLSL_430)' being destroyed
+[2018.09.20-04.23.43:729][244]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.20-04.23.43:981][245]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.09.20-04.25.38:194][685]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.20-04.25.38:226][685]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.20-04.25.38:226][685]PIE: New page: PIE session: Level00 (Sep 19, 2018, 10:25:38 PM)
+[2018.09.20-04.25.38:226][685]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.20-04.25.38:245][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018831s)
+[2018.09.20-04.25.38:245][685]LogAIModule: Creating AISystem for world Level00
+[2018.09.20-04.25.38:246][685]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2018.09.20-04.25.38:246][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.019998s)
+[2018.09.20-04.25.38:284][685]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.20-04.25.38:285][685]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.20-04.25.38:285][685]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.20-04.25.38:285][685]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.20-04.25.38:285][685]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.20-04.25.38:285][685]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.20-04.25.38:285][685]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.20-04.25.38:285][685]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.20-04.25.38:285][685]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.20-04.25.38:353][685]LogInit: FAudioDevice initialized.
+[2018.09.20-04.25.38:353][685]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.25.38:353][685]LogLinux: Scale at X=315.000000, Y=163.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.25.38:354][685]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.25.38:409][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.25.38:461][685]LogLoad: Game class is 'GameModeBase'
+[2018.09.20-04.25.38:475][685]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.20-01.25.38
+[2018.09.20-04.25.38:476][685]LogWorld: Bringing up level for play took: 0.014292
+[2018.09.20-04.25.38:482][685]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.256
+[2018.09.20-04.25.38:594][686]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.25.38:609][686]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.400000 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.25.52:515][121]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.25.54:811][194]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.25.55:845][228]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.26.37:111][552]LogBlueprintUserMessages: [Inimigo2_2] Dano
+[2018.09.20-04.26.39:215][621]LogBlueprintUserMessages: [Inimigo2_2] Dano
+[2018.09.20-04.26.39:248][622]LogBlueprintUserMessages: [Inimigo2_2] Dano
+[2018.09.20-04.26.46:178][838]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:212][839]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:231][840]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:250][841]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:282][842]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:313][843]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:346][844]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:380][845]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:413][846]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:446][847]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:479][848]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:512][849]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:531][850]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:549][851]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:582][852]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:615][853]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:646][854]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:679][855]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:711][856]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:732][857]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:749][858]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:779][859]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:812][860]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:846][861]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:881][862]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:912][863]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:930][864]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:950][865]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:981][866]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.46:997][867]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:018][868]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:047][869]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:080][870]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:113][871]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:145][872]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:163][873]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:182][874]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:212][875]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:246][876]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:278][877]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:296][878]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:316][879]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:347][880]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:380][881]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:414][882]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:446][883]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:480][884]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:511][885]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:543][886]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:563][887]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:583][888]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:613][889]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:646][890]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:679][891]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:713][892]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:731][893]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:748][894]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:778][895]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:812][896]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:846][897]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:863][898]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:883][899]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:913][900]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:932][901]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:949][902]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.47:981][903]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.48:012][904]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.48:046][905]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.48:079][906]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.48:112][907]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.48:147][908]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.48:165][909]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.48:182][910]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.48:213][911]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.48:247][912]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.48:278][913]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.48:311][914]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.48:331][915]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.48:347][916]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.48:380][917]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.48:413][918]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.48:445][919]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.48:479][920]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.48:514][921]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.48:531][922]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.48:548][923]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.48:580][924]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.26.48:581][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.26.48:613][924]LogSlate: Window 'PlataformGameAV1 Game Preview Standalone (64-bit/GLSL_430)' being destroyed
+[2018.09.20-04.26.48:711][924]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.20-04.26.49:013][925]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.09.20-04.27.01:990][424]LogEditorViewport: Clicking on Actor (LMB): PisoBluePrint5_C (PisoBluePrint65)
+[2018.09.20-04.27.02:119][425]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PaperSprite)
+[2018.09.20-04.27.03:683][476]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.20-04.27.03:762][479]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.27.03:762][479]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.27.03:775][479]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.27.03:890][479]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/PisoBluePrint5.PisoBluePrint5
+[2018.09.20-04.27.03:891][479]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.27.03:954][479]LogLinux: Scale at X=1920.000000, Y=0.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.27.03:954][479]LogLinux: Scale at X=2880.000000, Y=540.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.27.04:732][481]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.27.11:419][660]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.27.11:419][660]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.27.11:420][660]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.27.11:503][660]LogLinux: Scale at X=1920.000000, Y=0.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.27.11:618][662]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.27.12:718][713]LogLinux: Scale at X=497.000000, Y=202.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.27.12:718][713]LogLinux: Scale at X=497.000000, Y=202.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.27.12:720][713]LogLinux: Scale at X=902.000000, Y=443.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.27.12:785][713]LogSlate: Window 'PisoBluePrint5' being destroyed
+[2018.09.20-04.27.12:857][714]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.27.15:828][808]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.27.15:828][808]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.27.15:828][808]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.27.15:865][808]LogLinux: Scale at X=497.000000, Y=202.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.27.15:967][809]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.27.16:544][835]LogLinux: Scale at X=347.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.27.16:544][835]LogLinux: Scale at X=347.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.27.16:545][835]LogLinux: Scale at X=752.000000, Y=266.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.27.16:597][835]LogSlate: Window 'PisoBluePrint5' being destroyed
+[2018.09.20-04.27.16:684][836]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.27.17:483][859]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.27.17:483][859]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.27.17:484][859]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.27.17:532][860]LogLinux: Scale at X=347.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.27.18:035][907]LogSlate: Window 'PisoBluePrint5' being destroyed
+[2018.09.20-04.28.21:880][125]LogLinux: Scale at X=1595.500000, Y=660.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.28.21:988][127]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.28.33:612][147]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.20-04.28.33:645][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.20-04.28.33:645][147]PIE: New page: PIE session: Level00 (Sep 19, 2018, 10:28:33 PM)
+[2018.09.20-04.28.33:645][147]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.20-04.28.33:662][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016996s)
+[2018.09.20-04.28.33:663][147]LogAIModule: Creating AISystem for world Level00
+[2018.09.20-04.28.33:663][147]LogPlayLevel: PIE: World Init took: (0.000892s)
+[2018.09.20-04.28.33:663][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.018076s)
+[2018.09.20-04.28.33:702][147]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.20-04.28.33:702][147]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.20-04.28.33:702][147]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.20-04.28.33:702][147]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.20-04.28.33:703][147]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.20-04.28.33:703][147]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.20-04.28.33:703][147]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.20-04.28.33:703][147]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.20-04.28.33:703][147]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.20-04.28.33:773][147]LogInit: FAudioDevice initialized.
+[2018.09.20-04.28.33:773][147]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.28.33:774][147]LogLinux: Scale at X=315.000000, Y=163.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.28.33:774][147]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.28.33:823][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.28.33:885][147]LogLoad: Game class is 'GameModeBase'
+[2018.09.20-04.28.33:901][147]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.20-01.28.33
+[2018.09.20-04.28.33:903][147]LogWorld: Bringing up level for play took: 0.017869
+[2018.09.20-04.28.33:910][147]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.265
+[2018.09.20-04.28.34:013][148]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.28.34:028][148]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.400000 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.28.46:211][539]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.28.46:244][540]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.28.46:279][541]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.29.04:980][141]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:013][142]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:046][143]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:079][144]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:113][145]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:146][146]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:174][147]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:193][148]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:215][149]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:247][150]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:279][151]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:312][152]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:346][153]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:380][154]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:412][155]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:444][156]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:480][157]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:512][158]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:530][159]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:547][160]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:581][161]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:661][162]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:669][163]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:682][164]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:714][165]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:730][166]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:750][167]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:780][168]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:813][169]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:846][170]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:879][171]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:898][172]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:917][173]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:948][174]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:964][175]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.05:982][176]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.06:014][177]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.06:047][178]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.29.06:050][178]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.29.06:077][178]LogSlate: Window 'PlataformGameAV1 Game Preview Standalone (64-bit/GLSL_430)' being destroyed
+[2018.09.20-04.29.06:212][178]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.20-04.29.06:412][179]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2018.09.20-04.29.14:018][464]Cmd: SELECT NONE
+[2018.09.20-04.31.27:120][950]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.20-04.31.27:211][955]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.20-04.31.27:245][955]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.20-04.31.27:246][955]PIE: New page: PIE session: Level00 (Sep 19, 2018, 10:31:27 PM)
+[2018.09.20-04.31.27:246][955]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.20-04.31.27:263][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017476s)
+[2018.09.20-04.31.27:264][955]LogAIModule: Creating AISystem for world Level00
+[2018.09.20-04.31.27:264][955]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2018.09.20-04.31.27:264][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.018503s)
+[2018.09.20-04.31.27:304][955]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.20-04.31.27:304][955]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.20-04.31.27:304][955]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.20-04.31.27:304][955]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.20-04.31.27:304][955]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.20-04.31.27:304][955]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.20-04.31.27:304][955]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.20-04.31.27:305][955]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.20-04.31.27:305][955]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.20-04.31.27:368][955]LogInit: FAudioDevice initialized.
+[2018.09.20-04.31.27:374][955]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.31.27:374][955]LogLinux: Scale at X=315.000000, Y=163.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.31.27:376][955]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.31.27:469][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.31.27:522][955]LogLoad: Game class is 'GameModeBase'
+[2018.09.20-04.31.27:537][955]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.20-01.31.27
+[2018.09.20-04.31.27:539][955]LogWorld: Bringing up level for play took: 0.016701
+[2018.09.20-04.31.27:548][955]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.302
+[2018.09.20-04.31.27:654][956]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.31.27:679][956]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.400000 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.31.27:741][957]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.053032 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.31.27:821][959]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.054829 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.31.27:886][960]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.061431 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.31.39:181][322]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.31.39:811][342]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.31.39:844][343]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.32.22:248][701]LogBlueprintUserMessages: [Inimigo2_2] Dano
+[2018.09.20-04.32.22:279][702]LogBlueprintUserMessages: [Inimigo2_2] Dano
+[2018.09.20-04.32.23:083][729]LogBlueprintUserMessages: [Inimigo2_2] Dano
+[2018.09.20-04.32.35:146][109]LogBlueprintUserMessages: [Inimigo3_2] Dano
+[2018.09.20-04.32.38:145][210]LogBlueprintUserMessages: [Inimigo3_2] Dano
+[2018.09.20-04.32.38:979][235]LogBlueprintUserMessages: [Inimigo3_2] Dano
+[2018.09.20-04.32.51:747][648]LogBlueprintUserMessages: [Chefão_2] Dano
+[2018.09.20-04.32.54:614][738]LogBlueprintUserMessages: [Chefão_2] Dano
+[2018.09.20-04.32.55:480][766]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.55:513][767]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.55:545][768]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.55:580][769]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.55:615][770]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.55:648][771]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.55:682][772]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.55:715][773]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.55:747][774]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.55:782][775]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.55:812][776]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.55:846][777]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.55:879][778]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.55:912][779]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.55:945][780]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.55:964][781]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.55:982][782]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:016][783]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:042][784]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:062][785]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:083][786]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:117][787]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:149][788]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:182][789]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:217][790]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:248][791]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:283][792]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:318][793]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:350][794]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:381][795]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:414][796]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:447][797]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:482][798]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:512][799]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:545][800]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:577][801]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:598][802]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:616][803]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:648][804]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:682][805]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:708][806]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:730][807]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:749][808]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:784][809]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:810][810]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:831][811]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:851][812]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:883][813]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:913][814]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:949][815]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.56:981][816]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:013][817]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:047][818]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:080][819]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:115][820]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:146][821]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:179][822]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:214][823]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:231][824]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:249][825]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:281][826]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:317][827]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:346][828]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:379][829]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:413][830]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:431][831]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:449][832]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:483][833]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:514][834]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:546][835]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:578][836]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:596][837]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:614][838]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:647][839]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:680][840]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:697][841]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:717][842]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:751][843]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:784][844]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:798][845]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:816][846]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:849][847]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:883][848]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:913][849]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:948][850]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:967][851]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.57:984][852]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:012][853]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:045][854]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:080][855]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:096][856]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:116][857]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:148][858]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:180][859]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:212][860]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:245][861]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:263][862]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:282][863]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:316][864]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:346][865]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:380][866]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:412][867]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:431][868]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:448][869]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:480][870]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:512][871]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:530][872]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:548][873]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:582][874]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:614][875]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.32.58:616][875]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.32.58:643][875]LogSlate: Window 'PlataformGameAV1 Game Preview Standalone (64-bit/GLSL_430)' being destroyed
+[2018.09.20-04.32.58:756][875]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.20-04.32.58:859][876]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2018.09.20-04.35.14:989][484]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.20-04.35.15:018][484]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.20-04.35.15:018][484]PIE: New page: PIE session: Level00 (Sep 19, 2018, 10:35:15 PM)
+[2018.09.20-04.35.15:018][484]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.20-04.35.15:037][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018997s)
+[2018.09.20-04.35.15:038][484]LogAIModule: Creating AISystem for world Level00
+[2018.09.20-04.35.15:038][484]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2018.09.20-04.35.15:038][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.020166s)
+[2018.09.20-04.35.15:077][484]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.20-04.35.15:077][484]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.20-04.35.15:077][484]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.20-04.35.15:077][484]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.20-04.35.15:077][484]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.20-04.35.15:077][484]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.20-04.35.15:077][484]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.20-04.35.15:078][484]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.20-04.35.15:078][484]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.20-04.35.15:159][484]LogInit: FAudioDevice initialized.
+[2018.09.20-04.35.15:161][484]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.35.15:161][484]LogLinux: Scale at X=315.000000, Y=163.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.35.15:162][484]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.35.15:255][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.35.15:315][484]LogLoad: Game class is 'GameModeBase'
+[2018.09.20-04.35.15:326][484]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.20-01.35.15
+[2018.09.20-04.35.15:328][484]LogWorld: Bringing up level for play took: 0.012516
+[2018.09.20-04.35.15:334][484]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.316
+[2018.09.20-04.35.15:446][485]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.35.15:472][485]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.400000 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.35.15:522][486]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064908 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.35.15:654][488]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.093983 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.35.15:745][489]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.082611 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.35.17:259][529]LogRenderer: Reallocating scene render targets to support 1424x760 Format 10 NumSamples 1 (Frame:49).
+[2018.09.20-04.35.17:456][529]LogRenderer: Reallocating scene render targets to support 1424x772 Format 10 NumSamples 1 (Frame:50).
+[2018.09.20-04.35.17:686][529]LogRenderer: Reallocating scene render targets to support 1436x804 Format 10 NumSamples 1 (Frame:51).
+[2018.09.20-04.35.17:863][529]LogRenderer: Reallocating scene render targets to support 1484x836 Format 10 NumSamples 1 (Frame:52).
+[2018.09.20-04.35.18:049][529]LogRenderer: Reallocating scene render targets to support 1488x836 Format 10 NumSamples 1 (Frame:53).
+[2018.09.20-04.35.50:812][558]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.35.52:681][617]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.35.52:714][618]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.36.53:314][539]LogBlueprintUserMessages: [Inimigo2_2] Dano
+[2018.09.20-04.36.55:913][622]LogBlueprintUserMessages: [Inimigo2_2] Dano
+[2018.09.20-04.36.59:850][747]LogBlueprintUserMessages: [Inimigo2_2] Dano
+[2018.09.20-04.37.08:879][ 32]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.08:913][ 33]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.08:944][ 34]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.08:978][ 35]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:012][ 36]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:047][ 37]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:065][ 38]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:086][ 39]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:115][ 40]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:149][ 41]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:182][ 42]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:216][ 43]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:249][ 44]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:282][ 45]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:314][ 46]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:348][ 47]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:381][ 48]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:414][ 49]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:446][ 50]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:482][ 51]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:513][ 52]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:544][ 53]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:577][ 54]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:599][ 55]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:616][ 56]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:648][ 57]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:681][ 58]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:715][ 59]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:746][ 60]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:780][ 61]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:816][ 62]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:845][ 63]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:882][ 64]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:912][ 65]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:945][ 66]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:980][ 67]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.09:998][ 68]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.10:018][ 69]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.10:047][ 70]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.10:082][ 71]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.10:115][ 72]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.10:148][ 73]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.10:184][ 74]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.10:216][ 75]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.10:247][ 76]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.10:280][ 77]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.10:311][ 78]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.10:348][ 79]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.37.10:351][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.37.10:383][ 79]LogSlate: Window 'PlataformGameAV1 Game Preview Standalone (64-bit/GLSL_430)' being destroyed
+[2018.09.20-04.37.10:463][ 79]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.20-04.37.10:583][ 80]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2018.09.20-04.39.02:115][763]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.39.02:115][763]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.39.02:121][763]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.39.02:183][763]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/HeroiCaracter.HeroiCaracter
+[2018.09.20-04.39.02:197][763]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.39.19:213][298]BlueprintLog: New page: Compile HeroiCaracter
+[2018.09.20-04.39.19:952][316]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.39.19:952][316]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.39.19:963][316]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.39.20:027][316]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.39.20:061][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HeroiCaracter" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/HeroiCaracter.uasset" SILENT=true
+[2018.09.20-04.39.20:169][316]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/HeroiCaracter78BD37EA08D61E99E2ADC4FA296854B7.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/HeroiCaracter.uasset'
+[2018.09.20-04.39.21:905][475]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.20-04.39.21:946][475]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.20-04.39.21:947][475]PIE: New page: PIE session: Level00 (Sep 19, 2018, 10:39:21 PM)
+[2018.09.20-04.39.21:947][475]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.20-04.39.21:964][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016865s)
+[2018.09.20-04.39.21:964][475]LogAIModule: Creating AISystem for world Level00
+[2018.09.20-04.39.21:965][475]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2018.09.20-04.39.21:965][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.018060s)
+[2018.09.20-04.39.22:010][475]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.20-04.39.22:010][475]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.20-04.39.22:010][475]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.20-04.39.22:010][475]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.20-04.39.22:010][475]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.20-04.39.22:010][475]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.20-04.39.22:010][475]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.20-04.39.22:011][475]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.20-04.39.22:011][475]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.20-04.39.22:088][475]LogInit: FAudioDevice initialized.
+[2018.09.20-04.39.22:089][475]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.39.22:089][475]LogLinux: Scale at X=315.000000, Y=163.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.39.22:091][475]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.39.22:131][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.39.22:171][475]LogLoad: Game class is 'GameModeBase'
+[2018.09.20-04.39.22:182][475]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.20-01.39.22
+[2018.09.20-04.39.22:183][475]LogWorld: Bringing up level for play took: 0.011555
+[2018.09.20-04.39.22:184][475]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.20-04.39.22:187][475]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.259
+[2018.09.20-04.39.22:380][476]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.39.22:389][476]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.400000 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.39.30:948][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.39.30:980][748]LogSlate: Window 'PlataformGameAV1 Game Preview Standalone (64-bit/GLSL_430)' being destroyed
+[2018.09.20-04.39.31:098][748]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.20-04.39.31:340][749]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2018.09.20-04.39.42:377][721]BlueprintLog: New page: Compile HeroiCaracter
+[2018.09.20-04.39.44:782][811]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.20-04.39.44:828][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.20-04.39.44:828][811]PIE: New page: PIE session: Level00 (Sep 19, 2018, 10:39:44 PM)
+[2018.09.20-04.39.44:829][811]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.20-04.39.44:847][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018532s)
+[2018.09.20-04.39.44:848][811]LogAIModule: Creating AISystem for world Level00
+[2018.09.20-04.39.44:848][811]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2018.09.20-04.39.44:848][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.019502s)
+[2018.09.20-04.39.44:887][811]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.20-04.39.44:887][811]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.20-04.39.44:887][811]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.20-04.39.44:887][811]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.20-04.39.44:887][811]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.20-04.39.44:887][811]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.20-04.39.44:887][811]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.20-04.39.44:887][811]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.20-04.39.44:887][811]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.20-04.39.44:944][811]LogInit: FAudioDevice initialized.
+[2018.09.20-04.39.44:945][811]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.39.44:945][811]LogLinux: Scale at X=315.000000, Y=163.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.39.44:945][811]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.39.44:982][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.39.45:037][811]LogLoad: Game class is 'GameModeBase'
+[2018.09.20-04.39.45:048][811]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.20-01.39.45
+[2018.09.20-04.39.45:049][811]LogWorld: Bringing up level for play took: 0.011862
+[2018.09.20-04.39.45:055][811]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.245
+[2018.09.20-04.39.45:159][812]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.39.45:182][812]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.389746 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.39.52:414][ 65]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.39.52:444][ 65]LogSlate: Window 'PlataformGameAV1 Game Preview Standalone (64-bit/GLSL_430)' being destroyed
+[2018.09.20-04.39.52:542][ 65]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.20-04.39.52:655][ 66]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2018.09.20-04.39.55:215][200]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.39.55:216][200]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.39.55:217][200]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.39.55:312][200]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.39.55:325][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HeroiCaracter" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/HeroiCaracter.uasset" SILENT=true
+[2018.09.20-04.39.55:428][200]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/HeroiCaracter7B89962708D61E99F7B276A22B825E61.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/HeroiCaracter.uasset'
+[2018.09.20-04.40.12:084][485]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.20-04.40.12:113][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.20-04.40.12:113][485]PIE: New page: PIE session: Level00 (Sep 19, 2018, 10:40:12 PM)
+[2018.09.20-04.40.12:113][485]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.20-04.40.12:131][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017897s)
+[2018.09.20-04.40.12:132][485]LogAIModule: Creating AISystem for world Level00
+[2018.09.20-04.40.12:132][485]LogPlayLevel: PIE: World Init took: (0.000932s)
+[2018.09.20-04.40.12:132][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.019013s)
+[2018.09.20-04.40.12:177][485]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.20-04.40.12:177][485]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.20-04.40.12:177][485]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.20-04.40.12:177][485]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.20-04.40.12:177][485]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.20-04.40.12:177][485]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.20-04.40.12:177][485]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.20-04.40.12:178][485]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.20-04.40.12:178][485]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.20-04.40.12:240][485]LogInit: FAudioDevice initialized.
+[2018.09.20-04.40.12:241][485]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.40.12:241][485]LogLinux: Scale at X=315.000000, Y=163.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.40.12:241][485]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.40.12:283][485]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.40.12:343][485]LogLoad: Game class is 'GameModeBase'
+[2018.09.20-04.40.12:353][485]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.20-01.40.12
+[2018.09.20-04.40.12:355][485]LogWorld: Bringing up level for play took: 0.011077
+[2018.09.20-04.40.12:360][485]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.248
+[2018.09.20-04.40.12:475][486]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.40.12:507][486]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.400000 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.40.12:553][487]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064915 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.40.52:816][743]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.40.54:649][803]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.40.54:682][804]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.41.41:346][290]LogBlueprintUserMessages: [Inimigo2_2] Dano
+[2018.09.20-04.41.42:848][338]LogBlueprintUserMessages: [Inimigo2_2] Dano
+[2018.09.20-04.41.42:879][339]LogBlueprintUserMessages: [Inimigo2_2] Dano
+[2018.09.20-04.41.56:114][756]LogBlueprintUserMessages: [Inimigo3_2] Dano
+[2018.09.20-04.42.00:516][898]LogBlueprintUserMessages: [Inimigo3_2] Dano
+[2018.09.20-04.42.03:715][997]LogBlueprintUserMessages: [Inimigo3_2] Dano
+[2018.09.20-04.42.32:413][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.42.32:439][919]LogSlate: Window 'PlataformGameAV1 Game Preview Standalone (64-bit/GLSL_430)' being destroyed
+[2018.09.20-04.42.32:565][919]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.20-04.42.32:744][920]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2018.09.20-04.42.51:737][ 63]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.42.51:737][ 63]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.42.51:738][ 63]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.42.51:841][ 64]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.42.58:186][264]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.42.58:186][264]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.42.58:228][264]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.42.58:322][264]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.42.58:373][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Autosaves/Game/Maps/Level00_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.09.20-04.42.58:617][264]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00_Auto37B9BC8CF08D61E9A64CEE9B4366B75E9.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Autosaves/Game/Maps/Level00_Auto3.umap'
+[2018.09.20-04.42.58:619][264]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level00' took 0.288
+[2018.09.20-04.42.58:619][264]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.288
+[2018.09.20-04.43.09:560][506]Cmd: SELECT NONE
+[2018.09.20-04.43.26:379][664]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.20-04.43.26:412][664]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.20-04.43.26:412][664]PIE: New page: PIE session: Level00 (Sep 19, 2018, 10:43:26 PM)
+[2018.09.20-04.43.26:412][664]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.20-04.43.26:431][664]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018907s)
+[2018.09.20-04.43.26:432][664]LogAIModule: Creating AISystem for world Level00
+[2018.09.20-04.43.26:432][664]LogPlayLevel: PIE: World Init took: (0.001086s)
+[2018.09.20-04.43.26:432][664]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.020218s)
+[2018.09.20-04.43.26:479][664]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.20-04.43.26:479][664]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.20-04.43.26:479][664]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.20-04.43.26:479][664]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.20-04.43.26:479][664]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.20-04.43.26:479][664]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.20-04.43.26:479][664]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.20-04.43.26:480][664]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.20-04.43.26:480][664]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.20-04.43.26:528][664]LogInit: FAudioDevice initialized.
+[2018.09.20-04.43.26:529][664]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.43.26:529][664]LogLinux: Scale at X=315.000000, Y=163.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.43.26:529][664]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.43.26:576][664]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.43.26:623][664]LogLoad: Game class is 'GameModeBase'
+[2018.09.20-04.43.26:638][664]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.20-01.43.26
+[2018.09.20-04.43.26:640][664]LogWorld: Bringing up level for play took: 0.016416
+[2018.09.20-04.43.26:647][664]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.236
+[2018.09.20-04.43.26:753][665]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.43.26:787][665]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.380993 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.43.26:829][666]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.053048 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.43.56:482][607]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.43.56:515][608]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.43.58:043][655]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.44.45:148][147]LogBlueprintUserMessages: [Inimigo2_2] Dano
+[2018.09.20-04.44.52:514][380]LogBlueprintUserMessages: [Inimigo2_2] Dano
+[2018.09.20-04.44.55:913][488]LogBlueprintUserMessages: [Inimigo2_2] Dano
+[2018.09.20-04.45.04:781][772]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.04:813][773]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.04:847][774]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.04:882][775]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.04:914][776]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.04:949][777]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.04:980][778]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:014][779]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:047][780]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:080][781]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:113][782]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:147][783]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:183][784]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:216][785]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:247][786]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:279][787]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:312][788]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:345][789]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:379][790]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:411][791]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:443][792]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:476][793]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:496][794]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:515][795]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:547][796]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:582][797]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:617][798]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:648][799]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:680][800]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:715][801]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:747][802]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:780][803]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:812][804]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:844][805]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:877][806]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:897][807]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:919][808]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:953][809]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.05:978][810]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.06:016][811]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.06:048][812]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.06:080][813]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.06:115][814]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.06:147][815]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.06:178][816]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.06:198][817]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.06:217][818]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.06:248][819]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.06:286][820]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.06:314][821]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.06:347][822]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.06:378][823]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.06:412][824]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.06:445][825]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.06:481][826]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.06:512][827]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.06:545][828]LogBlueprintUserMessages: [HeroiCaracter_2] Morto
+[2018.09.20-04.45.06:547][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.45.06:583][828]LogSlate: Window 'PlataformGameAV1 Game Preview Standalone (64-bit/GLSL_430)' being destroyed
+[2018.09.20-04.45.06:647][828]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.20-04.45.06:825][829]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2018.09.20-04.45.19:217][ 75]LogEditorViewport: Clicking on Actor (LMB): PisoBluePrint6_C (PisoBluePrint61)
+[2018.09.20-04.45.21:651][150]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.20-04.45.21:745][156]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.45.21:745][156]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.45.21:782][156]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.45.21:823][156]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/PisoBluePrint6.PisoBluePrint6
+[2018.09.20-04.45.21:825][156]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.45.21:860][156]LogLinux: Scale at X=1920.000000, Y=0.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.45.21:860][156]LogLinux: Scale at X=2880.000000, Y=540.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.45.22:605][158]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.45.25:145][222]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.45.25:145][222]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.45.25:146][222]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.45.25:213][223]LogLinux: Scale at X=1920.000000, Y=0.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.45.25:301][225]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.45.26:802][326]LogSlate: Window 'PisoBluePrint6' being destroyed
+[2018.09.20-04.45.36:814][806]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.20-04.45.45:612][533]BlueprintLog: New page: Compile PisoBluePrint6
+[2018.09.20-04.45.46:279][553]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.45.46:279][553]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.45.46:295][553]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.45.46:348][553]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.45.46:384][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PisoBluePrint6" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/PisoBluePrint6.uasset" SILENT=true
+[2018.09.20-04.45.46:403][553]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/PisoBluePrint67C215B3B08D61E9AC8F4564A406F1A15.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/PisoBluePrint6.uasset'
+[2018.09.20-04.45.52:951][805]LogEditorViewport: Clicking on Actor (LMB): PisoBluePrint6_C (PisoBluePrint58)
+[2018.09.20-04.45.55:986][935]LogEditorViewport: Clicking on Actor (LMB): PisoBluePrint6_C (PisoBluePrint62)
+[2018.09.20-04.45.58:264][ 30]LogEditorViewport: Clicking on Actor (context menu): FundoBluePrint_C (FundoBluePrint)
+[2018.09.20-04.45.58:314][ 30]LogLinux: Scale at X=923.000000, Y=673.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.45.58:404][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.20-04.45.58:462][ 32]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.45.59:193][ 83]LogEditorViewport: Clicking on Actor (LMB): FundoBluePrint_C (FundoBluePrint)
+[2018.09.20-04.46.00:123][124]LogEditorViewport: Clicking on Actor (context menu): FundoBluePrint_C (FundoBluePrint)
+[2018.09.20-04.46.00:145][124]LogLinux: Scale at X=1214.000000, Y=674.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.46.00:227][124]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.20-04.46.00:251][126]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.46.01:319][208]LogEditorViewport: Clicking on Actor (LMB): FundoBluePrint_C (FundoBluePrint)
+[2018.09.20-04.46.04:987][377]LogEditorViewport: Clicking on Actor (LMB): PisoBluePrint6_C (PisoBluePrint63)
+[2018.09.20-04.46.07:058][465]LogEditorViewport: Clicking on Actor (LMB): PisoBluePrint6_C (PisoBluePrint64)
+[2018.09.20-04.46.11:092][645]LogEditorViewport: Clicking on Actor (LMB): PisoBluePrint6_C (PisoBluePrint63)
+[2018.09.20-04.46.15:494][840]LogEditorViewport: Clicking on Actor (LMB): FundoBluePrint_C (FundoBluePrint)
+[2018.09.20-04.46.33:249][645]LogEditorViewport: Clicking on Actor (LMB): PisoBluePrint6_C (PisoBluePrint73)
+[2018.09.20-04.46.35:959][765]LogEditorViewport: Clicking on Actor (LMB): PisoBluePrint6_C (PisoBluePrint71)
+[2018.09.20-04.46.39:551][925]LogEditorViewport: Clicking on Actor (LMB): PisoBluePrint6_C (PisoBluePrint73)
+[2018.09.20-04.46.42:590][ 62]LogEditorViewport: Clicking on Actor (LMB): PisoBluePrint6_C (PisoBluePrint71)
+[2018.09.20-04.46.46:315][225]LogEditorViewport: Clicking on Actor (context menu): FundoBluePrint_C (FundoBluePrint)
+[2018.09.20-04.46.46:343][225]LogLinux: Scale at X=1347.000000, Y=678.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.46.46:453][225]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.20-04.46.46:517][227]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.46.47:109][267]LogEditorViewport: Clicking on Actor (LMB): FundoBluePrint_C (FundoBluePrint)
+[2018.09.20-04.46.51:839][450]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.20-04.46.51:909][454]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.46.51:909][454]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.46.51:924][454]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.46.51:978][454]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.46.52:016][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.20-04.46.52:308][454]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level007C238BB608D61E9AF01A24FC44594038.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap'
+[2018.09.20-04.46.52:354][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00_BuiltData" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset" SILENT=true
+[2018.09.20-04.46.52:389][454]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00_BuiltData7C25008508D61E9AF047193A445DBF01.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset'
+[2018.09.20-04.46.58:921][665]LogEditorViewport: Clicking on Actor (LMB): FundoBluePrint_C (FundoBluePrint)
+[2018.09.20-04.47.00:549][710]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.20-04.47.00:622][715]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.47.00:622][715]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.47.00:642][715]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.47.00:697][715]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/FundoBluePrint.FundoBluePrint
+[2018.09.20-04.47.00:703][715]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.47.14:712][535]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.20-04.47.46:886][348]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.20-04.47.47:381][372]BlueprintLog: New page: Compile FundoBluePrint
+[2018.09.20-04.47.48:095][392]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.47.48:095][392]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.47.48:113][392]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.47.48:174][392]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.47.48:215][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/FundoBluePrint" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/FundoBluePrint.uasset" SILENT=true
+[2018.09.20-04.47.48:245][392]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/FundoBluePrint7C9D9C1E08D61E9B119322A047B22028.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/FundoBluePrint.uasset'
+[2018.09.20-04.48.08:612][476]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.20-04.48.08:680][479]BlueprintLog: New page: Compile FundoBluePrint
+[2018.09.20-04.48.09:389][500]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.48.09:389][500]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.48.09:421][500]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.48.09:472][500]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.48.09:509][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/FundoBluePrint" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/FundoBluePrint.uasset" SILENT=true
+[2018.09.20-04.48.09:537][500]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/FundoBluePrint7CB921BD08D61E9B1E44156848F70308.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/FundoBluePrint.uasset'
+[2018.09.20-04.48.17:895][763]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.20-04.48.28:448][318]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.20-04.48.28:542][325]BlueprintLog: New page: Compile FundoBluePrint
+[2018.09.20-04.48.29:117][341]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.48.29:117][341]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.48.29:143][341]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.48.29:186][341]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.48.29:225][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/FundoBluePrint" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/FundoBluePrint.uasset" SILENT=true
+[2018.09.20-04.48.29:256][341]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/FundoBluePrint7CF04D2C08D61E9B2A050FF64A23E6ED.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/FundoBluePrint.uasset'
+[2018.09.20-04.48.31:981][475]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.20-04.48.32:786][498]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.48.32:786][498]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.48.32:817][498]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.48.32:871][498]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.48.32:910][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.20-04.48.33:206][498]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level007CF2C4B708D61E9B2C3D2A924A5CB606.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap'
+[2018.09.20-04.48.33:254][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00_BuiltData" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset" SILENT=true
+[2018.09.20-04.48.33:289][498]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00_BuiltData7CF4816608D61E9B2C6B668C4A615597.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset'
+[2018.09.20-04.49.04:073][ 82]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.20-04.49.04:145][ 88]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.20-04.49.04:188][ 88]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.20-04.49.04:189][ 88]PIE: New page: PIE session: Level00 (Sep 19, 2018, 10:49:04 PM)
+[2018.09.20-04.49.04:189][ 88]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.20-04.49.04:219][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029953s)
+[2018.09.20-04.49.04:220][ 88]LogAIModule: Creating AISystem for world Level00
+[2018.09.20-04.49.04:220][ 88]LogPlayLevel: PIE: World Init took: (0.001077s)
+[2018.09.20-04.49.04:220][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.031277s)
+[2018.09.20-04.49.04:273][ 88]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.20-04.49.04:273][ 88]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.20-04.49.04:274][ 88]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.20-04.49.04:274][ 88]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.20-04.49.04:274][ 88]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.20-04.49.04:274][ 88]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.20-04.49.04:274][ 88]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.20-04.49.04:274][ 88]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.20-04.49.04:274][ 88]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.20-04.49.04:355][ 88]LogInit: FAudioDevice initialized.
+[2018.09.20-04.49.04:355][ 88]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.49.04:355][ 88]LogLinux: Scale at X=315.000000, Y=163.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.49.04:356][ 88]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.49.04:422][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.49.04:486][ 88]LogLoad: Game class is 'GameModeBase'
+[2018.09.20-04.49.04:499][ 88]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.20-01.49.04
+[2018.09.20-04.49.04:500][ 88]LogWorld: Bringing up level for play took: 0.013907
+[2018.09.20-04.49.04:508][ 88]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.324
+[2018.09.20-04.49.04:617][ 89]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.49.04:633][ 89]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.400000 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.49.04:716][ 90]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.060310 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.49.04:782][ 91]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.092091 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.49.04:905][ 94]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.087328 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.49.09:152][230]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.49.09:189][230]LogSlate: Window 'PlataformGameAV1 Game Preview Standalone (64-bit/GLSL_430)' being destroyed
+[2018.09.20-04.49.09:333][230]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.20-04.49.09:456][231]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2018.09.20-04.51.10:950][748]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.20-04.51.10:992][750]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.20-04.51.11:021][750]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.20-04.51.11:022][750]PIE: New page: PIE session: Level00 (Sep 19, 2018, 10:51:11 PM)
+[2018.09.20-04.51.11:022][750]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.20-04.51.11:043][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021411s)
+[2018.09.20-04.51.11:044][750]LogAIModule: Creating AISystem for world Level00
+[2018.09.20-04.51.11:044][750]LogPlayLevel: PIE: World Init took: (0.000906s)
+[2018.09.20-04.51.11:044][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.022727s)
+[2018.09.20-04.51.11:085][750]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.20-04.51.11:085][750]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.20-04.51.11:085][750]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.20-04.51.11:085][750]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.20-04.51.11:085][750]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.20-04.51.11:085][750]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.20-04.51.11:085][750]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.20-04.51.11:086][750]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.20-04.51.11:086][750]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.20-04.51.11:154][750]LogInit: FAudioDevice initialized.
+[2018.09.20-04.51.11:155][750]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.51.11:155][750]LogLinux: Scale at X=315.000000, Y=163.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.51.11:155][750]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.51.11:206][750]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.51.11:248][750]LogLoad: Game class is 'GameModeBase'
+[2018.09.20-04.51.11:258][750]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.20-01.51.11
+[2018.09.20-04.51.11:260][750]LogWorld: Bringing up level for play took: 0.011857
+[2018.09.20-04.51.11:265][750]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.243
+[2018.09.20-04.51.11:377][751]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-04.51.11:389][751]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.395229 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.51.11:478][752]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.088292 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-04.51.45:548][842]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.51.45:580][843]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.51.45:612][844]LogBlueprintUserMessages: [Inimigo1_2] Dano
+[2018.09.20-04.52.44:478][727]LogBlueprintUserMessages: [Inimigo2_2] Dano
+[2018.09.20-04.52.44:511][728]LogBlueprintUserMessages: [Inimigo2_2] Dano
+[2018.09.20-04.52.44:545][729]LogBlueprintUserMessages: [Inimigo2_2] Dano
+[2018.09.20-04.52.59:213][201]LogBlueprintUserMessages: [Inimigo3_2] Dano
+[2018.09.20-04.52.59:246][202]LogBlueprintUserMessages: [Inimigo3_2] Dano
+[2018.09.20-04.53.01:243][263]LogBlueprintUserMessages: [Inimigo3_2] Dano
+[2018.09.20-04.53.13:279][650]LogBlueprintUserMessages: [Chefão_2] Dano
+[2018.09.20-04.53.13:313][651]LogBlueprintUserMessages: [Chefão_2] Dano
+[2018.09.20-04.53.15:346][714]LogBlueprintUserMessages: [Chefão_2] Dano
+[2018.09.20-04.53.22:584][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-04.53.22:613][949]LogSlate: Window 'PlataformGameAV1 Game Preview Standalone (64-bit/GLSL_430)' being destroyed
+[2018.09.20-04.53.22:697][949]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.20-04.53.22:814][950]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2018.09.20-04.53.36:340][298]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.20-04.53.36:458][305]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-04.53.36:637][305]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.20-04.53.36:696][305]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.20-04.53.36:744][305]LogSlate: Window 'PlataformGameAV1 - Unreal Editor' being destroyed
+[2018.09.20-04.53.37:102][306]Cmd: QUIT_EDITOR
+[2018.09.20-04.53.37:146][306]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.09.20-04.53.37:146][306]LogExit: Preparing to exit.
+[2018.09.20-04.53.37:749][306]LogExit: Editor shut down
+[2018.09.20-04.53.37:749][306]LogExit: Transaction tracking system shut down
+[2018.09.20-04.53.37:987][306]LogExit: Object subsystem successfully closed.
+[2018.09.20-04.53.37:999][306]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.09.20-04.53.38:079][306]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (542)
+[2018.09.20-04.53.38:080][306]LogModuleManager: Shutting down and abandoning module Voice (540)
+[2018.09.20-04.53.38:080][306]LogModuleManager: Shutting down and abandoning module TextureEditor (538)
+[2018.09.20-04.53.38:080][306]LogModuleManager: Shutting down and abandoning module SlateFileDialogs (536)
+[2018.09.20-04.53.38:080][306]LogModuleManager: Shutting down and abandoning module SequencerWidgets (534)
+[2018.09.20-04.53.38:080][306]LogModuleManager: Shutting down and abandoning module BlueprintGraph (532)
+[2018.09.20-04.53.38:080][306]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2018.09.20-04.53.38:080][306]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2018.09.20-04.53.38:080][306]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2018.09.20-04.53.38:080][306]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2018.09.20-04.53.38:080][306]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2018.09.20-04.53.38:080][306]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module SequenceRecorder (496)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (492)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (478)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (476)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module SmartSnapping (474)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (472)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (470)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module PlacementMode (469)
+[2018.09.20-04.53.38:081][306]LogModuleManager: Shutting down and abandoning module MaterialEditor (468)
+[2018.09.20-04.53.38:082][306]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (464)
+[2018.09.20-04.53.38:082][306]LogModuleManager: Shutting down and abandoning module CharacterAI (462)
+[2018.09.20-04.53.38:082][306]LogModuleManager: Shutting down and abandoning module SessionServices (460)
+[2018.09.20-04.53.38:082][306]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
+[2018.09.20-04.53.38:082][306]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
+[2018.09.20-04.53.38:082][306]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
+[2018.09.20-04.53.38:082][306]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (453)
+[2018.09.20-04.53.38:082][306]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.09.20-04.53.38:082][306]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.09.20-04.53.38:082][306]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.09.20-04.53.38:082][306]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (444)
+[2018.09.20-04.53.38:082][306]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (442)
+[2018.09.20-04.53.38:082][306]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (441)
+[2018.09.20-04.53.38:940][306]LogModuleManager: Shutting down and abandoning module LinuxPlatformEditor (438)
+[2018.09.20-04.53.38:940][306]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (436)
+[2018.09.20-04.53.38:940][306]LogModuleManager: Shutting down and abandoning module InputBindingEditor (434)
+[2018.09.20-04.53.38:940][306]LogModuleManager: Shutting down and abandoning module MergeActors (432)
+[2018.09.20-04.53.38:940][306]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (430)
+[2018.09.20-04.53.38:940][306]LogModuleManager: Shutting down and abandoning module LocalizationService (429)
+[2018.09.20-04.53.38:941][306]LogModuleManager: Shutting down and abandoning module HardwareTargeting (426)
+[2018.09.20-04.53.38:941][306]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (424)
+[2018.09.20-04.53.38:941][306]LogModuleManager: Shutting down and abandoning module UndoHistory (422)
+[2018.09.20-04.53.38:941][306]LogModuleManager: Shutting down and abandoning module XmlParser (420)
+[2018.09.20-04.53.38:941][306]LogModuleManager: Shutting down and abandoning module Blutility (418)
+[2018.09.20-04.53.38:941][306]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (416)
+[2018.09.20-04.53.38:941][306]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (415)
+[2018.09.20-04.53.38:941][306]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (412)
+[2018.09.20-04.53.38:941][306]LogModuleManager: Shutting down and abandoning module SettingsEditor (410)
+[2018.09.20-04.53.38:941][306]LogModuleManager: Shutting down and abandoning module ProjectLauncher (408)
+[2018.09.20-04.53.38:941][306]LogModuleManager: Shutting down and abandoning module SessionFrontend (406)
+[2018.09.20-04.53.38:941][306]LogModuleManager: Shutting down and abandoning module ProfilerClient (404)
+[2018.09.20-04.53.38:941][306]LogModuleManager: Shutting down and abandoning module DeviceManager (402)
+[2018.09.20-04.53.38:941][306]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (401)
+[2018.09.20-04.53.38:972][306]LogModuleManager: Shutting down and abandoning module AutomationController (398)
+[2018.09.20-04.53.38:972][306]LogModuleManager: Shutting down and abandoning module AutomationWindow (396)
+[2018.09.20-04.53.38:972][306]LogModuleManager: Shutting down and abandoning module Layers (394)
+[2018.09.20-04.53.38:973][306]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (392)
+[2018.09.20-04.53.38:973][306]LogModuleManager: Shutting down and abandoning module DetailCustomizations (390)
+[2018.09.20-04.53.38:973][306]LogModuleManager: Shutting down and abandoning module PackagesDialog (388)
+[2018.09.20-04.53.38:973][306]LogModuleManager: Shutting down and abandoning module Persona (386)
+[2018.09.20-04.53.38:973][306]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (385)
+[2018.09.20-04.53.38:973][306]LogModuleManager: Shutting down and abandoning module AnimGraph (383)
+[2018.09.20-04.53.38:973][306]LogModuleManager: Shutting down and abandoning module Kismet (380)
+[2018.09.20-04.53.38:978][306]LogModuleManager: Shutting down and abandoning module GraphEditor (378)
+[2018.09.20-04.53.38:978][306]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
+[2018.09.20-04.53.38:979][306]LogModuleManager: Shutting down and abandoning module Toolbox (374)
+[2018.09.20-04.53.38:979][306]LogModuleManager: Shutting down and abandoning module DesktopPlatform (373)
+[2018.09.20-04.53.38:979][306]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2018.09.20-04.53.38:979][306]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2018.09.20-04.53.38:980][306]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2018.09.20-04.53.38:980][306]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2018.09.20-04.53.38:980][306]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2018.09.20-04.53.38:980][306]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2018.09.20-04.53.38:980][306]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2018.09.20-04.53.38:980][306]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (356)
+[2018.09.20-04.53.38:980][306]LogModuleManager: Shutting down and abandoning module LauncherPlatform (354)
+[2018.09.20-04.53.38:980][306]LogModuleManager: Shutting down and abandoning module AnalyticsET (352)
+[2018.09.20-04.53.38:980][306]LogModuleManager: Shutting down and abandoning module PortalServices (350)
+[2018.09.20-04.53.38:980][306]LogModuleManager: Shutting down and abandoning module PortalRpc (348)
+[2018.09.20-04.53.38:980][306]LogModuleManager: Shutting down and abandoning module MessagingRpc (346)
+[2018.09.20-04.53.38:980][306]LogModuleManager: Shutting down and abandoning module AIModule (344)
+[2018.09.20-04.53.38:980][306]LogModuleManager: Shutting down and abandoning module GameplayDebugger (343)
+[2018.09.20-04.53.38:980][306]LogModuleManager: Shutting down and abandoning module AITestSuite (341)
+[2018.09.20-04.53.38:980][306]LogModuleManager: Shutting down and abandoning module NavigationSystem (339)
+[2018.09.20-04.53.38:980][306]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2018.09.20-04.53.39:177][306]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2018.09.20-04.53.39:177][306]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (332)
+[2018.09.20-04.53.39:178][306]LogModuleManager: Shutting down and abandoning module DatasmithContent (330)
+[2018.09.20-04.53.39:178][306]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (328)
+[2018.09.20-04.53.39:179][306]LogModuleManager: Shutting down and abandoning module MediaCompositing (326)
+[2018.09.20-04.53.39:179][306]LogModuleManager: Shutting down and abandoning module LinearTimecode (324)
+[2018.09.20-04.53.39:179][306]LogModuleManager: Shutting down and abandoning module ImgMedia (322)
+[2018.09.20-04.53.39:180][306]LogModuleManager: Shutting down and abandoning module Media (321)
+[2018.09.20-04.53.39:186][306]LogModuleManager: Shutting down and abandoning module PolygonModeling (318)
+[2018.09.20-04.53.39:186][306]LogModuleManager: Shutting down and abandoning module MeshEditor (316)
+[2018.09.20-04.53.39:186][306]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (314)
+[2018.09.20-04.53.39:186][306]LogModuleManager: Shutting down and abandoning module PluginBrowser (312)
+[2018.09.20-04.53.39:186][306]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (310)
+[2018.09.20-04.53.39:186][306]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (308)
+[2018.09.20-04.53.39:186][306]LogModuleManager: Shutting down and abandoning module CryptoKeys (306)
+[2018.09.20-04.53.39:186][306]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (304)
+[2018.09.20-04.53.39:186][306]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (302)
+[2018.09.20-04.53.39:187][306]LogModuleManager: Shutting down and abandoning module KDevelopSourceCodeAccess (300)
+[2018.09.20-04.53.39:187][306]LogModuleManager: Shutting down and abandoning module GitSourceControl (298)
+[2018.09.20-04.53.39:187][306]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (296)
+[2018.09.20-04.53.39:187][306]LogModuleManager: Shutting down and abandoning module UObjectPlugin (294)
+[2018.09.20-04.53.39:187][306]LogModuleManager: Shutting down and abandoning module CodeLiteSourceCodeAccess (292)
+[2018.09.20-04.53.39:187][306]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (290)
+[2018.09.20-04.53.39:187][306]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
+[2018.09.20-04.53.39:187][306]LogModuleManager: Shutting down and abandoning module SourceControl (287)
+[2018.09.20-04.53.39:187][306]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (284)
+[2018.09.20-04.53.39:188][306]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (282)
+[2018.09.20-04.53.39:188][306]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (280)
+[2018.09.20-04.53.39:188][306]LogModuleManager: Shutting down and abandoning module Paper2DEditor (278)
+[2018.09.20-04.53.39:188][306]LogModuleManager: Shutting down and abandoning module MeshPaint (277)
+[2018.09.20-04.53.39:188][306]LogModuleManager: Shutting down and abandoning module CableComponent (274)
+[2018.09.20-04.53.39:188][306]LogModuleManager: Shutting down and abandoning module EditableMesh (272)
+[2018.09.20-04.53.39:188][306]LogModuleManager: Shutting down and abandoning module AndroidPermission (270)
+[2018.09.20-04.53.39:188][306]LogModuleManager: Shutting down and abandoning module SteamVRController (268)
+[2018.09.20-04.53.39:188][306]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (266)
+[2018.09.20-04.53.39:188][306]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (264)
+[2018.09.20-04.53.39:188][306]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (262)
+[2018.09.20-04.53.39:188][306]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (260)
+[2018.09.20-04.53.39:188][306]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (258)
+[2018.09.20-04.53.39:188][306]LogModuleManager: Shutting down and abandoning module AppleVisionBlueprintSupport (256)
+[2018.09.20-04.53.39:188][306]LogModuleManager: Shutting down and abandoning module AppleVision (254)
+[2018.09.20-04.53.39:188][306]LogModuleManager: Shutting down and abandoning module AlembicImporter (252)
+[2018.09.20-04.53.39:188][306]LogModuleManager: Shutting down and abandoning module AlembicLibrary (251)
+[2018.09.20-04.53.39:188][306]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (248)
+[2018.09.20-04.53.39:189][306]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (247)
+[2018.09.20-04.53.39:189][306]LogModuleManager: Shutting down and abandoning module GeometryCache (244)
+[2018.09.20-04.53.39:189][306]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (243)
+[2018.09.20-04.53.39:189][306]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (240)
+[2018.09.20-04.53.39:189][306]LogModuleManager: Shutting down and abandoning module AppleImageUtils (238)
+[2018.09.20-04.53.39:189][306]LogModuleManager: Shutting down and abandoning module BackChannel (236)
+[2018.09.20-04.53.39:189][306]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (234)
+[2018.09.20-04.53.39:189][306]LogModuleManager: Shutting down and abandoning module AISupportModule (232)
+[2018.09.20-04.53.39:189][306]LogModuleManager: Shutting down and abandoning module DataValidation (230)
+[2018.09.20-04.53.39:189][306]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (228)
+[2018.09.20-04.53.39:189][306]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.09.20-04.53.39:189][306]LogModuleManager: Shutting down and abandoning module LevelEditor (225)
+[2018.09.20-04.53.39:191][306]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (224)
+[2018.09.20-04.53.39:192][306]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (222)
+[2018.09.20-04.53.39:192][306]LogModuleManager: Shutting down and abandoning module MainFrame (220)
+[2018.09.20-04.53.39:192][306]LogModuleManager: Shutting down and abandoning module HotReload (219)
+[2018.09.20-04.53.39:193][306]LogModuleManager: Shutting down and abandoning module ContentBrowser (215)
+[2018.09.20-04.53.39:195][306]LogModuleManager: Shutting down and abandoning module TreeMap (213)
+[2018.09.20-04.53.39:195][306]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2018.09.20-04.53.39:195][306]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2018.09.20-04.53.39:195][306]LogModuleManager: Shutting down and abandoning module NullSourceCodeAccess (206)
+[2018.09.20-04.53.39:195][306]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2018.09.20-04.53.39:195][306]LogModuleManager: Shutting down and abandoning module ActorSequence (202)
+[2018.09.20-04.53.39:195][306]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (200)
+[2018.09.20-04.53.39:195][306]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (198)
+[2018.09.20-04.53.39:195][306]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (196)
+[2018.09.20-04.53.39:195][306]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (194)
+[2018.09.20-04.53.39:195][306]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (192)
+[2018.09.20-04.53.39:195][306]LogModuleManager: Shutting down and abandoning module PhysXVehicles (190)
+[2018.09.20-04.53.39:195][306]LogModuleManager: Shutting down and abandoning module UdpMessaging (188)
+[2018.09.20-04.53.39:296][306]LogModuleManager: Shutting down and abandoning module TcpMessaging (186)
+[2018.09.20-04.53.39:396][306]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (184)
+[2018.09.20-04.53.39:396][306]LogModuleManager: Shutting down and abandoning module PacketHandler (182)
+[2018.09.20-04.53.39:396][306]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (180)
+[2018.09.20-04.53.39:396][306]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (178)
+[2018.09.20-04.53.39:396][306]LogModuleManager: Shutting down and abandoning module MediaAssets (176)
+[2018.09.20-04.53.39:396][306]LogModuleManager: Shutting down and abandoning module Overlay (174)
+[2018.09.20-04.53.39:396][306]LogModuleManager: Shutting down and abandoning module OverlayEditor (173)
+[2018.09.20-04.53.39:396][306]LogModuleManager: Shutting down and abandoning module VREditor (170)
+[2018.09.20-04.53.39:397][306]LogModuleManager: Shutting down and abandoning module StringTableEditor (168)
+[2018.09.20-04.53.39:397][306]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (166)
+[2018.09.20-04.53.39:397][306]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (164)
+[2018.09.20-04.53.39:397][306]LogModuleManager: Shutting down and abandoning module FunctionalTesting (162)
+[2018.09.20-04.53.39:397][306]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (160)
+[2018.09.20-04.53.39:397][306]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (159)
+[2018.09.20-04.53.39:397][306]LogModuleManager: Shutting down and abandoning module UMG (156)
+[2018.09.20-04.53.39:397][306]LogModuleManager: Shutting down and abandoning module UMGEditor (155)
+[2018.09.20-04.53.39:397][306]LogModuleManager: Shutting down and abandoning module Sequencer (154)
+[2018.09.20-04.53.39:397][306]LogModuleManager: Shutting down and abandoning module MessageLog (151)
+[2018.09.20-04.53.39:397][306]LogModuleManager: Shutting down and abandoning module SlateReflector (146)
+[2018.09.20-04.53.39:397][306]LogModuleManager: Shutting down and abandoning module Slate (144)
+[2018.09.20-04.53.39:398][306]LogModuleManager: Shutting down and abandoning module EditorStyle (142)
+[2018.09.20-04.53.39:401][306]LogModuleManager: Shutting down and abandoning module MRMesh (140)
+[2018.09.20-04.53.39:401][306]LogModuleManager: Shutting down and abandoning module Messaging (138)
+[2018.09.20-04.53.39:401][306]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (136)
+[2018.09.20-04.53.39:401][306]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (134)
+[2018.09.20-04.53.39:401][306]LogModuleManager: Shutting down and abandoning module AudioMixerSDL (132)
+[2018.09.20-04.53.39:401][306]LogModuleManager: Shutting down and abandoning module Networking (130)
+[2018.09.20-04.53.39:401][306]LogModuleManager: Shutting down and abandoning module Core (128)
+[2018.09.20-04.53.39:401][306]LogModuleManager: Shutting down and abandoning module LevelSequence (126)
+[2018.09.20-04.53.39:401][306]LogModuleManager: Shutting down and abandoning module KismetCompiler (124)
+[2018.09.20-04.53.39:401][306]LogModuleManager: Shutting down and abandoning module MeshUtilities (122)
+[2018.09.20-04.53.39:401][306]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (121)
+[2018.09.20-04.53.39:401][306]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (120)
+[2018.09.20-04.53.39:401][306]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (119)
+[2018.09.20-04.53.39:401][306]LogModuleManager: Shutting down and abandoning module MaterialBaking (115)
+[2018.09.20-04.53.39:401][306]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (111)
+[2018.09.20-04.53.39:558][306]LogModuleManager: Shutting down and abandoning module DerivedDataCache (108)
+[2018.09.20-04.53.39:597][306]LogDerivedDataCache: Shutdown
+[2018.09.20-04.53.39:597][306]LogModuleManager: Shutting down and abandoning module TargetPlatform (106)
+[2018.09.20-04.53.39:598][306]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (105)
+[2018.09.20-04.53.39:598][306]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (103)
+[2018.09.20-04.53.39:598][306]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (101)
+[2018.09.20-04.53.39:598][306]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (99)
+[2018.09.20-04.53.39:598][306]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (97)
+[2018.09.20-04.53.39:598][306]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (95)
+[2018.09.20-04.53.39:598][306]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (93)
+[2018.09.20-04.53.39:598][306]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (91)
+[2018.09.20-04.53.39:598][306]LogModuleManager: Shutting down and abandoning module ImageWrapper (90)
+[2018.09.20-04.53.39:598][306]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (87)
+[2018.09.20-04.53.39:598][306]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (85)
+[2018.09.20-04.53.39:598][306]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (83)
+[2018.09.20-04.53.39:598][306]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (81)
+[2018.09.20-04.53.39:598][306]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (79)
+[2018.09.20-04.53.39:598][306]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (77)
+[2018.09.20-04.53.39:608][306]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (75)
+[2018.09.20-04.53.39:608][306]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (73)
+[2018.09.20-04.53.39:608][306]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (71)
+[2018.09.20-04.53.39:608][306]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (69)
+[2018.09.20-04.53.39:608][306]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.09.20-04.53.39:608][306]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.09.20-04.53.39:608][306]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.09.20-04.53.39:608][306]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.09.20-04.53.39:608][306]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (58)
+[2018.09.20-04.53.39:609][306]LogModuleManager: Shutting down and abandoning module XMPP (53)
+[2018.09.20-04.53.39:609][306]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2018.09.20-04.53.39:609][306]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.09.20-04.53.39:609][306]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05BF6281-08D6-1E8A-F56F-7F7AAB497328%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.20.1-0%2B%2B%2BUE4%2BRelease-4.20&UserID=0002f07e2f081610002a0303ad44bfab%7C%7Cd314b6587b3e4e889501da25f9b2872e&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
+[2018.09.20-04.53.39:622][306]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2018.09.20-04.53.39:623][306]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (46)
+[2018.09.20-04.53.39:623][306]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (42)
+[2018.09.20-04.53.39:623][306]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (40)
+[2018.09.20-04.53.39:623][306]LogModuleManager: Shutting down and abandoning module SteamVR (38)
+[2018.09.20-04.53.39:623][306]LogModuleManager: Shutting down and abandoning module LinuxDeviceProfileSelector (36)
+[2018.09.20-04.53.39:623][306]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.09.20-04.53.39:623][306]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.09.20-04.53.39:623][306]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.09.20-04.53.39:623][306]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.09.20-04.53.39:623][306]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.09.20-04.53.39:623][306]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.09.20-04.53.39:623][306]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.09.20-04.53.39:624][306]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.09.20-04.53.39:624][306]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.09.20-04.53.39:624][306]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.09.20-04.53.39:624][306]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.09.20-04.53.39:624][306]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.09.20-04.53.39:624][306]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.09.20-04.53.39:624][306]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.09.20-04.53.39:624][306]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.09.20-04.53.39:624][306]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.09.20-04.53.39:624][306]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.09.20-04.53.39:625][306]LogExit: Exiting.
+[2018.09.20-04.53.39:625][306]LogInit: Tearing down SDL.
+[2018.09.20-04.53.39:635][306]Log file closed, 09/20/18 01:53:39
