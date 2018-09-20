@@ -1,0 +1,1477 @@
+﻿Log file open, 09/19/18 23:52:02
+LogInit: Display: Running engine for game: PlataformGameAV1
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.092241
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin DatasmithContent
+LogStreaming: Display: Took  0.507s to configure plugins.
+LogInit: Using libcurl 7.48.0-DEV
+LogInit:  - built for x86_64-unknown-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  Libcurl: checking if '/etc/pki/tls/certs/ca-bundle.crt' exists
+LogInit:  Libcurl: checking if '/etc/ssl/certs/ca-certificates.crt' exists
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = /etc/ssl/certs/ca-certificates.crt  - Libcurl will set CURLOPT_CAINFO to it
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: Build: ++UE4+Release-4.20-CL-0
+LogInit: Engine Version: 4.20.1-0+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-0+++UE4+Release-4.20
+LogInit: Net CL: 0
+LogInit: OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz, GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Aug 19 2018 16:14:30
+LogInit: Compiled with Clang: 5.0.0 (tags/RELEASE_500/final)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: /home/mauricio/UnrealEngine/Engine/Binaries/Linux/
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.20-02.52.04:177][  0]LogInit: Initializing SDL.
+[2018.09.20-02.52.04:427][  0]LogInit: Initialized SDL 2.0.5 revision: 11184 (hg-11184:04063928c4a8 with EpicExtensions) (compiled against 2.0.5)
+[2018.09.20-02.52.04:427][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2018.09.20-02.52.04:427][  0]LogInit: Using SDL video driver 'x11'
+[2018.09.20-02.52.04:427][  0]LogInit: Display metrics:
+[2018.09.20-02.52.04:427][  0]LogInit:   PrimaryDisplayWidth: 1920
+[2018.09.20-02.52.04:427][  0]LogInit:   PrimaryDisplayHeight: 1080
+[2018.09.20-02.52.04:427][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2018.09.20-02.52.04:427][  0]LogInit:     Left=0, Top=30, Right=1920, Bottom=1080
+[2018.09.20-02.52.04:427][  0]LogInit:   VirtualDisplayRect:
+[2018.09.20-02.52.04:427][  0]LogInit:     Left=0, Top=0, Right=3840, Bottom=1080
+[2018.09.20-02.52.04:427][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2018.09.20-02.52.04:427][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2018.09.20-02.52.04:427][  0]LogInit:   Number of monitors: 2
+[2018.09.20-02.52.04:427][  0]LogInit:     Monitor 0
+[2018.09.20-02.52.04:427][  0]LogInit:       Name: Acer V246HL 24"
+[2018.09.20-02.52.04:427][  0]LogInit:       ID: display0
+[2018.09.20-02.52.04:427][  0]LogInit:       NativeWidth: 1920
+[2018.09.20-02.52.04:427][  0]LogInit:       NativeHeight: 1080
+[2018.09.20-02.52.04:427][  0]LogInit:       bIsPrimary: true
+[2018.09.20-02.52.04:427][  0]LogInit:     Monitor 1
+[2018.09.20-02.52.04:427][  0]LogInit:       Name: 1
+[2018.09.20-02.52.04:427][  0]LogInit:       ID: display1
+[2018.09.20-02.52.04:427][  0]LogInit:       NativeWidth: 1920
+[2018.09.20-02.52.04:427][  0]LogInit:       NativeHeight: 1080
+[2018.09.20-02.52.04:427][  0]LogInit:       bIsPrimary: false
+[2018.09.20-02.52.04:428][  0]LogLinux: Selected Device Profile: [Linux]
+[2018.09.20-02.52.04:428][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Linux]
+[2018.09.20-02.52.04:438][  0]LogHAL: Display: Platform has ~ 4 GB [8137621504 / 4294967296 / 8], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.20-02.52.04:438][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.20-02.52.04:438][  0]LogInit: Using custom *.sym to symbolicate
+[2018.09.20-02.52.04:438][  0]LogInit: Unix hardware info:
+[2018.09.20-02.52.04:438][  0]LogInit:  - we are the first instance of this executable
+[2018.09.20-02.52.04:438][  0]LogInit:  - this process' id (pid) is 8081, parent process' id (ppid) is 1
+[2018.09.20-02.52.04:438][  0]LogInit:  - we are not running under debugger
+[2018.09.20-02.52.04:438][  0]LogInit:  - machine network name is 'R2D2'
+[2018.09.20-02.52.04:438][  0]LogInit:  - user name is 'mauricio' (mauricio)
+[2018.09.20-02.52.04:438][  0]LogInit:  - we're logged in locally
+[2018.09.20-02.52.04:438][  0]LogInit:  - we're running with rendering
+[2018.09.20-02.52.04:438][  0]LogInit:  - CPU: GenuineIntel 'Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz' (signature: 0x806E9)
+[2018.09.20-02.52.04:438][  0]LogInit:  - Number of physical cores available for the process: 2
+[2018.09.20-02.52.04:438][  0]LogInit:  - Number of logical cores available for the process: 4
+[2018.09.20-02.52.04:438][  0]LogInit:  - Cache line size: 64
+[2018.09.20-02.52.04:438][  0]LogInit:  - Memory allocator used: binned2
+[2018.09.20-02.52.04:438][  0]LogCore: Benchmarking clocks:
+[2018.09.20-02.52.04:438][  0]LogCore:  - CLOCK_REALTIME (id=0) can sustain 38771969 (38772K, 39M) calls per second without zero deltas.
+[2018.09.20-02.52.04:438][  0]LogCore:  - CLOCK_MONOTONIC (id=1) can sustain 40023090 (40023K, 40M) calls per second without zero deltas.
+[2018.09.20-02.52.04:438][  0]LogCore:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 2773818 (2774K, 3M) calls per second without zero deltas.
+[2018.09.20-02.52.04:438][  0]LogCore:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 133852179 (133852K, 134M) calls per second with 99.999806% zero deltas.
+[2018.09.20-02.52.04:438][  0]LogCore: Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+[2018.09.20-02.52.04:438][  0]LogInit: Unix-specific commandline switches:
+[2018.09.20-02.52.04:438][  0]LogInit:  -nodwarf (currently OFF): suppress parsing of DWARF debug info (callstacks will be generated faster, but won't have line numbers)
+[2018.09.20-02.52.04:438][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2018.09.20-02.52.04:438][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2018.09.20-02.52.04:438][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2018.09.20-02.52.04:438][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2018.09.20-02.52.04:438][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2018.09.20-02.52.04:438][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2018.09.20-02.52.04:438][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2018.09.20-02.52.04:439][  0]LogInit:  - Physical RAM available (not considering process quota): 8 GB (7760 MB, 7946896 KB, 8137621504 bytes)
+[2018.09.20-02.52.04:616][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.09.20-02.52.04:616][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.09.20-02.52.05:122][  0]LogStreaming: Display: Took  0.506s to InitEngineTextLocalization.
+[2018.09.20-02.52.05:189][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.20-02.52.05:189][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.20-02.52.06:683][  0]LogRHI: Initializing OpenGL RHI
+[2018.09.20-02.52.06:683][  0]LogRHI:   GL_VENDOR: NVIDIA Corporation
+[2018.09.20-02.52.06:683][  0]LogRHI:   GL_RENDERER: GeForce 940MX/PCIe/SSE2
+[2018.09.20-02.52.06:683][  0]LogRHI:   GL_VERSION: 4.3.0 NVIDIA 384.130
+[2018.09.20-02.52.06:683][  0]LogRHI:   GL_SHADING_LANGUAGE_VERSION: 4.30 NVIDIA via Cg compiler
+[2018.09.20-02.52.06:683][  0]LogRHI: OpenGL Extensions:
+[2018.09.20-02.52.06:683][  0]LogRHI:   GL_AMD_multi_draw_indirect
+[2018.09.20-02.52.06:683][  0]LogRHI:   GL_AMD_seamless_cubemap_per_texture
+[2018.09.20-02.52.06:683][  0]LogRHI:   GL_ARB_arrays_of_arrays
+[2018.09.20-02.52.06:683][  0]LogRHI:   GL_ARB_base_instance
+[2018.09.20-02.52.06:683][  0]LogRHI:   GL_ARB_bindless_texture
+[2018.09.20-02.52.06:683][  0]LogRHI:   GL_ARB_blend_func_extended
+[2018.09.20-02.52.06:683][  0]LogRHI:   GL_ARB_buffer_storage
+[2018.09.20-02.52.06:683][  0]LogRHI:   GL_ARB_clear_buffer_object
+[2018.09.20-02.52.06:683][  0]LogRHI:   GL_ARB_clear_texture
+[2018.09.20-02.52.06:683][  0]LogRHI:   GL_ARB_clip_control
+[2018.09.20-02.52.06:683][  0]LogRHI:   GL_ARB_color_buffer_float
+[2018.09.20-02.52.06:683][  0]LogRHI:   GL_ARB_compressed_texture_pixel_storage
+[2018.09.20-02.52.06:683][  0]LogRHI:   GL_ARB_conservative_depth
+[2018.09.20-02.52.06:683][  0]LogRHI:   GL_ARB_compute_shader
+[2018.09.20-02.52.06:683][  0]LogRHI:   GL_ARB_compute_variable_group_size
+[2018.09.20-02.52.06:683][  0]LogRHI:   GL_ARB_conditional_render_inverted
+[2018.09.20-02.52.06:683][  0]LogRHI:   GL_ARB_copy_buffer
+[2018.09.20-02.52.06:683][  0]LogRHI:   GL_ARB_copy_image
+[2018.09.20-02.52.06:683][  0]LogRHI:   GL_ARB_cull_distance
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_debug_output
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_depth_buffer_float
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_depth_clamp
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_depth_texture
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_derivative_control
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_direct_state_access
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_draw_buffers
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_draw_buffers_blend
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_draw_indirect
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_draw_elements_base_vertex
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_draw_instanced
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_enhanced_layouts
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_ES2_compatibility
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_ES3_compatibility
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_ES3_1_compatibility
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_ES3_2_compatibility
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_explicit_attrib_location
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_explicit_uniform_location
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_fragment_coord_conventions
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_fragment_layer_viewport
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_fragment_program
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_fragment_program_shadow
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_fragment_shader
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_framebuffer_no_attachments
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_framebuffer_object
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_framebuffer_sRGB
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_geometry_shader4
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_get_program_binary
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_get_texture_sub_image
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_gl_spirv
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_gpu_shader5
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_gpu_shader_fp64
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_gpu_shader_int64
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_half_float_pixel
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_half_float_vertex
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_imaging
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_indirect_parameters
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_instanced_arrays
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_internalformat_query
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_internalformat_query2
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_invalidate_subdata
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_map_buffer_alignment
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_map_buffer_range
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_multi_bind
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_multi_draw_indirect
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_multisample
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_multitexture
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_occlusion_query
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_occlusion_query2
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_parallel_shader_compile
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_pipeline_statistics_query
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_pixel_buffer_object
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_point_parameters
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_point_sprite
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_program_interface_query
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_provoking_vertex
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_query_buffer_object
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_robust_buffer_access_behavior
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_robustness
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_sample_shading
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_sampler_objects
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_seamless_cube_map
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_seamless_cubemap_per_texture
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_separate_shader_objects
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_shader_atomic_counter_ops
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_shader_atomic_counters
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_shader_ballot
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_shader_bit_encoding
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_shader_clock
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_shader_draw_parameters
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_shader_group_vote
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_shader_image_load_store
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_shader_image_size
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_shader_objects
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_shader_precision
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_shader_storage_buffer_object
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_shader_subroutine
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_shader_texture_image_samples
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_shader_texture_lod
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_shading_language_100
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_shading_language_420pack
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_shading_language_include
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_shading_language_packing
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_shadow
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_sparse_buffer
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_sparse_texture
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_stencil_texturing
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_sync
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_tessellation_shader
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_barrier
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_border_clamp
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_buffer_object
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_buffer_object_rgb32
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_buffer_range
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_compression
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_compression_bptc
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_compression_rgtc
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_cube_map
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_cube_map_array
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_env_add
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_env_combine
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_env_crossbar
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_env_dot3
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_float
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_gather
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_mirror_clamp_to_edge
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_mirrored_repeat
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_multisample
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_non_power_of_two
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_query_levels
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_query_lod
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_rectangle
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_rg
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_rgb10_a2ui
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_stencil8
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_storage
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_storage_multisample
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_swizzle
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_texture_view
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_timer_query
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_transform_feedback2
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_transform_feedback3
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_transform_feedback_instanced
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_transform_feedback_overflow_query
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_transpose_matrix
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_uniform_buffer_object
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_vertex_array_bgra
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_vertex_array_object
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_vertex_attrib_64bit
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_vertex_attrib_binding
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_vertex_buffer_object
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_vertex_program
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_vertex_shader
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_vertex_type_10f_11f_11f_rev
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_vertex_type_2_10_10_10_rev
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_viewport_array
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ARB_window_pos
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ATI_draw_buffers
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ATI_texture_float
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_ATI_texture_mirror_once
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_S3_s3tc
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_EXT_texture_env_add
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_EXT_abgr
+[2018.09.20-02.52.06:684][  0]LogRHI:   GL_EXT_bgra
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_bindable_uniform
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_blend_color
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_blend_equation_separate
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_blend_func_separate
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_blend_minmax
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_blend_subtract
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_compiled_vertex_array
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_Cg_shader
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_depth_bounds_test
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_direct_state_access
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_draw_buffers2
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_draw_instanced
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_draw_range_elements
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_fog_coord
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_framebuffer_blit
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_framebuffer_multisample
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXTX_framebuffer_mixed_formats
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_framebuffer_multisample_blit_scaled
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_framebuffer_object
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_framebuffer_sRGB
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_geometry_shader4
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_gpu_program_parameters
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_gpu_shader4
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_multi_draw_arrays
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_packed_depth_stencil
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_packed_float
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_packed_pixels
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_pixel_buffer_object
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_point_parameters
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_polygon_offset_clamp
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_provoking_vertex
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_rescale_normal
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_secondary_color
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_separate_shader_objects
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_separate_specular_color
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_shader_image_load_formatted
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_shader_image_load_store
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_shader_integer_mix
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_shadow_funcs
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_stencil_two_side
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_stencil_wrap
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_texture3D
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_texture_array
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_texture_buffer_object
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_texture_compression_dxt1
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_texture_compression_latc
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_texture_compression_rgtc
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_texture_compression_s3tc
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_texture_cube_map
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_texture_edge_clamp
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_texture_env_combine
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_texture_env_dot3
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_texture_filter_anisotropic
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_texture_integer
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_texture_lod
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_texture_lod_bias
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_texture_mirror_clamp
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_texture_object
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_texture_shared_exponent
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_texture_sRGB
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_texture_sRGB_decode
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_texture_storage
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_texture_swizzle
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_timer_query
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_transform_feedback2
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_vertex_array
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_vertex_array_bgra
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_vertex_attrib_64bit
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_window_rectangles
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_x11_sync_object
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_import_sync_object
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_robustness_video_memory_purge
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_IBM_rasterpos_clip
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_IBM_texture_mirrored_repeat
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_KHR_context_flush_control
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_KHR_debug
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_memory_object
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_memory_object_fd
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_KHR_no_error
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_KHR_robust_buffer_access_behavior
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_KHR_robustness
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_semaphore
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_EXT_semaphore_fd
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_KTX_buffer_region
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_alpha_to_coverage_dither_control
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect_count
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_bindless_texture
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_blend_equation_advanced
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_blend_equation_advanced_coherent
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_blend_square
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_command_list
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_compute_program5
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_conditional_render
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_copy_depth_to_color
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_copy_image
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_depth_buffer_float
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_depth_clamp
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_draw_texture
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_draw_vulkan_image
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_ES1_1_compatibility
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_ES3_1_compatibility
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_explicit_multisample
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_fence
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_float_buffer
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_fog_distance
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_fragment_program
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_fragment_program_option
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_fragment_program2
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_framebuffer_multisample_coverage
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_geometry_shader4
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_gpu_program4
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_internalformat_sample_query
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_gpu_program4_1
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_gpu_program5
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_gpu_program5_mem_extended
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_gpu_program_fp64
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_gpu_shader5
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_half_float
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_light_max_exponent
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_multisample_coverage
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_multisample_filter_hint
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_occlusion_query
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_packed_depth_stencil
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_parameter_buffer_object
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_parameter_buffer_object2
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_path_rendering
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_pixel_data_range
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_point_sprite
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_primitive_restart
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_register_combiners
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_register_combiners2
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_shader_atomic_counters
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_shader_atomic_float
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_shader_atomic_int64
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_shader_buffer_load
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_shader_storage_buffer_object
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_texgen_reflection
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_texture_barrier
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_texture_compression_vtc
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_texture_env_combine4
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_texture_multisample
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_texture_rectangle
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_texture_shader
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_texture_shader2
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_texture_shader3
+[2018.09.20-02.52.06:685][  0]LogRHI:   GL_NV_transform_feedback
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_NV_transform_feedback2
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_NV_uniform_buffer_unified_memory
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_NV_vdpau_interop
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_NV_vertex_array_range
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_NV_vertex_array_range2
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_NV_vertex_attrib_integer_64bit
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_NV_vertex_buffer_unified_memory
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_NV_vertex_program
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_NV_vertex_program1_1
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_NV_vertex_program2
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_NV_vertex_program2_option
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_NV_vertex_program3
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_NVX_conditional_render
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_NVX_gpu_memory_info
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_NVX_nvenc_interop
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_NV_shader_thread_group
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_NV_shader_thread_shuffle
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_KHR_blend_equation_advanced
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_KHR_blend_equation_advanced_coherent
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_SGIS_generate_mipmap
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_SGIS_texture_lod
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_SGIX_depth_texture
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_SGIX_shadow
+[2018.09.20-02.52.06:686][  0]LogRHI:   GL_SUN_slice_accum
+[2018.09.20-02.52.06:688][  0]LogRHI:   GL_MAX_TEXTURE_SIZE: 16384
+[2018.09.20-02.52.06:688][  0]LogRHI:   GL_MAX_CUBE_MAP_TEXTURE_SIZE: 16384
+[2018.09.20-02.52.06:688][  0]LogRHI:   GL_MAX_ARRAY_TEXTURE_LAYERS: 2048
+[2018.09.20-02.52.06:688][  0]LogRHI:   GL_MAX_3D_TEXTURE_SIZE: 2048
+[2018.09.20-02.52.06:688][  0]LogRHI:   GL_MAX_RENDERBUFFER_SIZE: 16384
+[2018.09.20-02.52.06:688][  0]LogRHI:   GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[2018.09.20-02.52.06:688][  0]LogRHI:   GL_MAX_DRAW_BUFFERS: 8
+[2018.09.20-02.52.06:688][  0]LogRHI:   GL_MAX_COLOR_ATTACHMENTS: 8
+[2018.09.20-02.52.06:688][  0]LogRHI:   GL_MAX_SAMPLES: 32
+[2018.09.20-02.52.06:688][  0]LogRHI:   GL_MAX_COLOR_TEXTURE_SAMPLES: 32
+[2018.09.20-02.52.06:688][  0]LogRHI:   GL_MAX_DEPTH_TEXTURE_SAMPLES: 32
+[2018.09.20-02.52.06:688][  0]LogRHI:   GL_MAX_INTEGER_SAMPLES: 32
+[2018.09.20-02.52.06:688][  0]LogRHI:   GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 192
+[2018.09.20-02.52.06:688][  0]LogRHI:   GL_MAX_VERTEX_ATTRIBS: 16
+[2018.09.20-02.52.06:688][  0]LogRHI:   GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT: 16
+[2018.09.20-02.52.06:688][  0]LogRHI: OpenGL MajorVersion = 4, MinorVersion = 3, ShaderPlatform = GLSL_430, FeatureLevel = SM5
+[2018.09.20-02.52.06:695][  0]LogRHI: Texture pool is 1433 MB (70% of 2048 MB)
+[2018.09.20-02.52.06:695][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../Documentos/Unreal Projects/PlataformGameAV1/Intermediate/Shaders/WorkingDirectory/8081/).
+[2018.09.20-02.52.06:696][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../Documentos/Unreal Projects/PlataformGameAV1/Intermediate/Shaders/tmp/00032BDD08D61E8AE80C746EA9F2BD05/'.
+[2018.09.20-02.52.06:696][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.20-02.52.08:831][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.20-02.52.08:984][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.20-02.52.09:148][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.20-02.52.09:300][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.20-02.52.09:455][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.20-02.52.09:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-02.52.09:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-02.52.09:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-02.52.09:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-02.52.09:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-02.52.09:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-02.52.09:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-02.52.09:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-02.52.09:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-02.52.09:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-02.52.09:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-02.52.09:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-02.52.09:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-02.52.09:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-02.52.09:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-02.52.09:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-02.52.09:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-02.52.09:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-02.52.09:862][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.20-02.52.09:862][  0]LogTargetPlatformManager: Display: Building Assets For Linux
+[2018.09.20-02.52.10:449][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.20-02.52.10:528][  0]LogDerivedDataCache: Loaded boot cache 0.08s 84MB ../../../../Documentos/Unreal Projects/PlataformGameAV1/DerivedDataCache/Boot.ddc.
+[2018.09.20-02.52.10:528][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../Documentos/Unreal Projects/PlataformGameAV1/DerivedDataCache/Boot.ddc
+[2018.09.20-02.52.10:529][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Documentos/Unreal Projects/PlataformGameAV1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.20-02.52.10:529][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.20-02.52.10:529][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.20-02.52.10:529][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2018.09.20-02.52.10:529][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2018.09.20-02.52.10:529][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.20-02.52.10:529][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.20-02.52.10:557][  0]LogMaterial: Verifying Global Shaders for GLSL_430
+[2018.09.20-02.52.10:568][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.20-02.52.10:569][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2018.09.20-02.52.10:675][  0]LogAssetRegistry: FAssetRegistry took 0.0042 seconds to start up
+[2018.09.20-02.52.11:060][  0]LogLinux: Selected Device Profile: [Linux]
+[2018.09.20-02.52.11:590][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.20-02.52.11:590][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.20-02.52.11:590][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.09.20-02.52.11:590][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2018.09.20-02.52.11:590][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.09.20-02.52.11:590][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2018.09.20-02.52.11:621][  0]LogNetVersion: PlataformGameAV1 1.0.0, NetCL: 0, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2795854797)
+[2018.09.20-02.52.12:433][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.027851 seconds
+[2018.09.20-02.52.12:440][  0]LogUObjectArray: 37547 objects as part of root set at end of initial load.
+[2018.09.20-02.52.12:440][  0]LogUObjectAllocator: 6509480 out of 0 bytes used by permanent object pool.
+[2018.09.20-02.52.12:440][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.20-02.52.12:671][  0]LogHAL: Linux SourceCodeAccessSettings: NullSourceCodeAccessor
+[2018.09.20-02.52.13:720][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.09.20-02.52.13:720][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.09.20-02.52.13:721][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.20-02.52.13:721][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.20-02.52.13:721][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.20-02.52.13:721][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.20-02.52.13:721][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.09.20-02.52.13:721][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.09.20-02.52.13:721][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.20-02.52.13:721][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.20-02.52.13:722][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.20-02.52.13:722][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.20-02.52.13:722][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.09.20-02.52.13:722][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.09.20-02.52.13:722][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.20-02.52.13:722][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.20-02.52.13:723][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.20-02.52.13:723][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.20-02.52.13:723][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.09.20-02.52.13:723][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.09.20-02.52.13:723][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.20-02.52.13:723][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.20-02.52.13:724][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.09.20-02.52.13:724][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.09.20-02.52.13:727][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.09.20-02.52.13:727][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.09.20-02.52.13:728][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:728][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:728][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:728][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:728][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.09.20-02.52.13:728][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.09.20-02.52.13:728][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:728][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:729][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:729][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:729][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2018.09.20-02.52.13:729][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2018.09.20-02.52.13:729][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:729][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:730][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:730][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:730][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2018.09.20-02.52.13:730][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2018.09.20-02.52.13:730][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:730][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:731][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:731][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:731][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.09.20-02.52.13:731][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.09.20-02.52.13:731][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:731][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:731][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:731][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:732][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.09.20-02.52.13:732][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.09.20-02.52.13:732][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:732][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:732][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:732][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:733][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2018.09.20-02.52.13:733][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2018.09.20-02.52.13:733][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:733][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:733][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:733][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:734][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2018.09.20-02.52.13:734][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2018.09.20-02.52.13:734][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:734][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:734][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:734][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:734][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2018.09.20-02.52.13:734][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2018.09.20-02.52.13:735][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:735][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:735][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:735][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:735][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.09.20-02.52.13:735][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.09.20-02.52.13:736][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:736][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:736][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:736][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:736][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.09.20-02.52.13:736][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.09.20-02.52.13:736][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:736][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:737][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:737][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:737][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2018.09.20-02.52.13:737][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2018.09.20-02.52.13:737][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:737][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:738][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:738][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:738][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2018.09.20-02.52.13:738][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2018.09.20-02.52.13:738][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:738][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:739][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:739][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:739][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.09.20-02.52.13:739][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.09.20-02.52.13:739][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:739][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:739][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:739][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:740][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.09.20-02.52.13:740][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.09.20-02.52.13:740][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:740][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:740][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:740][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:741][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2018.09.20-02.52.13:741][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2018.09.20-02.52.13:741][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:741][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:741][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:741][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:741][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2018.09.20-02.52.13:742][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2018.09.20-02.52.13:742][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:742][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:742][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:742][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:742][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2018.09.20-02.52.13:742][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2018.09.20-02.52.13:743][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:743][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.13:743][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.09.20-02.52.13:743][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.09.20-02.52.17:089][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.20-02.52.17:092][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.20-02.52.23:420][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.20-02.52.24:735][  0]SourceControl: Source control is disabled
+[2018.09.20-02.52.24:735][  0]SourceControl: Source control is disabled
+[2018.09.20-02.52.24:895][  0]SourceControl: Source control is disabled
+[2018.09.20-02.52.25:596][  0]SourceControl: Source control is disabled
+[2018.09.20-02.52.28:066][  0]LogEngine: Initializing Engine...
+[2018.09.20-02.52.28:067][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.20-02.52.28:070][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.20-02.52.28:070][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.20-02.52.28:070][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.20-02.52.28:070][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.20-02.52.28:410][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.20-02.52.28:996][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.20-02.52.29:008][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.20-02.52.29:008][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.20-02.52.29:008][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.20-02.52.29:008][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.20-02.52.29:008][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.20-02.52.29:008][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.20-02.52.29:008][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.20-02.52.29:008][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.20-02.52.29:015][  0]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.20-02.52.29:062][  0]LogInit: FAudioDevice initialized.
+[2018.09.20-02.52.29:063][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.20-02.52.29:124][  0]LogDerivedDataCache: Saved boot cache 0.06s 84MB ../../../../Documentos/Unreal Projects/PlataformGameAV1/DerivedDataCache/Boot.ddc.
+[2018.09.20-02.52.29:135][  0]LogInit: Texture streaming: Enabled
+[2018.09.20-02.52.31:438][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.20-02.52.31:979][  0]LogInit: Transaction tracking system initialized
+[2018.09.20-02.52.32:921][  0]BlueprintLog: New page: Editor Load
+[2018.09.20-02.52.35:633][  0]LocalizationService: Localization service is disabled
+[2018.09.20-02.52.37:504][  0]LogFileCache: Scanning file cache for directory '/home/mauricio/Documentos/Unreal Projects/PlataformGameAV1/Content/' took 0.00s
+[2018.09.20-02.52.37:504][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.20-02.52.37:504][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.20-02.52.37:504][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.20-02.52.37:504][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.20-02.52.37:504][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.20-02.52.37:504][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.20-02.52.37:504][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.20-02.52.41:026][  0]SourceControl: Source control is disabled
+[2018.09.20-02.52.41:026][  0]Cmd: MAP LOAD FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.20-02.52.41:037][  0]LightingResults: New page: Lighting Build
+[2018.09.20-02.52.41:147][  0]MapCheck: New page: Map Check
+[2018.09.20-02.52.41:147][  0]LightingResults: New page: Lighting Build
+[2018.09.20-02.52.42:033][  0]LogAIModule: Creating AISystem for world Level00
+[2018.09.20-02.52.42:119][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.20-02.52.42:155][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.20-02.52.42:185][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 29.026ms to complete.
+[2018.09.20-02.52.42:185][  0]LogFileHelpers: Loading map 'Level00' took 1.159
+[2018.09.20-02.52.42:214][  0]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.52.42:214][  0]LogLinux: Scale at X=960.000000, Y=555.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.52.42:229][  0]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.52.42:265][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-02.52.42:275][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-02.52.42:285][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-02.52.42:296][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-02.52.42:307][  0]LogCollectionManager: Loaded 0 collections in 0.002700 seconds
+[2018.09.20-02.52.42:327][  0]LogFileCache: Scanning file cache for directory '/home/mauricio/Documentos/Unreal Projects/PlataformGameAV1/Saved/Collections/' took 0.00s
+[2018.09.20-02.52.42:327][  0]LogFileCache: Scanning file cache for directory '/home/mauricio/Documentos/Unreal Projects/PlataformGameAV1/Content/Developers/mauricio/Collections/' took 0.00s
+[2018.09.20-02.52.42:327][  0]LogFileCache: Scanning file cache for directory '/home/mauricio/Documentos/Unreal Projects/PlataformGameAV1/Content/Collections/' took 0.00s
+[2018.09.20-02.52.42:327][  0]LogContentBrowser: Native class hierarchy populated in 0.0152 seconds. Added 2545 classes and 566 folders.
+[2018.09.20-02.52.42:331][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.09.20-02.52.42:717][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.09.20-02.52.42:741][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.20-02.52.42:868][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.09.20-02.52.43:099][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.20-02.52.43:099][  0]LogLoad: (Engine Initialization) Total time: 41.67 seconds
+[2018.09.20-02.52.43:099][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.20-02.52.43:111][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.20-02.52.43:118][  0]LogSlate: Took 0.000091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.20-02.52.43:123][  0]LogSlate: Took 0.000086 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.20-02.52.43:339][  0]LogInit: Adding external input plugin.
+[2018.09.20-02.52.43:360][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.09.20-02.52.43:385][  0]LogSlate: Took 0.000066 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.20-02.52.43:440][  1]LogAssetRegistry: Asset discovery search completed in 32.7653 seconds
+[2018.09.20-02.52.43:443][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.20-02.52.43:443][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000101 seconds (updated 0 objects)
+[2018.09.20-02.52.43:491][  2]LogRenderer: Reallocating scene render targets to support 1424x508 Format 10 NumSamples 1 (Frame:1).
+[2018.09.20-02.52.43:650][  2]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.52.43:675][  2]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.52.43:798][  4]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.52.44:213][ 18]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.52.44:213][ 18]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.52.44:213][ 18]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.52.44:245][ 18]LogSlate: Took 0.000083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.20-02.52.44:442][ 27]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.52.46:293][139]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.20-02.52.46:422][148]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.52.46:422][148]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.52.46:423][148]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.52.46:458][148]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UMG/GameWidget.GameWidget
+[2018.09.20-02.52.46:459][148]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.52.47:405][148]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2018.09.20-02.52.48:568][148]LogSlate: Took 0.000092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.20-02.52.51:099][434]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.52.51:099][434]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.52.51:099][434]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.52.51:181][435]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.52.56:585][972]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.52.56:585][972]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.52.56:585][972]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.52.56:666][973]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.52.59:787][273]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.52.59:787][273]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.52.59:788][273]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.52.59:871][274]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.53.12:882][687]BlueprintLog: New page: Compile GameWidget
+[2018.09.20-02.53.13:533][738]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.13:534][738]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.13:535][738]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.13:578][738]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.53.13:612][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameWidget" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/UMG/GameWidget.uasset" SILENT=true
+[2018.09.20-02.53.13:632][738]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/GameWidgetC700DB4608D61E8B0FF1148AADF0063C.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/UMG/GameWidget.uasset'
+[2018.09.20-02.53.19:876][ 91]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.19:877][ 91]LogLinux: Scale at X=555.000000, Y=273.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.19:882][ 91]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.19:965][ 91]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.53.31:195][ 91]LogSlate: Window 'Open File' being destroyed
+[2018.09.20-02.53.31:243][ 91]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.31:243][ 91]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.31:247][ 91]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.31:348][ 91]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.53.31:379][ 91]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /home/mauricio/Documentos/ADS/Desenvolvimento de Jogos/coletaveis e fireballs.png)
+[2018.09.20-02.53.31:385][ 91]LogTexture: Display: Building textures: coletaveis_e_fireballs (BGRA8, 34X34)
+[2018.09.20-02.53.35:785][227]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.35:785][227]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.35:786][227]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.35:821][227]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.53.35:852][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/coletaveis_e_fireballs" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/UI/coletaveis_e_fireballs.uasset" SILENT=true
+[2018.09.20-02.53.35:855][227]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/coletaveis_e_fireballsC70E5C8008D61E8B1D306150AF4329D5.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/UI/coletaveis_e_fireballs.uasset'
+[2018.09.20-02.53.37:108][266]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.37:109][266]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.37:113][266]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.37:159][266]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Assets/UI/coletaveis_e_fireballs.coletaveis_e_fireballs
+[2018.09.20-02.53.37:327][266]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.53.37:327][266]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.09.20-02.53.37:347][266]LogLinux: Scale at X=1920.000000, Y=0.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.37:347][266]LogLinux: Scale at X=2880.000000, Y=540.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.37:581][267]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.53.44:423][471]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.44:423][471]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.44:424][471]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.44:468][471]LogLinux: Scale at X=1920.000000, Y=0.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.44:571][473]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.53.46:454][629]LogSlate: Window 'coletaveis_e_fireballs' being destroyed
+[2018.09.20-02.53.49:582][920]LogLinux: Scale at X=1599.500000, Y=366.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.49:647][922]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.53.54:924][432]LogLinux: Scale at X=1589.500000, Y=759.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.54:954][434]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.53.59:000][814]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.59:000][814]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.59:002][814]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.53.59:041][814]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.53.59:065][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/coletaveis_e_fireballs" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/UI/coletaveis_e_fireballs.uasset" SILENT=true
+[2018.09.20-02.53.59:085][814]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/coletaveis_e_fireballsC713C3E208D61E8B2B08FA6CB0A5A221.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/UI/coletaveis_e_fireballs.uasset'
+[2018.09.20-02.54.04:555][387]LogLinux: Scale at X=1766.000000, Y=762.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.54.04:617][389]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.54.04:690][392]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.54.04:690][392]LogLinux: Scale at X=379.000000, Y=199.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.54.04:699][392]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.54.04:762][392]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.54.13:708][392]LogSlate: Window 'Save Asset As' being destroyed
+[2018.09.20-02.54.13:775][392]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.54.13:775][392]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.54.13:786][392]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.54.13:876][392]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.54.15:555][392]LogSlate: Window 'Message' being destroyed
+[2018.09.20-02.54.15:795][392]LogTexture: Display: Building textures: coletaveis_e_fireballs (RGBA16F, 256X256)
+[2018.09.20-02.54.22:378][144]LogLinux: Scale at X=1712.500000, Y=545.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.54.22:422][146]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.54.26:796][609]LogLinux: Scale at X=1766.000000, Y=751.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.54.26:867][611]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.54.26:914][613]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.54.26:915][613]LogLinux: Scale at X=379.000000, Y=199.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.54.26:918][613]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.54.26:987][613]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.54.35:354][613]LogSlate: Window 'Save Asset As' being destroyed
+[2018.09.20-02.54.42:414][351]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.54.42:414][351]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.54.42:414][351]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.54.42:486][352]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.54.44:418][541]LogLinux: Scale at X=1833.000000, Y=493.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.54.44:457][543]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.54.53:232][420]LogLinux: Scale at X=1766.000000, Y=762.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.54.53:334][422]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.54.53:365][423]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.54.53:365][423]LogLinux: Scale at X=379.000000, Y=199.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.54.53:374][423]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.54.53:435][423]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.55.12:662][423]LogSlate: Window 'Save Asset As' being destroyed
+[2018.09.20-02.55.16:854][867]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.55.16:854][867]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.55.16:855][867]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.55.16:937][868]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.55.40:031][313]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.55.40:031][313]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.55.40:031][313]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.55.40:105][314]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.55.51:323][565]LogLinux: Scale at X=1696.500000, Y=654.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.55.51:415][567]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.55.56:680][ 89]LogLinux: Scale at X=1696.500000, Y=661.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.55.56:766][ 91]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.56.01:167][533]LogLinux: Scale at X=1833.000000, Y=493.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.56.01:240][535]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.56.08:442][327]LogLinux: Scale at X=1837.000000, Y=506.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.56.08:517][329]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.56.16:660][205]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.56.16:661][205]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.56.16:664][205]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.56.16:707][205]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.56.16:730][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameWidget" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/UMG/GameWidget.uasset" SILENT=true
+[2018.09.20-02.56.16:752][205]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/GameWidgetC7F3EE8F08D61E8B7D15C434B8DA2E8D.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/UMG/GameWidget.uasset'
+[2018.09.20-02.56.52:859][  6]BlueprintLog: New page: Compile GameWidget
+[2018.09.20-02.56.54:024][ 94]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.56.54:025][ 94]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.56.54:029][ 94]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.56.54:110][ 94]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.56.54:145][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameWidget" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/UMG/GameWidget.uasset" SILENT=true
+[2018.09.20-02.56.54:168][ 94]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/GameWidgetC82F1AEB08D61E8B9362E690BB151DD2.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/UMG/GameWidget.uasset'
+[2018.09.20-02.56.58:952][348]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.56.58:952][348]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.56.58:953][348]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.56.58:994][348]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.56.59:014][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/coletaveis_e_fireballs" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/UI/coletaveis_e_fireballs.uasset" SILENT=true
+[2018.09.20-02.56.59:028][348]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.56.59:029][348]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.56.59:030][348]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.56.59:103][348]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.57.07:526][348]LogSlate: Window 'Message' being destroyed
+[2018.09.20-02.57.07:603][348]EditorErrors: New page: Save Output
+[2018.09.20-02.57.07:603][348]EditorErrors: Warning: Asset '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/UI/coletaveis_e_fireballs.uasset' cannot be saved as it has only been partially loaded
+[2018.09.20-02.57.07:612][348]LogLinux: Scale at X=455.000000, Y=235.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.57.07:613][348]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.57.07:727][349]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.57.14:945][691]LogLinux: Scale at X=455.000000, Y=235.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.57.14:945][691]LogSlate: Window 'Message Log' being destroyed
+[2018.09.20-02.57.15:757][714]LogLinux: Scale at X=512.500000, Y=542.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.57.15:807][716]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.57.16:604][766]LogLinux: Scale at X=710.000000, Y=586.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.57.16:640][766]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.57.17:247][806]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.57.17:247][806]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.57.17:254][806]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.57.17:298][806]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.57.17:381][806]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.57.17:382][806]LogLinux: Scale at X=655.000000, Y=173.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.57.17:383][806]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.57.17:433][806]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.57.18:658][806]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.20-02.57.18:677][806]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.57.18:687][806]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.57.18:694][806]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.57.18:786][806]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.57.18:835][806]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.57.18:835][806]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.57.18:836][806]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.57.18:890][806]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.57.18:921][806]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.57.18:921][806]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.57.18:923][806]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.57.18:960][806]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.57.54:126][885]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.57.54:126][885]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.57.54:129][885]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.57.54:163][885]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/HeroiCaracter.HeroiCaracter
+[2018.09.20-02.57.54:164][885]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.57.54:967][886]LogSlate: Took 0.000076 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.20-02.58.03:801][854]LogLinux: Scale at X=167.000000, Y=484.400024: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.58.03:825][854]LogSlate: Took 0.000958 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.09.20-02.58.03:837][856]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.58.08:038][265]LogLinux: Scale at X=311.000000, Y=566.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.58.08:078][267]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.58.08:843][346]LogLinux: Scale at X=311.000000, Y=526.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.58.08:892][348]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.58.09:364][395]LogLinux: Scale at X=311.000000, Y=506.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.58.09:404][397]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.58.09:917][444]LogLinux: Scale at X=311.000000, Y=562.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.58.09:957][446]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.58.10:432][492]LogLinux: Scale at X=311.000000, Y=627.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.58.10:493][494]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.58.10:673][509]LogLinux: Scale at X=311.000000, Y=595.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.58.10:721][511]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.58.25:147][123]LogLinux: Scale at X=1695.000000, Y=408.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.58.25:186][125]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.58.32:190][896]LogLinux: Scale at X=1656.000000, Y=262.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.58.32:243][898]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.59.09:034][126]BlueprintLog: New page: Compile HeroiCaracter
+[2018.09.20-02.59.10:072][178]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.59.10:072][178]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.59.10:080][178]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.59.10:120][178]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.59.10:144][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HeroiCaracter" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/HeroiCaracter.uasset" SILENT=true
+[2018.09.20-02.59.10:249][178]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/HeroiCaracterD073C0F208D61E8BE4724B98C3304BF0.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/HeroiCaracter.uasset'
+[2018.09.20-02.59.24:238][561]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.59.24:238][561]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.59.24:239][561]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.59.24:280][562]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.59.25:185][628]LogLinux: Scale at X=1145.000000, Y=689.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.59.25:249][630]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.59.35:954][246]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.59.35:954][246]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.59.35:955][246]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.59.36:011][247]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-02.59.36:906][302]LogLinux: Scale at X=1099.000000, Y=714.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-02.59.36:973][304]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.00.02:499][637]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.00.02:499][637]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.00.02:499][637]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.00.02:563][638]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.00.04:004][756]LogLinux: Scale at X=1119.000000, Y=725.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.00.04:073][758]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.00.07:341][ 92]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.00.07:341][ 92]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.00.07:341][ 92]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.00.07:406][ 93]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.00.08:020][131]LogLinux: Scale at X=1144.000000, Y=711.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.00.08:081][133]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.00.46:609][292]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.00.46:609][292]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.00.46:609][292]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.00.46:668][293]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.00.47:366][338]LogLinux: Scale at X=1181.000000, Y=642.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.00.47:421][340]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.00.53:707][ 20]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.00.53:707][ 20]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.00.53:720][ 20]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.00.53:792][ 20]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.00.53:802][ 20]LogLinux: Scale at X=1095.000000, Y=524.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.00.53:851][ 22]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.01.09:379][702]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.09:379][702]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.09:379][702]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.09:515][703]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.01.18:507][358]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.18:508][358]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.18:508][358]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.18:572][359]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.01.19:150][392]LogLinux: Scale at X=1228.000000, Y=658.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.19:209][394]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.01.32:373][542]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.32:373][542]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.32:373][542]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.32:431][543]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.01.33:210][583]LogLinux: Scale at X=1164.000000, Y=681.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.33:285][584]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.01.34:384][688]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.34:384][688]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.34:384][688]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.34:446][689]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.01.34:929][734]LogLinux: Scale at X=1222.000000, Y=680.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.35:006][736]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.01.43:341][674]BlueprintLog: New page: Compile HeroiCaracter
+[2018.09.20-03.01.43:996][703]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.43:996][703]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.43:998][703]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.44:037][703]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.01.44:053][703]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HeroiCaracter" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/HeroiCaracter.uasset" SILENT=true
+[2018.09.20-03.01.44:158][703]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/HeroiCaracterE417D5BD08D61E8C402ECF4CCC5CCE6B.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/HeroiCaracter.uasset'
+[2018.09.20-03.01.46:713][916]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.46:713][916]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.46:720][916]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.46:759][916]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.01.46:789][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.20-03.01.47:064][916]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00E4192FCC08D61E8C41D5A258CC871706.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap'
+[2018.09.20-03.01.47:104][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00_BuiltData" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset" SILENT=true
+[2018.09.20-03.01.47:145][916]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00_BuiltDataE41BDFC308D61E8C41FF4E5ACC8B41DB.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset'
+[2018.09.20-03.01.47:753][945]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.20-03.01.47:803][945]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.20-03.01.47:804][945]PIE: New page: PIE session: Level00 (Sep 19, 2018, 9:01:47 PM)
+[2018.09.20-03.01.47:804][945]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.20-03.01.47:821][945]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016336s)
+[2018.09.20-03.01.47:821][945]LogAIModule: Creating AISystem for world Level00
+[2018.09.20-03.01.47:822][945]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2018.09.20-03.01.47:822][945]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.017295s)
+[2018.09.20-03.01.47:856][945]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.20-03.01.47:856][945]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.20-03.01.47:856][945]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.20-03.01.47:856][945]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.20-03.01.47:856][945]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.20-03.01.47:856][945]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.20-03.01.47:856][945]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.20-03.01.47:856][945]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.20-03.01.47:856][945]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.20-03.01.47:926][945]LogInit: FAudioDevice initialized.
+[2018.09.20-03.01.47:926][945]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.47:927][945]LogLinux: Scale at X=315.000000, Y=163.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.47:927][945]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.01.47:966][945]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-03.01.48:011][945]LogLinker: Warning: Can't find file '/Game/BluePrints/GameMode'
+[2018.09.20-03.01.48:011][945]LogLinker: Warning: Can't find file '/Game/BluePrints/GameMode'
+[2018.09.20-03.01.48:011][945]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/BluePrints/GameMode.GameMode_C'
+[2018.09.20-03.01.48:011][945]LogLoad: Game class is 'GameModeBase'
+[2018.09.20-03.01.48:021][945]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.20-00.01.48
+[2018.09.20-03.01.48:024][945]LogWorld: Bringing up level for play took: 0.012344
+[2018.09.20-03.01.48:162][945]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.09.20-03.01.48:167][945]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.383
+[2018.09.20-03.01.48:208][945]LogRenderer: Reallocating scene render targets to support 1424x756 Format 10 NumSamples 1 (Frame:1).
+[2018.09.20-03.01.48:290][946]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.01.48:300][946]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.400000 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-03.01.48:472][952]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.057470 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-03.02.03:276][738]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.20-03.02.03:370][744]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.20-03.02.03:997][777]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-03.02.04:021][777]LogSlate: Window 'PlataformGameAV1 Game Preview Standalone (64-bit/GLSL_430)' being destroyed
+[2018.09.20-03.02.04:071][777]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.20-03.02.04:166][778]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.09.20-03.02.05:976][868]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.20-03.02.31:711][756]BlueprintLog: New page: Compile GameWidget
+[2018.09.20-03.02.32:317][800]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.02.32:317][800]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.02.32:321][800]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.02.32:379][800]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.02.32:403][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameWidget" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/UMG/GameWidget.uasset" SILENT=true
+[2018.09.20-03.02.32:424][800]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/GameWidgetE46B81C608D61E8C5CFF7568CF3E7DF3.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/UMG/GameWidget.uasset'
+[2018.09.20-03.02.35:144][ 61]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.02.35:144][ 61]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.02.35:144][ 61]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.02.35:224][ 62]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.02.35:250][ 63]LogSlate: Took 0.013767 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2018.09.20-03.02.40:519][642]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.02.40:519][642]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.02.40:520][642]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.02.40:583][643]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.02.59:610][710]BlueprintLog: New page: Compile GameWidget
+[2018.09.20-03.03.33:194][595]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.03.33:194][595]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.03.33:195][595]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.03.33:281][596]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.03.35:778][856]LogLinux: Scale at X=1766.000000, Y=762.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.03.35:833][858]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.03.35:915][862]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.03.35:915][862]LogLinux: Scale at X=379.000000, Y=199.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.03.35:916][862]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.03.35:980][862]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.03.39:427][862]LogSlate: Window 'Save Asset As' being destroyed
+[2018.09.20-03.03.41:725][110]LogLinux: Scale at X=1055.500000, Y=471.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.03.41:787][112]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.03.43:783][317]LogLinux: Scale at X=1193.500000, Y=756.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.03.43:823][318]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.04.51:444][859]LogLinux: Scale at X=1833.000000, Y=516.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.04.51:487][861]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.04.58:013][592]LogLinux: Scale at X=1856.000000, Y=697.400024: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.04.58:058][594]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.05.01:685][  9]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.01:685][  9]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.01:685][  9]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.01:757][ 10]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.05.09:560][832]LogLinux: Scale at X=455.000000, Y=235.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.09:561][832]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.09:613][833]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.05.11:563][ 20]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.11:563][ 20]LogLinux: Scale at X=555.000000, Y=273.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.11:570][ 20]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.11:674][ 20]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.05.18:967][ 20]LogSlate: Window 'Open File' being destroyed
+[2018.09.20-03.05.18:995][ 20]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.18:995][ 20]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.19:000][ 20]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.19:037][ 20]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.05.19:052][ 20]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /home/mauricio/Documentos/ADS/Desenvolvimento de Jogos/coletaveis e fireballs.png)
+[2018.09.20-03.05.19:061][ 20]LogTexture: Display: Building textures: coletaveis_e_fireballs (BGRA8, 34X34)
+[2018.09.20-03.05.22:649][368]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.22:649][368]LogLinux: Scale at X=655.000000, Y=323.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.22:653][368]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.22:706][368]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.05.25:214][368]LogSlate: Window 'Save Content' being destroyed
+[2018.09.20-03.05.25:241][368]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.25:241][368]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.25:245][368]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.25:286][368]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.05.25:314][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/coletaveis_e_fireballs" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/UI/coletaveis_e_fireballs.uasset" SILENT=true
+[2018.09.20-03.05.25:317][368]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/coletaveis_e_fireballsE56EB24008D61E8CC40CB022D98CB25A.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Assets/UI/coletaveis_e_fireballs.uasset'
+[2018.09.20-03.05.25:379][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.20-03.05.25:749][368]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00E571C4BB08D61E8CC41FE1ECD98E9DC1.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap'
+[2018.09.20-03.05.25:793][368]LogFileHelpers: Saving map 'Level00' took 0.459
+[2018.09.20-03.05.25:797][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameWidget" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/UMG/GameWidget.uasset" SILENT=true
+[2018.09.20-03.05.25:819][368]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/GameWidgetE57310A508D61E8CC45847E4D9944199.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/UMG/GameWidget.uasset'
+[2018.09.20-03.05.28:408][648]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.28:409][648]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.28:412][648]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.28:440][648]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Assets/UI/coletaveis_e_fireballs.coletaveis_e_fireballs
+[2018.09.20-03.05.28:480][648]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.05.30:863][842]LogLinux: Scale at X=455.000000, Y=235.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.30:863][842]LogSlate: Window 'Content Browser' being destroyed
+[2018.09.20-03.05.35:875][345]LogLinux: Scale at X=1766.000000, Y=644.900024: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.35:934][347]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.05.44:712][293]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.44:712][293]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.44:712][293]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.44:781][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.05.50:597][939]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.50:597][939]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.50:597][939]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.50:661][940]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.05.58:752][841]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.58:752][841]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.58:752][841]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.05.58:819][842]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.06.03:719][392]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.06.03:719][392]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.06.03:719][392]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.06.03:787][393]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.06.10:394][111]BlueprintLog: New page: Compile GameWidget
+[2018.09.20-03.06.11:011][160]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.06.11:011][160]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.06.11:014][160]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.06.11:089][160]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.06.11:107][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameWidget" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/UMG/GameWidget.uasset" SILENT=true
+[2018.09.20-03.06.11:126][160]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/GameWidgetE630CFB808D61E8CDF59987CDC479C5D.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/UMG/GameWidget.uasset'
+[2018.09.20-03.06.12:769][279]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.06.12:769][279]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.06.12:801][279]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.06.12:833][279]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.06.12:858][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.20-03.06.13:128][279]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00E632EC6F08D61E8CE06ABF66DC62ED4B.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap'
+[2018.09.20-03.06.13:168][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00_BuiltData" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset" SILENT=true
+[2018.09.20-03.06.13:201][279]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00_BuiltDataE634E4D308D61E8CE093FF16DC670D4C.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset'
+[2018.09.20-03.06.13:747][301]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.20-03.06.13:776][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.20-03.06.13:777][301]PIE: New page: PIE session: Level00 (Sep 19, 2018, 9:06:13 PM)
+[2018.09.20-03.06.13:777][301]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level00
+[2018.09.20-03.06.13:793][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016514s)
+[2018.09.20-03.06.13:794][301]LogAIModule: Creating AISystem for world Level00
+[2018.09.20-03.06.13:794][301]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2018.09.20-03.06.13:794][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level00.Level00 to /Game/Maps/UEDPIE_0_Level00.Level00 (0.017486s)
+[2018.09.20-03.06.13:828][301]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.09.20-03.06.13:828][301]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.09.20-03.06.13:828][301]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.09.20-03.06.13:828][301]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.09.20-03.06.13:828][301]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.09.20-03.06.13:828][301]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.09.20-03.06.13:828][301]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.09.20-03.06.13:829][301]LogAudioMixer: Display: Initializing audio mixer.
+[2018.09.20-03.06.13:829][301]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.09.20-03.06.13:893][301]LogInit: FAudioDevice initialized.
+[2018.09.20-03.06.13:894][301]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.06.13:894][301]LogLinux: Scale at X=315.000000, Y=163.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.06.13:895][301]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.06.13:950][301]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-03.06.13:996][301]LogLoad: Game class is 'GameModeBase'
+[2018.09.20-03.06.14:007][301]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2018.09.20-00.06.14
+[2018.09.20-03.06.14:008][301]LogWorld: Bringing up level for play took: 0.011663
+[2018.09.20-03.06.14:013][301]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level00 0.24
+[2018.09.20-03.06.14:104][302]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.06.14:113][302]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.363959 > MaxSimulationTimeStep (0.050) for 'Inimigo2_2', movement 'Walking'
+[2018.09.20-03.06.25:236][885]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-03.06.25:263][885]LogSlate: Window 'PlataformGameAV1 Game Preview Standalone (64-bit/GLSL_430)' being destroyed
+[2018.09.20-03.06.25:310][885]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.20-03.06.25:389][886]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.09.20-03.06.43:576][850]LogLinux: Scale at X=167.000000, Y=504.400024: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.06.43:606][852]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.06.47:462][221]BlueprintLog: New page: Compile HeroiCaracter
+[2018.09.20-03.07.06:887][377]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.07.06:887][377]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.07.06:887][377]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.07.06:958][378]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.07.07:853][474]LogLinux: Scale at X=995.000000, Y=627.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.07.07:941][476]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.07.17:400][524]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.07.17:400][524]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.07.17:400][524]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.07.17:465][525]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.07.18:167][594]LogLinux: Scale at X=744.000000, Y=687.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.07.18:241][596]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.07.22:662][ 53]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.07.22:662][ 53]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.07.22:662][ 53]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.07.22:720][ 54]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.07.23:760][161]LogLinux: Scale at X=1070.000000, Y=811.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.07.23:809][163]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.07.29:563][770]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.07.29:563][770]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.07.29:563][770]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.07.29:622][771]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.07.31:405][952]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.07.31:406][952]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.07.31:406][952]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.07.31:464][953]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.07.47:092][739]BlueprintLog: New page: Compile HeroiCaracter
+[2018.09.20-03.07.48:267][816]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.07.48:267][816]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.07.48:269][816]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.07.48:294][816]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.07.48:327][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HeroiCaracter" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/HeroiCaracter.uasset" SILENT=true
+[2018.09.20-03.07.48:427][816]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/HeroiCaracterF32D888B08D61E8D194BCD5CE2131535.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/HeroiCaracter.uasset'
+[2018.09.20-03.08.52:803][311]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.08.52:803][311]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.08.52:803][311]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.08.52:865][312]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.08.54:307][449]LogLinux: Scale at X=961.000000, Y=636.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.08.54:364][451]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.08.56:471][682]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.08.56:471][682]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.08.56:471][682]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.08.56:537][683]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.08.57:326][762]LogLinux: Scale at X=468.000000, Y=749.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.08.57:415][764]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.08.59:238][967]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.08.59:238][967]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.08.59:238][967]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.08.59:302][968]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.08.59:820][ 22]LogLinux: Scale at X=580.000000, Y=776.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.08.59:902][ 24]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.09.02:984][347]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.09.02:984][347]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.09.02:984][347]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.09.03:045][348]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.09.03:412][382]LogLinux: Scale at X=1092.000000, Y=511.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.09.03:465][384]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.09.23:080][633]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.09.23:080][633]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.09.23:080][633]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.09.23:136][634]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.09.23:728][689]LogLinux: Scale at X=1315.000000, Y=825.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.09.23:784][691]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.09.31:975][608]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.09.31:975][608]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.09.31:975][608]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.09.32:032][609]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.10.10:091][642]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.10:091][642]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.10:092][642]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.10:152][643]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.10.10:872][694]LogLinux: Scale at X=1219.000000, Y=668.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.10:925][696]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.10.14:598][106]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.14:598][106]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.14:599][106]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.14:662][107]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.10.15:390][169]LogLinux: Scale at X=977.000000, Y=494.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.15:469][171]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.10.19:103][546]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.19:103][546]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.19:104][546]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.19:166][547]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.10.25:255][197]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.25:255][197]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.25:255][197]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.25:307][198]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.10.25:805][243]LogLinux: Scale at X=746.000000, Y=507.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.25:866][245]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.10.31:400][774]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.31:400][774]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.31:400][774]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.31:464][775]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.10.35:480][192]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.35:480][192]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.35:480][192]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.35:533][193]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.10.36:161][254]LogLinux: Scale at X=963.000000, Y=684.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.36:228][256]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.10.53:113][178]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.53:113][178]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.53:113][178]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.10.53:174][179]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.11.02:322][149]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.11.02:322][149]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.11.02:322][149]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.11.02:383][150]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.11.02:740][183]LogLinux: Scale at X=696.000000, Y=695.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.11.02:802][185]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.11.05:977][500]BlueprintLog: New page: Compile HeroiCaracter
+[2018.09.20-03.11.06:654][530]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.11.06:654][530]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.11.06:662][530]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.11.06:701][530]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.11.06:722][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HeroiCaracter" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/HeroiCaracter.uasset" SILENT=true
+[2018.09.20-03.11.06:828][530]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/HeroiCaracterF6E9418F08D61E8D8F8B3E9EEDE65699.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/HeroiCaracter.uasset'
+[2018.09.20-03.11.17:285][663]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.11.17:285][663]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.11.17:289][663]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.11.17:327][663]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.11.17:351][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HeroiCaracter" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/HeroiCaracter.uasset" SILENT=true
+[2018.09.20-03.11.17:452][663]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/HeroiCaracterF6EBA3AC08D61E8D95E0F8E2EE888467.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/BluePrints/HeroiCaracter.uasset'
+[2018.09.20-03.11.20:341][922]LogLinux: Scale at X=0.000000, Y=30.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.11.20:341][922]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.11.20:348][922]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.09.20-03.11.20:386][922]LogLinux: Setting swap interval to 'Immediate'
+[2018.09.20-03.11.20:391][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.20-03.11.20:665][922]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00F6EDC39A08D61E8D97B76214EEB78F62.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00.umap'
+[2018.09.20-03.11.20:705][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level00_BuiltData" FILE="../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset" SILENT=true
+[2018.09.20-03.11.20:738][922]LogSavePackage: Moving '../../../../Documentos/Unreal Projects/PlataformGameAV1/Saved/Level00_BuiltDataF6EF6BBB08D61E8D97E0CC1CEEBBB3A0.tmp' to '../../../../Documentos/Unreal Projects/PlataformGameAV1/Content/Maps/Level00_BuiltData.uasset'
+[2018.09.20-03.15.29:300][481]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.063 s
+[2018.09.20-03.15.29:300][481]LogOutputDevice: Error: === Handled ensure: ===
+[2018.09.20-03.15.29:300][481]LogOutputDevice: Error: 
+[2018.09.20-03.15.29:300][481]LogOutputDevice: Error: Ensure condition failed: !PreviewSlateWidgetWeak.IsValid() [File:/home/mauricio/UnrealEngine/Engine/Source/Editor/UMGEditor/Private/WidgetBlueprintEditor.cpp] [Line: 790]
+[2018.09.20-03.15.29:300][481]LogOutputDevice: Error: 
+[2018.09.20-03.15.29:300][481]LogOutputDevice: Error: Stack: 
+[2018.09.20-03.15.29:300][481]LogOutputDevice: Error: [Callstack] 0x00007f172c3ce38f libUE4Editor-Core.so!FDebug::OptionallyLogFormattedEnsureMessageReturningFalseImpl(bool, char const*, char const*, int, wchar_t const*, ...) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:439]
+[2018.09.20-03.15.29:300][481]LogOutputDevice: Error: [Callstack] 0x00007f17101194d2 libUE4Editor-UMGEditor.so!FWidgetBlueprintEditor::DestroyPreview() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Misc/AssertionMacros.h:94]
+[2018.09.20-03.15.29:301][481]LogOutputDevice: Error: [Callstack] 0x00007f1710118d42 libUE4Editor-UMGEditor.so!FWidgetBlueprintEditor::OnBlueprintChangedImpl(UBlueprint*, bool) [/home/mauricio/UnrealEngine/Engine/Source/Editor/UMGEditor/Private/WidgetBlueprintEditor.cpp:293]
+[2018.09.20-03.15.29:301][481]LogOutputDevice: Error: [Callstack] 0x00007f171bde2dcd libUE4Editor-Kismet.so!TBaseSPMethodDelegateInstance<false, FBlueprintEditor, (ESPMode)0, TTypeWrapper<void> (UBlueprint*)>::Execute(UBlueprint*) const [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstanceInterface.h:156]
+[2018.09.20-03.15.29:301][481]LogOutputDevice: Error: [Callstack] 0x00007f171bde2e67 libUE4Editor-Kismet.so!TBaseSPMethodDelegateInstance<false, FBlueprintEditor, (ESPMode)0, void (UBlueprint*)>::ExecuteIfSafe(UBlueprint*) const [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:345]
+[2018.09.20-03.15.29:301][481]LogOutputDevice: Error: [Callstack] 0x00007f1728c781c3 libUE4Editor-Engine.so!TBaseMulticastDelegate<void, UBlueprint*>::Broadcast(UBlueprint*) const [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:937]
+[2018.09.20-03.15.29:301][481]LogOutputDevice: Error: [Callstack] 0x00007f172296f23c libUE4Editor-UnrealEd.so!FBlueprintEditorUtils::MarkBlueprintAsStructurallyModified(UBlueprint*) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Engine/Classes/Engine/Blueprint.h:624]
+[2018.09.20-03.15.29:301][481]LogOutputDevice: Error: [Callstack] 0x00007f17100cf2b8 libUE4Editor-UMGEditor.so!FWidgetBlueprintEditorUtils::RenameWidget(TSharedRef<FWidgetBlueprintEditor, (ESPMode)0>, FName const&, FString const&) [/home/mauricio/UnrealEngine/Engine/Source/Editor/UMGEditor/Private/WidgetBlueprintEditorUtils.cpp:258]
+[2018.09.20-03.15.29:301][481]LogOutputDevice: Error: [Callstack] 0x00007f17100c9f70 libUE4Editor-UMGEditor.so!SWidgetDetailsView::HandleNameTextCommitted(FText const&, ETextCommit::Type) [/home/mauricio/UnrealEngine/Engine/Source/Editor/UMGEditor/Private/Details/SWidgetDetailsView.cpp:449]
+[2018.09.20-03.15.29:301][481]LogOutputDevice: Error: [Callstack] 0x00007f171020c80d libUE4Editor-UMGEditor.so!TBaseSPMethodDelegateInstance<false, SWidgetDetailsView, (ESPMode)0, TTypeWrapper<void> (FText const&, ETextCommit::Type)>::Execute(FText const&, ETextCommit::Type) const [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstanceInterface.h:156]
+[2018.09.20-03.15.29:301][481]LogOutputDevice: Error: [Callstack] 0x00007f171020c8a7 libUE4Editor-UMGEditor.so!TBaseSPMethodDelegateInstance<false, SWidgetDetailsView, (ESPMode)0, void (FText const&, ETextCommit::Type)>::ExecuteIfSafe(FText const&, ETextCommit::Type) const [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:345]
+[2018.09.20-03.15.29:301][481]LogOutputDevice: Error: [Callstack] 0x00007f17255c1eff libUE4Editor-Slate.so!non-virtual thunk to SEditableText::OnTextCommitted(FText const&, ETextCommit::Type) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:624]
+[2018.09.20-03.15.29:301][481]LogOutputDevice: Error: [Callstack] 0x00007f17256be9b9 libUE4Editor-Slate.so!FSlateEditableTextLayout::HandleFocusLost(FFocusEvent const&) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Slate/Private/Widgets/Text/SlateEditableTextLayout.cpp:782]
+[2018.09.20-03.15.29:301][481]LogOutputDevice: Error: [Callstack] 0x00007f17253f6b41 libUE4Editor-Slate.so!FSlateApplication::SetUserFocus(FSlateUser*, FWidgetPath const&, EFocusCause) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:2923]
+[2018.09.20-03.15.29:302][481]LogOutputDevice: Error: [Callstack] 0x00007f17253f7e96 libUE4Editor-Slate.so!FSlateApplication::ClearKeyboardFocus(EFocusCause) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:2679]
+[2018.09.20-03.15.29:302][481]LogOutputDevice: Error: [Callstack] 0x00007f17100cdd47 libUE4Editor-UMGEditor.so!SWidgetDetailsView::ClearFocusIfOwned() [/home/mauricio/UnrealEngine/Engine/Source/Editor/UMGEditor/Private/Details/SWidgetDetailsView.cpp:293]
+[2018.09.20-03.15.29:302][481]LogOutputDevice: Error: [Callstack] 0x00007f17100ca751 libUE4Editor-UMGEditor.so!SWidgetDetailsView::OnEditorSelectionChanging() [/home/mauricio/UnrealEngine/Engine/Source/Editor/UMGEditor/Private/Details/SWidgetDetailsView.cpp:211]
+[2018.09.20-03.15.29:302][481]LogOutputDevice: Error: [Callstack] 0x00007f171020df8f libUE4Editor-UMGEditor.so!TBaseRawMethodDelegateInstance<false, SWidgetDetailsView, void ()>::ExecuteIfSafe() const [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstanceInterface.h:156]
+[2018.09.20-03.15.29:302][481]LogOutputDevice: Error: [Callstack] 0x00000000002500a0 UE4Editor!TBaseMulticastDelegate<void>::Broadcast() const [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:937]
+[2018.09.20-03.15.29:302][481]LogOutputDevice: Error: [Callstack] 0x00007f17100a0c64 libUE4Editor-UMGEditor.so!FWidgetBlueprintEditor::SelectWidgets(TSet<FWidgetReference, DefaultKeyFuncs<FWidgetReference, false>, FDefaultSetAllocator> const&, bool) [/home/mauricio/UnrealEngine/Engine/Source/Editor/UMGEditor/Private/WidgetBlueprintEditor.cpp:179]
+[2018.09.20-03.15.29:302][481]LogOutputDevice: Error: [Callstack] 0x00007f17100a08d9 libUE4Editor-UMGEditor.so!SDesignerView::ResolvePendingSelectedWidgets() [/home/mauricio/UnrealEngine/Engine/Source/Editor/UMGEditor/Private/Designer/SDesignerView.cpp:1676]
+[2018.09.20-03.15.29:302][481]LogOutputDevice: Error: [Callstack] 0x00007f17100a17a8 libUE4Editor-UMGEditor.so!SDesignerView::OnMouseButtonDown(FGeometry const&, FPointerEvent const&) [/home/mauricio/UnrealEngine/Engine/Source/Editor/UMGEditor/Private/Designer/SDesignerView.cpp:1721]
+[2018.09.20-03.15.29:302][481]LogOutputDevice: Error: [Callstack] 0x00007f17254098b1 libUE4Editor-Slate.so!FSlateApplication::RoutePointerDownEvent(FWidgetPath&, FPointerEvent&) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5380]
+[2018.09.20-03.15.29:302][481]LogOutputDevice: Error: [Callstack] 0x00007f17253c9424 libUE4Editor-Slate.so!FSlateApplication::ProcessMouseButtonDownEvent(TSharedPtr<FGenericWindow, (ESPMode)0> const&, FPointerEvent&) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5322]
+[2018.09.20-03.15.29:302][481]LogOutputDevice: Error: [Callstack] 0x00007f1725408b23 libUE4Editor-Slate.so!FSlateApplication::OnMouseDown(TSharedPtr<FGenericWindow, (ESPMode)0> const&, EMouseButtons::Type, FVector2D) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5240]
+[2018.09.20-03.15.29:302][481]LogOutputDevice: Error: [Callstack] 0x00007f1725c118f8 libUE4Editor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:407]
+[2018.09.20-03.15.29:303][481]LogOutputDevice: Error: [Callstack] 0x00007f1725c0e568 libUE4Editor-ApplicationCore.so!FLinuxApplication::AddPendingEvent(SDL_Event) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:194]
+[2018.09.20-03.15.29:303][481]LogOutputDevice: Error: [Callstack] 0x00007f1725c0e2af libUE4Editor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:424]
+[2018.09.20-03.15.29:303][481]LogOutputDevice: Error: [Callstack] 0x000000000023b4a8 UE4Editor!FEngineLoop::Tick() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:3417]
+[2018.09.20-03.15.29:303][481]LogOutputDevice: Error: [Callstack] 0x0000000000243ed3 UE4Editor!GuardedMain(wchar_t const*) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:62]
+[2018.09.20-03.15.29:303][481]LogOutputDevice: Error: [Callstack] 0x00007f1721265fca libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(wchar_t const*)) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:241]
+[2018.09.20-03.15.29:303][481]LogOutputDevice: Error: [Callstack] 0x00007f1720cb1830 libc.so.6!__libc_start_main(+0xef)
+[2018.09.20-03.15.29:303][481]LogOutputDevice: Error: [Callstack] 0x0000000000230029 UE4Editor!_start()
+[2018.09.20-03.15.29:303][481]LogOutputDevice: Error: 
+[2018.09.20-03.15.29:309][481]LogStats:                SubmitErrorReport -  0.000 s

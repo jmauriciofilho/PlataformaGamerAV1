@@ -1,0 +1,57 @@
+Generating report for minidump
+
+Application version 4.20.1.0
+ ... built from changelist 0
+
+OS version Linux 4.15.0-34-generic (network name: R2D2)
+Running 2 x86_64 processors (4 logical cores)
+Exception was "Ensure condition failed: !PreviewSlateWidgetWeak.IsValid() [File:/home/mauricio/UnrealEngine/Engine/Source/Editor/UMGEditor/Private/WidgetBlueprintEditor.cpp] [Line: 790] "
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-Core.so!FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:1427]
+libUE4Editor-Core.so!FGenericPlatformStackWalk::StackWalkAndDump(char*, unsigned long, int, void*) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformStackWalk.cpp:172]
+libUE4Editor-Core.so!FUnixCrashContext::CaptureStackTrace() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformCrashContext.cpp:292]
+libUE4Editor-Core.so!NewReportEnsure(wchar_t const*) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:1586]
+libUE4Editor-Core.so!FDebug::EnsureFailed(char const*, char const*, int, wchar_t const*) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:392]
+libUE4Editor-Core.so!FDebug::OptionallyLogFormattedEnsureMessageReturningFalseImpl(bool, char const*, char const*, int, wchar_t const*, ...) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:436]
+libUE4Editor-UMGEditor.so!FWidgetBlueprintEditor::DestroyPreview() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Misc/AssertionMacros.h:94]
+libUE4Editor-UMGEditor.so!FWidgetBlueprintEditor::OnBlueprintChangedImpl(UBlueprint*, bool) [/home/mauricio/UnrealEngine/Engine/Source/Editor/UMGEditor/Private/WidgetBlueprintEditor.cpp:293]
+libUE4Editor-Kismet.so!TBaseSPMethodDelegateInstance<false, FBlueprintEditor, (ESPMode)0, TTypeWrapper<void> (UBlueprint*)>::Execute(UBlueprint*) const [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstanceInterface.h:156]
+libUE4Editor-Kismet.so!TBaseSPMethodDelegateInstance<false, FBlueprintEditor, (ESPMode)0, void (UBlueprint*)>::ExecuteIfSafe(UBlueprint*) const [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:345]
+libUE4Editor-Engine.so!TBaseMulticastDelegate<void, UBlueprint*>::Broadcast(UBlueprint*) const [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:937]
+libUE4Editor-UnrealEd.so!FBlueprintEditorUtils::MarkBlueprintAsStructurallyModified(UBlueprint*) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Engine/Classes/Engine/Blueprint.h:624]
+libUE4Editor-UMGEditor.so!FWidgetBlueprintEditorUtils::RenameWidget(TSharedRef<FWidgetBlueprintEditor, (ESPMode)0>, FName const&, FString const&) [/home/mauricio/UnrealEngine/Engine/Source/Editor/UMGEditor/Private/WidgetBlueprintEditorUtils.cpp:258]
+libUE4Editor-UMGEditor.so!SWidgetDetailsView::HandleNameTextCommitted(FText const&, ETextCommit::Type) [/home/mauricio/UnrealEngine/Engine/Source/Editor/UMGEditor/Private/Details/SWidgetDetailsView.cpp:449]
+libUE4Editor-UMGEditor.so!TBaseSPMethodDelegateInstance<false, SWidgetDetailsView, (ESPMode)0, TTypeWrapper<void> (FText const&, ETextCommit::Type)>::Execute(FText const&, ETextCommit::Type) const [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstanceInterface.h:156]
+libUE4Editor-UMGEditor.so!TBaseSPMethodDelegateInstance<false, SWidgetDetailsView, (ESPMode)0, void (FText const&, ETextCommit::Type)>::ExecuteIfSafe(FText const&, ETextCommit::Type) const [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:345]
+libUE4Editor-Slate.so!non-virtual thunk to SEditableText::OnTextCommitted(FText const&, ETextCommit::Type) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:624]
+libUE4Editor-Slate.so!FSlateEditableTextLayout::HandleFocusLost(FFocusEvent const&) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Slate/Private/Widgets/Text/SlateEditableTextLayout.cpp:782]
+libUE4Editor-Slate.so!FSlateApplication::SetUserFocus(FSlateUser*, FWidgetPath const&, EFocusCause) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:2923]
+libUE4Editor-Slate.so!FSlateApplication::ClearKeyboardFocus(EFocusCause) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:2679]
+libUE4Editor-UMGEditor.so!SWidgetDetailsView::ClearFocusIfOwned() [/home/mauricio/UnrealEngine/Engine/Source/Editor/UMGEditor/Private/Details/SWidgetDetailsView.cpp:293]
+libUE4Editor-UMGEditor.so!SWidgetDetailsView::OnEditorSelectionChanging() [/home/mauricio/UnrealEngine/Engine/Source/Editor/UMGEditor/Private/Details/SWidgetDetailsView.cpp:211]
+libUE4Editor-UMGEditor.so!TBaseRawMethodDelegateInstance<false, SWidgetDetailsView, void ()>::ExecuteIfSafe() const [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstanceInterface.h:156]
+UE4Editor!TBaseMulticastDelegate<void>::Broadcast() const [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl:937]
+libUE4Editor-UMGEditor.so!FWidgetBlueprintEditor::SelectWidgets(TSet<FWidgetReference, DefaultKeyFuncs<FWidgetReference, false>, FDefaultSetAllocator> const&, bool) [/home/mauricio/UnrealEngine/Engine/Source/Editor/UMGEditor/Private/WidgetBlueprintEditor.cpp:179]
+libUE4Editor-UMGEditor.so!SDesignerView::ResolvePendingSelectedWidgets() [/home/mauricio/UnrealEngine/Engine/Source/Editor/UMGEditor/Private/Designer/SDesignerView.cpp:1676]
+libUE4Editor-UMGEditor.so!SDesignerView::OnMouseButtonDown(FGeometry const&, FPointerEvent const&) [/home/mauricio/UnrealEngine/Engine/Source/Editor/UMGEditor/Private/Designer/SDesignerView.cpp:1721]
+libUE4Editor-Slate.so!FSlateApplication::RoutePointerDownEvent(FWidgetPath&, FPointerEvent&) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5380]
+libUE4Editor-Slate.so!FSlateApplication::ProcessMouseButtonDownEvent(TSharedPtr<FGenericWindow, (ESPMode)0> const&, FPointerEvent&) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5322]
+libUE4Editor-Slate.so!FSlateApplication::OnMouseDown(TSharedPtr<FGenericWindow, (ESPMode)0> const&, EMouseButtons::Type, FVector2D) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5240]
+libUE4Editor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:407]
+libUE4Editor-ApplicationCore.so!FLinuxApplication::AddPendingEvent(SDL_Event) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:194]
+libUE4Editor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:424]
+UE4Editor!FEngineLoop::Tick() [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:3417]
+UE4Editor!GuardedMain(wchar_t const*) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:62]
+libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(wchar_t const*)) [/home/mauricio/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:241]
+libc.so.6!__libc_start_main(+0xef)
+UE4Editor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
